@@ -1,0 +1,229 @@
+body {
+    position: relative;
+}
+
+@font-face {
+    font-family: PNU-Bold;
+    src: url('../fonts/PNU-Bold.ttf');
+}
+
+@font-face {
+    font-family: sky;
+    src: url("../fonts/sky-bold.ttf");
+}
+
+* {
+    scroll-behavior: smooth;
+    font-weight: 100;
+    font-family: sky;
+}
+
+
+/* Arabic Nav */
+
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none
+}
+
+.navbar {
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 0;
+    top: 0;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.navbar .navbar-nav li a {
+    letter-spacing: 0;
+    font-family: PNU-Bold;
+    color: #f2f2f2;
+    padding: 0;
+    margin-top: 10px!important;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.navbar .navbar-nav {
+    margin: 10px 0 0;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    float: right;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    text-decoration: none
+}
+
+.navbar-brand>img {
+    display: block
+}
+
+@media (max-width:993px) {
+    .navbar-brand {
+        float: left;
+        padding: 15px;
+        font-size: 18px;
+        line-height: 20px;
+        height: 50px
+    }
+}
+
+@media (min-width:993px) {
+    .navbar>.container .navbar-brand,
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+}
+
+.navbar-toggle:focus {
+    outline: 0
+}
+
+@media (min-width:993px) {
+    .navbar-left {
+        float: left!important
+    }
+    .navbar-right {
+        float: left!important;
+        margin-right: -15px;
+    }
+}
+
+.navbar .navbar-nav li {
+    float: right!important;
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav li a {
+    font-size: 15px;
+}
+
+.navbar .navbar-nav li:last-child {
+    margin-top: 0px;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar .navbar-nav .icon2 {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 7px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.navbar .navbar-nav a:last-child:hover .icon2 {
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+    transform: translateX(-10px);
+    color: #21b24b;
+}
+
+.navbar.sticky .navbar-nav li:last-child {
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar.sticky .navbar-nav .icon2 {
+    color: #000;
+    font-size: 14px;
+    margin-left: 10px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.navbar.sticky .navbar-nav a:hover .icon2 {
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+    transform: translateX(-10px);
+    color: #21b24b;
+}
+
+.navbar .navbar-icons {
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+    float: left;
+}
+
+
+/* Launguge */
+
+@media (max-width: 993px) {
+    .navbar .navbar-icons {
+        top: 0px;
+        margin: 20px 15px;
+    }
+}
+
+
+/* drop */
+
+.dropdown-content {
+    margin-left: -125px;
+    text-align: right;
+}
+
+.dropdown-content2 {
+    text-align: right;
+}
+
+.navbar .navbar-nav .dropdown-content a {
+    color: #000;
+    font-family: samsung, sans-serif;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+.footer {
+    font-family: PNU-Bold;
+}
+
+.footer-servic {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.footer .quote>p {
+    font-family: PNU-Bold;
+}
+
+.navbar .navbar-nav li a {
+    font-family: PNU-Bold;
+}

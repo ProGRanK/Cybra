@@ -1,0 +1,238 @@
+/* DIRTY Responsive pricing table CSS */
+
+/* 
+- make mobile switch sticky
+*/
+
+@font-face {
+    font-family: samsung;
+    src: url("../fonts/SamsungSharpSans-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: Questrial;
+    src: url("../fonts/Questrial-Regular.otf");
+  }
+  
+  @font-face {
+    font-family: "ihsanfont";
+    src: url("../fonts/sky-bold.ttf");
+  }
+  
+  @font-face {
+    font-family: Liliom;
+    src: url(../fonts/Liliom/Liliom.ttf?qu265w) format('truetype'), url(../fonts/Liliom/Liliom.woff?qu265w) format('woff'), url(../fonts/Liliom/Liliom.svg?qu265w#Liliom) format('svg');
+    font-weight: 400;
+    font-style: normal
+  }
+  @font-face {
+    font-family: bitter;
+    src: url(https://fonts.googleapis.com/css?family=Bitter&display=swap) format('truetype'), url(../fonts/Liliom/Liliom.woff?qu265w) format('woff'), url(../fonts/Liliom/Liliom.svg?qu265w#Liliom) format('svg');
+  }
+  
+  @font-face {
+    font-family: aljazera;
+    src: url("../fonts/Al-Jazeera-Arabic-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: avenir;
+    src: url("../fonts/AvenirLTStd-Book.otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: CYBER;
+    src: url("../fonts/CYBERFREIGHT-Normal.otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "cod4font";
+    src: url("../fonts/EurostileNextLTPro-Regular.otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "cod4razer";
+    src: url("../fonts/RazerBlackwidow-Regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: GD;
+    src: url("../fonts/GD_Boing_Bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SFMono";
+    src: url("../fonts/SFMono-Regular.otf") format("truetype");
+  }
+  article {
+      width:100%;
+      max-width:1000px;
+      margin:0 auto;
+      border: none;
+      position:relative;
+      box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+    }
+    .articale {
+      display:flex;
+      top:0px;
+      z-index:10;
+      padding-bottom:14px;
+    }
+    .articale li {
+      list-style:none;
+      flex:1;
+    }
+    .articale li:last-child {
+      border-right:1px solid #DDD;
+    }
+   .plz {
+      
+      border: 1px solid #DDD;
+      border-right:0;
+      border-top:0;
+      padding: 10px;
+      background:#FFF;
+      font-size:14px;
+      font-weight:bold;
+      height:60px;
+      color:#999
+    }
+    .articale li.active button {
+      background:#F5F5F5;
+      color:#000;
+    }
+    table { border-collapse:collapse; table-layout:fixed; width:100%; }
+    th { display:none; }
+    
+    td,th { border:1px solid rgba(0, 0, 0, 0.05); padding: 5px; empty-cells:show;}
+    td,th {
+      text-align:right;
+    }
+    td+td, th+th {
+      text-align:center;
+      display:none;
+    }
+    td.default {
+      display:table-cell;
+    }
+    .bg-purple {
+     border: none;
+     color: #fff;
+    }
+    .bg-blue {
+      border: none;
+      color: #fff;
+    }
+    .sep {
+      background:#F5F5F5;
+      font-weight:bold;
+    }
+    .txt-l { font-size:28px; font-weight:bold; }
+    .txt-top { position:relative; top:-9px; left:-2px; }
+    .tick { font-size:18px; color:#2CA01C; }
+    .hide1 {
+      border:0;
+      background:none;
+    }
+    
+    @media (min-width: 640px) {
+      .articale {
+        display:none;
+      }
+      td,th {
+          
+        display:table-cell !important;
+      }
+      
+      td+td, th+th {
+        width: auto;
+      }
+    }
+  .table-head{
+      background:  #131111;
+  }
+  .cleints h1{
+      margin-top: 50px;
+      margin-bottom: 30px;
+      
+      }
+  .cleints p{
+  margin-top: 10px;
+  margin-bottom: 55px;
+  font-size: 17px;
+  }
+  .compare{
+  margin-bottom: 10px;
+  }
+  .compare p{
+      font-size: 14px;
+      font-weight: 300;
+      margin-bottom: 50px;
+      }
+  .compare .feature {
+          font-size: 32px;
+          line-height: 1.25;
+          font-weight: 600;
+          letter-spacing: .004em;
+          font-family: "samsung";
+          margin-bottom: 48px;
+          padding-bottom: 22px;
+          border-bottom: 1px solid #ccc;
+      }
+  @media(max-width:788px){
+      
+      .colom1{
+          display: none;
+          overflow: hidden;
+      }
+      .colom2{
+          display: none;
+          overflow: hidden;
+      }
+  }
+  td a{
+      color: #5cb85c;
+  }
+  .fa-check{
+      color: #5cb85c;
+  }
+  .fa-times{
+    color: #666666;
+  }
+  .price a {
+      background-color: #fff;
+      color: #5cb85c;
+      border: 1px solid #5cb85c;
+      padding: 8px 15px 8px 15px;
+      margin-top: 16px;
+      font-size: 12px;
+      font-weight: 600;
+      font-family: "Questrial";
+      text-transform: uppercase;
+      display: inline-block;
+      border-radius: 64px;
+  }
+  .price a:hover {
+      background-color: #090909;
+      color: #fff;
+      border: 1px solid #090909;
+    
+  }
+  th{
+      font-size: 23px;
+  }
+  td{
+      font-size: 16px;
+
+  }
+  .no-border td{
+      border: none;
+  }
+  .no-border .price-table-popular {
+      border-top: 3px solid #131111;
+      color: #131111;
+      text-transform: uppercase;
+      font-size: 10px;
+      padding: 12px 48px;
+      font-weight: 700;
+  }

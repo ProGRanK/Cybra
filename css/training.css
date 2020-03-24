@@ -1,0 +1,166 @@
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #131515;
+    background: -webkit-linear-gradient(top, #131515, #131515);
+    background: -o-linear-gradient(left, #131515, #131515);
+    background: -moz-linear-gradient(left, #131515, #131515);
+    background: linear-gradient(left, #131515, #131515);
+    color: #ddd;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Nav Bar */
+
+.navbar {
+    background-color: #131515;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
+    transition: .3s all ease;
+    z-index: 10;
+    height: 100px;
+    position: relative;
+}
+
+.navbar.sticky .navbar-nav li a {
+    color: #090909;
+    margin-right: 0px!important;
+}
+
+.navbar.sticky .navbar-nav li {
+    margin-top: 0px;
+}
+
+
+/* Nav bar */
+
+.small {
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    color: #ddd;
+}
+
+.small span {
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    color: #21b24b;
+}
+
+h1 {
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #ddd;
+}
+
+h1 span {
+    color: #21b24b;
+}
+
+.year {
+    color: #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td{
+    position:relative;
+    text-align: left;
+    padding: 0;
+    vertical-align: top;
+    color: #21b24b;
+}
+
+td:not(:first-child) {
+    border: 1px solid #404040;
+    height: calc(130vh/12);
+}
+
+td:nth-child(8) {
+    background-color: #262626;
+}
+
+th:nth-child(8) {
+    opacity: 0.5;
+}
+
+.year {
+    font-weight: lighter;
+}
+
+.weekday {
+    font-weight: lighter;
+    padding: 0.5rem;
+}
+
+.hour {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 0px;
+    color: #21b24b;
+    vertical-align: middle;
+}
+
+/* .event {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 205%;
+    width: 100%;
+    background-color: #3c474a;
+    font-size: 0.75rem;
+    padding:0.5rem;
+    border-left: 3px solid #21b24b;
+    overflow: visible;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+  } */
+  
+  .event-title {
+    font-weight:bold;
+    color: #21b24b;
+    font-size: 15px;
+  }
+  
+  .today-date{
+    /* background-color: #21b24b; */
+    color: #1d1e20;
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+    color: #ddd;
+  }
+  .activeDate {
+    background-color: #21b24b;
+    border-radius: 50%;
+  }
+  .now{
+    display:block;
+    z-index:3;
+    position: absolute;
+    font-size: 0.75rem;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    color: #ff443b;
+    border-top: 0.5px solid #ff443b;
+  }
+
+
+
+  

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+
+    <title>Cybra</title>
+
+    <meta name="logo-dark" content=./imgs/logo.svg>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,700" rel="stylesheet" type="text/css">
+
+    <link rel="shortcut icon" href="./imgs/fav.png" type="image/png">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+</head>
+
+<body class="home" id="home">
+    <div class="nav-container">
+        <nav class="navbar navbar-default nav-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="./imgs/nav.svg" alt="CYBRA">
+
+                        </a>
+                        <!-- toggle button -->
+                        <ul class="navbar-nav navbar-icons">
+                            <div class="button-box">
+                                <div id="btn"></div>
+                                <button type="button" class="toggle-btn" id="A" onclick="window.location.href = 'index_ar.html';">ع</button>
+                                <button type="button" class="toggle-btn" id="E" onclick="window.location.href = 'index.html';">E</button>
+                            </div>
+                        </ul>
+                        <!--  -->
+                        <div id="myNav" class="overlay">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                <span class="fas fa-times"></span>
+                            </a>
+                            <div class="overlay-content">
+                                <a href="#home">Home</a>
+                                <a href="#steps">Who We Are</a>
+                                <a href="#testimonials">What We Do</a>
+                                <a href="./contact.html">Let&#039;s Talk</a>
+                            </div>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="./index.html#home">Home</a></li>
+                            <li><a href="./index.html#steps">Who We Are</a></li>
+                            <li><a href="./index.html#testimonials">What We Do</a></li>
+
+                            <li class=""><a href="./contact.html">Let&#039;s Talk</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- <div class="svg-container">
+       
+        <svg viewbox="0 0 800 400" class="svg">
+          <path id="curve" fill="#50c6d8" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
+          </path>
+        </svg>
+      </div> -->
+
+    <div class="overflow-hidden">
+        <div class="lets-talk fullscreen valign-wrapper">
+            <div class="container">
+                <div class="row">
+                    <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <footer class="section footer">
+        <div class="row">
+            <div class="logo-footer" data-aos="fade-up">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.34 463.92">
+                    <title>Footer</title>
+                    <path class="cls-1"
+                        d="M152,539.46a84.74,84.74,0,0,0,62.22,0l141-55.36c19.37-7.68,29-30,21.45-49.75A38.26,38.26,0,0,0,363,416.64l-59.79-42a12.73,12.73,0,0,0-12-1.45l-108,42.44-99.7-39.16V244.11L183.12,205l108,42.44a12.92,12.92,0,0,0,16.8-7.64,13.39,13.39,0,0,0-7.48-17.17h0l-104.36-41v-61.9a11.7,11.7,0,0,1,11.63-11.77,11.39,11.39,0,0,1,4,.74L357.78,166a37.16,37.16,0,0,1,23.16,34.49v85.14c-22.61,7.17-35.25,31.71-28.23,54.81s31,36,53.64,28.85,35.24-31.71,28.23-54.81A43.35,43.35,0,0,0,407,285.87V200.52c-.15-26.21-16-49.65-39.85-59.15L221.06,84c-19.41-7.56-41.15,2.4-48.55,22.24A39,39,0,0,0,170,119.81v61.78l-104.28,41A13.26,13.26,0,0,0,57.43,235V378.64l-54.09,38a11.43,11.43,0,0,1-16.1-3.07,12,12,0,0,1-2-6.69V200.52A37.17,37.17,0,0,1,8.37,166l28.74-11.27a42.16,42.16,0,0,0,60.14,6.69A44.36,44.36,0,0,0,103.79,100a42.16,42.16,0,0,0-60.14-6.69,44.08,44.08,0,0,0-16,34.13V130L-1,141.25c-23.88,9.51-39.67,32.95-39.82,59.15V406.76c.07,21.24,17,38.39,37.75,38.32A37.06,37.06,0,0,0,18,438.41l54.15-38,106.33,41.75a12.61,12.61,0,0,0,9.32,0l106.3-41.75,54.15,38a12,12,0,0,1,2.85,16.47,11.61,11.61,0,0,1-5.25,4.23L204.88,514.5a59.57,59.57,0,0,1-43.41,0l-48.19-18.95V494c.07-24.24-19.11-43.94-42.83-44s-43,19.53-43.06,43.77,19.11,43.94,42.83,44A42.63,42.63,0,0,0,104.4,520.6ZM393.81,344.6a17.18,17.18,0,1,1,16.82-17.18h0a17,17,0,0,1-16.82,17.18ZM70.42,110.26a17.18,17.18,0,1,1-15.66,23.39h0a17.82,17.82,0,0,1-1.1-6.09,17,17,0,0,1,16.7-17.3Zm0,401.08a17.22,17.22,0,1,1,16.85-17.21,17.53,17.53,0,0,1-.84,5.38h0a16.9,16.9,0,0,1-16,12Z"
+                        transform="translate(40.83 -81.46)" />
+                </svg>
+            </div>
+            <div class="col-md-5">
+                <div class=" logo wow fadeInUp">
+                    <!-- <img src="./imgs/TxtLogo.svg" class="img-responsive" alt="CYBRA"> -->
+                    <svg class="newlog" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.31 30.55">
+                        <title>TxtLogo</title>
+                        <path class="cls-1"
+                            d="M0,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45H42.24V26.59H6.45a2.54,2.54,0,0,1-2.53-2.52V6.45A2.54,2.54,0,0,1,6.45,3.92H42.24V0H6.45A6.45,6.45,0,0,0,0,6.45Z"
+                            transform="translate(0 0)" />
+                        <path class="cls-1"
+                            d="M87,13.3H55.13a2.55,2.55,0,0,1-2.53-2.5V0H48.68V10.8a6.47,6.47,0,0,0,6.45,6.45H87V24.1a2.52,2.52,0,0,1-2.52,2.52H48.68v3.93h35.8a6.47,6.47,0,0,0,6.45-6.45V0H87Z"
+                            transform="translate(0 0)" />
+                        <path class="cls-1"
+                            d="M182.74,0H153.39a6.45,6.45,0,0,0-6.45,6.45V30.52h3.92V17.22h27.56a2.48,2.48,0,0,1,1.78.74l4.32,4.32a2.5,2.5,0,0,1,.74,1.79v6.45h4V24.07a6.35,6.35,0,0,0-1.89-4.56l-2.6-2.6a6.46,6.46,0,0,0,4.49-6.11V6.45A6.46,6.46,0,0,0,182.77,0Zm2.5,10.8a2.54,2.54,0,0,1-2.52,2.53H150.86V6.45a2.53,2.53,0,0,1,2.53-2.53h29.35a2.53,2.53,0,0,1,2.5,2.53Z"
+                            transform="translate(0 0)" />
+                        <path class="cls-1"
+                            d="M231.86,0H202.51a6.47,6.47,0,0,0-6.45,6.45V30.52H200V17.22h34.41v13.3h3.92V6.45A6.45,6.45,0,0,0,231.86,0ZM200,13.3V6.45a2.54,2.54,0,0,1,2.53-2.53h29.35a2.53,2.53,0,0,1,2.53,2.53V13.3Z"
+                            transform="translate(0 0)" />
+                        <path class="cls-1"
+                            d="M140.06,6.45A6.45,6.45,0,0,0,133.61,0H104.24a6.45,6.45,0,0,0-6.45,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45h29.35A6.47,6.47,0,0,0,140,24.07V19.8a6.49,6.49,0,0,0-4.48-6.15l2.59-2.59A6.44,6.44,0,0,0,140.06,6.45ZM136.14,19.8v4.32a2.54,2.54,0,0,1-2.53,2.52H104.24a2.52,2.52,0,0,1-2.53-2.51h0v-6.9h31.88a2.53,2.53,0,0,1,2.55,2.51ZM135.4,8.29l-4.32,4.32a2.56,2.56,0,0,1-1.79.74H101.73V6.45a2.53,2.53,0,0,1,2.51-2.53h29.35a2.53,2.53,0,0,1,1.79,4.32Z"
+                            transform="translate(0 0)" />
+                    </svg>
+                    <p class="imgparag">GET IN THE CYBER GAME</p>
+                    <ul class="about-link">
+                        <li><a href="https://fb.com/cybraio"><span class=" fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://instagram.com/cybra_io"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="https://twitter.com/cybraio"><span class="fab fa-twitter"></span></a></li>
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-4">
+                <div class="quote wow fadeInUp">
+
+                    <p>Have a tech question? Need consulting or services? Use our contact form or give us a call.
+                    </p>
+
+                    <a href="./contact.html" class="btn btn-primary btn-white">Let's Talk</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
+            <p> Cybra &copy; 2020 :: All Rights Reserved</p>
+        </div>
+
+
+
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/main.js" charset="utf-8" type="text/javascript"></script>
+
+
+    <!-- nav JS -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
+</body>
+
+</html>
