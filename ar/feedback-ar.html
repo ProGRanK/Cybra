@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <title>Thnx for You !</title>
+    <title>Thnx for You!</title>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/all.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/animate.css">
@@ -20,7 +21,9 @@
     <link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/util.css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/style.css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/letstalk.css">
     <!--===============================================================================================-->
 </head>
@@ -42,7 +45,7 @@
                         <!-- menu icon resposive -->
 
                         <!-- nav logo  img-->
-                        <a class="navbar-brand" href="./index.html">
+                        <a class="navbar-brand" href="./index-ar.html">
                             <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
                         </a>
                         <!-- nav logo  img-->
@@ -56,53 +59,52 @@
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <a href="#" onclick="closeLang()" class="active" style="font-family: samsung;">English</a>
-                                    <a href="letstalk-ar.html" style="font-family: sky;">الـعـربـيـة</a>
-                                    <a href="letstalk-tr.html" style="font-family: samsung;">Türkçe</a>
+                                    <a href="../en/feedback.html" style="font-family: samsung;">English</a>
+                                    <a href="#" style="font-family: sky;" onclick="closeLang()" class="active">الـعـربـيـة</a>
+                                    <a href="../tr/feedback-tr.html" style="font-family: samsung;">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
                         <!-- language button -->
-                        
+
                         <!-- navbar responsive -->
                         <div id="myNav" class="overlay">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a href="#home" style="font-family: samsung;">Home</a>
-                                <a href="#steps" style="font-family: samsung;">Services</a>
-                                <a href="#testimonials" style="font-family: samsung;">About Us</a>
-
-                                <a href="./contact.html" style="font-family: samsung;">contact US</a>
+                                <a onclick="closeNav()" href="./index-ar.html">الرئيسية</a>
+                                <a onclick="closeNav()" href="./index-ar.html#testimonials">الخدمات</a>
+                                <a onclick="closeNav()" href="./index-ar.html#steps">من نحن</a>
+                                <a href="./contact-ar.html">تواصل معنا</a>
                             </div>
                         </div>
                         <!-- navbar responsive -->
 
                         <!-- navbar -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="./index.html#home" style="font-family: samsung;">Home</a></li>
+                            <li class="active"><a href="./index-ar-ar.html#home" style="font-family: samsung;">Home</a></li>
                             <!-- services drop btn -->
                             <li class="dropdown">
                                 <a onclick="myFunction()" class="dropbtn">Our Services <span
                                         class="drop fa fa-caret-down"></span></a>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <a href="./digital-transformation.html" target="_blank">Digital Transformation</a>
+                                    <a href="./digital-transformation-ar.html" target="_blank">Digital Transformation</a>
                                     <hr>
-                                    <a href="./it.html" target="_blank">IT Support</a>
+                                    <a href="./it-ar.html" target="_blank">IT Support</a>
                                     <hr>
-                                    <a href="./web.html" target="_blank">Web Development</a>
+                                    <a href="./web-ar.html" target="_blank">Web Development</a>
                                     <hr>
-                                    <a href="./marketing.html" target="_blank">Digital Marketing </a>
+                                    <a href="./marketing-ar.html" target="_blank">Digital Marketing </a>
                                     <hr>
-                                    <a href="./camera.html" target="_blank">Surveillence Systems</a>
+                                    <a href="./camera-ar.html" target="_blank">Surveillence Systems</a>
                                     <hr>
-                                    <a href="./training.html" target="_blank">Technical Training</a>
+                                    <a href="./training-ar.html" target="_blank">Technical Training</a>
                                 </div>
                             </li>
                             <!-- services drop btn -->
-                            <li><a href="./index.html#steps" style="font-family: samsung;" target="_blank">About Us</a></li>
-                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">contact Us<i class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
+                            <li><a href="./index-ar.html#steps" style="font-family: samsung;" target="_blank">About Us</a></li>
+                            <li><a href="./contact-ar.html" style="font-family: samsung;" target="_blank">contact Us<i class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
                             </li>
                         </ul>
                         <!-- navbar -->
@@ -112,7 +114,7 @@
         </nav>
     </div>
     <!-- .................End Nav............ -->
-    
+
     <!-- .................Start Thnx Massege............ -->
     <div class="contact1">
         <div class="container">
@@ -180,7 +182,7 @@
                 <!-- Tech Quastion -->
                 <div class="col-md-6">
                     <div class="quote wow fadeInUp">
-                        <p>Have a tech question? Need consulting or services? Use our contact page. <br> <br> <a href="./contact.html" class="btn btn-primary btn-white">Contact Us</a>
+                        <p>Have a tech question? Need consulting or services? Use our contact page. <br> <br> <a href="./contact-ar.html" class="btn btn-primary btn-white">Contact Us</a>
                         </p>
                     </div>
                 </div>
@@ -194,23 +196,23 @@
                 <!-- footer quick links -->
                 <div class="col-md-4">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="footer-servic" href="./index.html#home" style="font-family: samsung; font-size: 17px; text-align: center;">Home</a></li>
-                        <li><a class="footer-servic" href="./index.html#steps" style="font-family: samsung; font-size: 17px; text-align: center;">About Us</a></li>
+                        <li class="active"><a class="footer-servic" href="./index-ar.html#home" style="font-family: samsung; font-size: 17px; text-align: center;">Home</a></li>
+                        <li><a class="footer-servic" href="./index-ar.html#steps" style="font-family: samsung; font-size: 17px; text-align: center;">About Us</a></li>
                         <li class="dropdown">
                             <a onclick="myFunction2()" class="dropbtn footer-servic" style="text-transform: uppercase; font-size: 17px; text-align: center;">Services <span
                                     class="drop fa fa-caret-down"></span></a>
                             <div id="myDropdown2" class="dropdown-content">
-                                <a href="./digital-transformation.html" target="_blank" style="padding: 10px 0 10px 10px;">Digital Transformation</a>
+                                <a href="./digital-transformation-ar.html" target="_blank" style="padding: 10px 0 10px 10px;">Digital Transformation</a>
                                 <hr>
-                                <a href="./it.html" target="_blank" style="padding: 10px 0 10px 10px;">IT Support</a>
+                                <a href="./it-ar.html" target="_blank" style="padding: 10px 0 10px 10px;">IT Support</a>
                                 <hr>
-                                <a href="./web.html" target="_blank" style="padding: 10px 0 10px 10px;">Web Development</a>
+                                <a href="./web-ar.html" target="_blank" style="padding: 10px 0 10px 10px;">Web Development</a>
                                 <hr>
-                                <a href="./marketing.html" target="_blank" style="padding: 10px 0 10px 10px;">Digital Marketing </a>
+                                <a href="./marketing-ar.html" target="_blank" style="padding: 10px 0 10px 10px;">Digital Marketing </a>
                                 <hr>
-                                <a href="./camera.html" target="_blank" style="padding: 10px 0 10px 10px;">Surveillence Systems</a>
+                                <a href="./camera-ar.html" target="_blank" style="padding: 10px 0 10px 10px;">Surveillence Systems</a>
                                 <hr>
-                                <a href="./training.html" target="_blank" style="padding: 10px 0 10px 10px;">Technical Training</a>
+                                <a href="./training-ar.html" target="_blank" style="padding: 10px 0 10px 10px;">Technical Training</a>
                             </div>
                         </li>
                     </ul>
@@ -259,7 +261,7 @@
             <div class="text-align">
                 <p> &copy; 2020 : : Cybra</p>
                 <div class="paper">
-                    Design By :<a class="paper" href="./claints.html">triopro</a>
+                    Design By :<a class="paper" href="../en/claints.html">triopro</a>
                 </div>
             </div>
             <!-- Copyright -->
@@ -272,7 +274,7 @@
 
     </footer>
     <!-- .................End Footer............ -->
-    
+
 
     <!--===============================================================================================-->
     <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
