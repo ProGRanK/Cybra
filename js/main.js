@@ -38627,7 +38627,7 @@ $(window).scroll(function(a) {
             }),
             $(".autotype3").length &&
             $(".autotype3").typed({
-                strings: ["SIBER", "DUNYADA", "YERINI", "AL"],
+                strings: ["Siber", "Dünyada", "Yerini", "Al"],
                 typeSpeed: 100,
                 loop: !0
             }),
