@@ -382,7 +382,9 @@ input::-moz-focus-inner {
         font-style: italic;
     }
 }
-
+.footer .navbar-nav .dropdown a{
+    padding: 10px 0 10px 10px;
+}
 
 /* End Our services */
 

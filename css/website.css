@@ -134,6 +134,9 @@ article {
     list-style: none;
     flex: 1;
 }
+table tr td:first-child {
+    padding-left: 20px;
+}
 
 .articale li:last-child {
     border-right: 1px solid #DDD;
