@@ -2,67 +2,74 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <title>website</title>
+    <title>IT Support</title>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-    <link rel="shortcut icon" href="imgs/fav.png" type="image/png">
+    <link rel="shortcut icon" href="../imgs/fav.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <link rel="icon" type="image/png" href="../images/icons/favicon.ico" />
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="../css/all.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/css-hamburgers/hamburgers.min.css">
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/util.css">
-    <link rel="stylesheet" type="text/css" href="css/website.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../css/util.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../css/website.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
     <!--===============================================================================================-->
 </head>
 
 <body class="home " id="home">
-    <div class="nav-container">
+     <!-- .................Start Nav............ -->
+     <div class="nav-container">
         <nav class="navbar navbar-default nav-sticky">
             <div class="container">
                 <div class="row">
                     <div class="navbar-header">
+                        <!-- menu icon resposive -->
                         <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="./index-tr.html">
-                            <img src="./imgs/nav.svg" alt="CYBRA" draggable="false">
+                        <!-- menu icon resposive -->
+
+                        <!-- nav logo  img-->
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
                         </a>
-                        <!-- toggle button -->
+                        <!-- nav logo  img-->
+
+                        <!-- language button -->
                         <ul class="navbar-nav navbar-icons">
                             <button class="plz launguge" onclick="openLang()"><i
                                     class="icon3 fas fa-language"></i></button>
                             <div id="myLang" class="lang">
-
                                 <div class="lang-content">
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <<<<<<< HEAD <a href="index.html" style="font-family: samsung;">English</a>
-
-                                        <a href="./index-ar.html">الـعـربـيـة</a>
-                                        <a href="#" onclick="closeLang()" class="active">Türkçe</a> =======
-                                        <a href="it.html" style="font-family: samsung;">English</a>
-                                        <a href="it-ar.html" style="font-family: sky;">الـعـربـيـة</a>
-                                        <a href="#" style="font-family: samsung;" class="active" onclick="closeLang()">Türkçe</a> >>>>>>> 9317235fb064df2edb64e7e00d55c13e39dbc770
+                                    <a href="#" onclick="closeLang()" class="active" style="font-family: samsung;">English</a>
+                                    <a href="letstalk-ar.html" style="font-family: sky;">الـعـربـيـة</a>
+                                    <a href="letstalk-tr.html" style="font-family: samsung;">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
-                        <!--  -->
-
+                        <!-- language button -->
+                        
+                        <!-- navbar responsive -->
                         <div id="myNav" class="overlay">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                                 <span class="fas fa-times"></span>
@@ -72,226 +79,188 @@
                                 <a href="#steps" style="font-family: samsung;">Services</a>
                                 <a href="#testimonials" style="font-family: samsung;">About Us</a>
 
-                                <a href="./contact-tr.html" style="font-family: samsung;">contact US</a>
+                                <a href="./contact.html" style="font-family: samsung;">contact US</a>
                             </div>
                         </div>
+                        <!-- navbar responsive -->
+
+                        <!-- navbar -->
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active"><a href="./index.html#home" style="font-family: samsung;">Home</a></li>
+                            <!-- services drop btn -->
                             <li class="dropdown">
                                 <a onclick="myFunction()" class="dropbtn">Our Services <span
                                         class="drop fa fa-caret-down"></span></a>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <a href="./digital-transformation-tr.html" target="_blank">Digital Transformation</a>
+                                    <a href="./digital-transformation.html" target="_blank">Digital Transformation</a>
                                     <hr>
-                                    <a href="./it-tr.html" target="_blank">IT Support</a>
+                                    <a href="./it.html" target="_blank">IT Support</a>
                                     <hr>
-                                    <a href="./web-tr.html" target="_blank">Web Development</a>
+                                    <a href="./web.html" target="_blank">Web Development</a>
                                     <hr>
-                                    <a href="./gfx-tr.html" target="_blank">GFX Design</a>
+                                    <a href="./marketing.html" target="_blank">Digital Marketing </a>
                                     <hr>
-                                    <a href="./camera-tr.html" target="_blank">Camera Surveillance</a>
+                                    <a href="./camera.html" target="_blank">Surveillence Systems</a>
                                     <hr>
-                                    <a href="./training-tr.html" target="_blank">Technical Training</a>
+                                    <a href="./training.html" target="_blank">Technical Training</a>
                                 </div>
                             </li>
-                            <li><a href="#steps" style="font-family: samsung;" target="_blank">About Us</a></li>
-
-                            <li><a href="./contact-tr.html" style="font-family: samsung;" target="_blank">contact Us<i
-                                        class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
+                            <!-- services drop btn -->
+                            <li><a href="./index.html#steps" style="font-family: samsung;" target="_blank">About Us</a></li>
+                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">contact Us<i class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
                             </li>
                         </ul>
+                        <!-- navbar -->
                     </div>
                 </div>
             </div>
         </nav>
     </div>
-    <!-- Contact -->
+    <!-- .................End Nav............ -->
+
+    <!-- .................Start offers............ -->
     <div class="cleints">
-        <div class="container">
+        <!-- It bg -->
+        <div class="row main up">
+            <div class="cami col-lg-6">
+                <img src="../imgs/it_support_bg.svg" alt="" draggable="false">
+            </div>
+        <!-- It bg -->
 
-
-            <h1>website</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae magnam quia, reiciendis laudantium iusto possimus.</p>
-            <!-- DIRTY Responsive pricing table HTML -->
-
-            <article>
-
-                <ul class="articale">
-                    <li class="bg-purple">
-                        <button class="plz">Self-Employed</button>
-                    </li>
-                    <li class="bg-blue">
-                        <button class="plz">Simple Start</button>
-                    </li>
-                    <li class="bg-blue active">
-                        <button class="plz">Essentials</button>
-                    </li>
-
-                </ul>
-
-                <table>
-                    <thead>
-                        <tr class="no-border">
-                            <td class="price-blank"></td>
-                            <td class="price-table-popular">Most popular</td>
-                            <td class="price-blank"></td>
-
-                        </tr>
-
-                        <tr class="table-head">
-                            <th class="hide1"></th>
-                            <th class="bg-purple">Self-Employed</th>
-                            <th class="bg-blue">Simple Start</th>
-                            <th class="bg-blue default">Essentials</th>
-
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="#1" class="price-table-help"><i class="far fa-fw fa-question-circle"></i></a> Custom Firewall</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-
-                        </tr>
-
-                        <tr>
-                            <td><a href="#1" class="price-table-help"><i class="far fa-fw fa-question-circle"></i></a> Security Monitoring</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-
-                        </tr>
-                        <tr>
-                            <td><a href="#1" class="price-table-help"><i class="far fa-fw fa-question-circle"></i></a> Cloud Backup</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-
-                        </tr>
-                        <tr>
-                            <td><a href="#1" class="price-table-help"><i class="far fa-fw fa-question-circle"></i></a> Theme/Plugin Updates</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-
-                        </tr>
-                        <tr>
-                            <td><a href="#1" class="price-table-help"><i class="far fa-fw fa-question-circle"></i></a> Technical SEO Audit</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-
-                        </tr>
-
-                        <tr>
-                            <td><a href="#1" class="price-table-help"><i class="far fa-fw fa-question-circle"></i></a> Custom Firewall</td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-
-                        </tr>
-                        <tr>
-                            <td><a href="#1" class="price-table-help"><i class="far fa-fw fa-question-circle"></i></a> Priority Support</td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-check"></i></td>
-
-                        </tr>
-                        <tr>
-                            <td><a href="#1" class="price-table-help"><i class="far fa-fw fa-question-circle"></i></a> Security Audi </td>
-                            <td><i class="fas fa-check"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-                            <td><i class="fas fa-times"></i></td>
-
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td class="price">
-                                <a href="#">Get started</a>
-                            </td>
-                            <td class="price">
-                                <a href="#">Get started</a>
-                            </td>
-                            <td class="price">
-                                <a href="#">Get started</a>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-
-            </article>
+            <!-- Main Title -->
+            <div class="logo col-lg-6">
+                <div class="row">
+                    <div class="col-md-12 social">
+                        <h1>IT Support</h1>
+                        <p>IT is your call! We build from scratch, upgrade, or troubleshoot the infrastructure.</p>
+                        <div class="price">
+                            <a href="#table">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Title -->
         </div>
+
+        <!-- Offers Table -->
+        <article id="table">
+
+            <ul class="articale">
+                <li class="bg-purple active">
+                    <button class="plz">Pay as You Go</button>
+                </li>
+                <li class="bg-blue">
+                    <button class="plz">On-Site Support</button>
+                </li>
+                <li class="bg-blue ">
+                    <button class="plz">Remote Support                        </button>
+                </li>
+            </ul>
+
+            <table>
+                <thead>
+
+
+                    <tr class="table-head">
+                        <th class="hide1"></th>
+                        <th class="bg-purple default">Pay as You Go</th>
+                        <th class="bg-blue">On-Site Support</th>
+                        <th class="bg-blue default">Remote Support </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typical Service</td>
+                        <td class="default">Building the infrastructure from scratch or upgrading it </td>
+                        <td>Building the infrastructure from scratch or upgrading it </td>
+                        <td>Solving network configuration, softwares/drivers installation, and malware removal problems</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maintenance</td>
+                        <td class="default"><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+
+                    </tr>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contracting</td>
+                        <td class="default">short-term</td>
+                        <td>long-term</td>
+                        <td>short/long term</td>
+
+                    </tr>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incident Engagement</td>
+                        <td class="default">Incident engagement in availability time </td>
+                        <td>24/7 Incident engagement</td>
+                        <td>24/7 Incident engagement “long-term contracts”</td>
+
+                    </tr>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Region </td>
+                        <td class="default">Turkey only </td>
+                        <td>Turkey only </td>
+                        <td>Anywhere</td>
+
+                    </tr>
+
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scheduled Support</td>
+                        <td class="default"><i class="fas fa-check"></i> </td>
+                        <td>4 times/month </td>
+                        <td>4 times/month “long-term contracts”</td>
+
+                    </tr>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Availability </td>
+                        <td class="default">5 Days/week</td>
+                        <td>5 Days/week</td>
+                        <td>5 Days/week</td>
+
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td class="price default">
+                            <a href="contact.html">Get started</a>
+                        </td>
+                        <td class="price">
+                            <a href="contact.html">Get started</a>
+                        </td>
+                        <td class="price">
+                            <a href="contact.html">Get started</a>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </article>
+        <!-- Offers Table -->
+
     </div>
-
-
+<!--     ///////       -->
     <div class="container">
-        <div class="compare" id="1">
-
-            <div class="feature">
-                Malware Cleanup
-            </div>
-            <p>Lorem ipsum dolor Lorem, ipsum dolor. sit amet consectetur adipisicing elit. Esse fugit eos in?</p>
-        </div>
         <div class="compare" id="2">
-
             <div class="feature">
-                Cellular and Wireless
+                Availability
             </div>
-            <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ea. Ducimus! sit amet consectetur adipisicing elit. Esse fugit eos in?</p>
+            <p>Anytime Monday, Tuesday, Wednesday, Thursday, and Friday from 10am to 6pm
+            </p>
         </div>
-        <div class="compare" id="3">
-
-            <div class="feature">
-                Carriers
-            </div>
-            <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores hic modi! amet consectetur adipisicing elit. Esse fugit eos in?</p>
-        </div>
-        <div class="compare" id="4">
-
-            <div class="feature">
-                Front Camera
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit.adipisicing elit. Esse fugit eos in?</p>
-        </div>
-        <div class="compare" id="5">
-
-            <div class="feature">
-                Video Recording
-            </div>
-            <p>Lorem ipsum dolor Lorem ipsum dolor sit. sit amet consectetur adipisicing elit. Esse fugit eos in?</p>
-        </div>
-        <div class="compare" id="6">
-
-            <div class="feature">
-                Chip
-            </div>
-            <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed? amet consectetur adipisicing elit. Esse fugit eos in?</p>
-        </div>
-        <div class="compare" id="7">
-
-            <div class="feature">
-                Size and Weight5
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit eos in? Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="compare" id="8">
-
-            <div class="feature">
-                Display
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fugit eos in? Lorem ipsum dolor sit amet.</p>
-        </div>
-
     </div>
+    <!-- .................End offers............ -->
 
-
+   <!-- .................Start Footer............ -->
     <footer class="section footer">
         <div class="container">
             <div class="row">
                 <div class="logo col-lg-12">
                     <div class="container">
+                        <!-- Cybra Title -->
                         <div class="get">
                             <svg class="newlog" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.31 30.55">
                                 <title>Get In The Cyber Game</title>
@@ -313,12 +282,12 @@
                             </svg>
                             <p class="imgparag">GET IN THE CYBER GAME</p>
                         </div>
-                        <!-- <hr class="footer-hr"> -->
+                        <!-- Cybra Title -->
+
                     </div>
                     <hr class="footer-hr">
-
                 </div>
-
+                <!--  -->
                 <div class="col-md-2">
 
 
@@ -329,81 +298,97 @@
 
 
                 </div>
+                <!--  -->
             </div>
-            <div class="row row2">
 
+            <div class="row row2">
+                <!-- Tech Quastion -->
                 <div class="col-md-6">
                     <div class="quote wow fadeInUp">
-
-                        <p>Have a tech question? Need consulting or services? Use our contact page. <br> <br> <a href="./contact-tr.html" class="btn btn-primary btn-white">Contact Us</a>
+                        <p>Have a tech question? Need consulting or services? Use our contact page. <br> <br> <a href="./contact.html" class="btn btn-primary btn-white">Contact Us</a>
                         </p>
-
-
                     </div>
-
-
                 </div>
+                <!-- Tech Quastion -->
+
+                <!--  -->
                 <div class="col-md-2">
-
-
-
-
                 </div>
+                <!--  -->
+
+                <!-- footer quick links -->
                 <div class="col-md-4">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="footer-servic" href="#home" style="font-family: samsung;">Home</a></li>
-                        <li><a class="footer-servic" href="#steps" style="font-family: samsung;">About
-                                Us</a></li>
+                        <li class="active"><a class="footer-servic" href="./index.html#home" style="font-family: samsung; font-size: 17px; text-align: center;">Home</a></li>
+                        <li><a class="footer-servic" href="./index.html#steps" style="font-family: samsung; font-size: 17px; text-align: center;">About Us</a></li>
                         <li class="dropdown">
-                            <a onclick="myFunction2()" class="dropbtn footer-servic" style="font-family: samsung;">Services <span class="drop fa fa-caret-down"></span></a>
-                            <div id="myDropdown2" class="dropdown-content2">
-                                <a href="./digital-transformation-tr.html" target="_blank">Digital Transformation</a>
+                            <a onclick="myFunction2()" class="dropbtn footer-servic" style="text-transform: uppercase; font-size: 17px; text-align: center;">Services <span
+                                    class="drop fa fa-caret-down"></span></a>
+                            <div id="myDropdown2" class="dropdown-content">
+                                <a href="./digital-transformation.html" target="_blank" style="padding: 10px 0 10px 10px;">Digital Transformation</a>
                                 <hr>
-                                <a href="./it-tr.html" target="_blank">IT Support</a>
+                                <a href="./it.html" target="_blank" style="padding: 10px 0 10px 10px;">IT Support</a>
                                 <hr>
-                                <a href="./web-tr.html" target="_blank">Web Development</a>
+                                <a href="./web.html" target="_blank" style="padding: 10px 0 10px 10px;">Web Development</a>
                                 <hr>
-                                <a href="./gfx-tr.html" target="_blank">GFX Design</a>
+                                <a href="./marketing.html" target="_blank" style="padding: 10px 0 10px 10px;">Digital Marketing </a>
                                 <hr>
-                                <a href="./camera-tr.html" target="_blank">Camera Surveillance</a>
+                                <a href="./camera.html" target="_blank" style="padding: 10px 0 10px 10px;">Surveillence Systems</a>
                                 <hr>
-                                <a href="./training-tr.html" target="_blank">Technical Training</a>
+                                <a href="./training.html" target="_blank" style="padding: 10px 0 10px 10px;">Technical Training</a>
                             </div>
                         </li>
-
                     </ul>
                 </div>
+                <!-- footer quick links -->
             </div>
+
             <div class="row row2">
 
+                <!-- adress -->
                 <div class="col-md-6">
-
                     <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
                         <p style="
                         margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
-                            <br>BAŞAKŞEHİR / İSTANBUL / Türkiye </p>
+                            <br>BASAKSEHIR / ISTANBUL / Turkey </p>
                     </div>
-
-
                 </div>
+                <!-- adress -->
+
+                <!--  -->
                 <div class="col-md-2">
 
                 </div>
+                <!--  -->
+
+                <!-- Social media -->
                 <div class="col-md-4">
                     <ul class="about-link">
-                        <li><a href="https://fb.com/cybraio" target="_blank"><span class=" fab fa-facebook-f"></span></a></li>
-                        <li><a href="https://instagram.com/cybraio" target="_blank"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="https://twitter.com/cybraio" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="https://twitter.com/cybraio" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                        <li><a href="https://fb.com/cybraio" target="_blank"><span
+                                    class=" fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://instagram.com/cybraio" target="_blank"><span
+                                    class="fab fa-instagram"></span></a></li>
+                        <li><a href="https://twitter.com/cybraio" target="_blank"><span
+                                    class="fab fa-twitter"></span></a></li>
+                        <li><a href=" https://www.linkedin.com/company/cybraio" target="_blank"><span
+                                    class="fab fa-linkedin"></span></a></li>
                     </ul>
                 </div>
+                <!-- Social media -->
+
             </div>
 
         </div>
         <div class="container">
+            <!-- Copyright -->
             <div class="text-align">
-                <p> &copy; 2020 : : Cybra</p> <br>
+                <p> &copy; 2020 : : Cybra</p>
+                <div class="paper">
+                    Design By :<a class="paper" href="./claints.html">triopro</a>
+                </div>
             </div>
+            <!-- Copyright -->
+
         </div>
 
 
@@ -411,21 +396,24 @@
 
 
     </footer>
+    <!-- .................End Footer............ -->
 
 
+    <!-- AOS animation laibrary -->
+    <script> AOS.init();</script>
+    <!--===============================================================================================-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script type="text/javascript" src="./js/particles.js"></script>
-    <script type="text/javascript" src="./js/app.js"></script>
-    <script src="./js/main.js" charset="utf-8" type="text/javascript"></script>
-    <script src="./js/drop.js" charset="utf-8" type="text/javascript"></script>
-    <script src="./js/website.js" charset="utf-8" type="text/javascript"></script>
-
-
-
-
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="../js/particles.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="../js/app.js"></script>
+    <!--===============================================================================================-->
+    <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
+    <!--===============================================================================================-->
+    <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
+    <!--===============================================================================================-->
+    <script src="../js/website.js" charset="utf-8" type="text/javascript"></script>
+    <!--===============================================================================================-->
 
     <!-- nav JS -->
     <script>
@@ -437,6 +425,9 @@
             document.getElementById("myNav").style.height = "0%";
         }
     </script>
+    <!-- nav JS -->
+
+    <!-- language button -->
     <script>
         function openLang() {
             document.getElementById("myLang").style.height = "100%";
@@ -446,7 +437,7 @@
             document.getElementById("myLang").style.height = "0%";
         }
     </script>
-
+    <!-- language button -->
 </body>
 
 </html>
