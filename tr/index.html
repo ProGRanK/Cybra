@@ -3,41 +3,48 @@
 
 <head>
     <title>Cybra | Get In The Cyber Game</title>
-    <meta name="logo-dark" content=./imgs/logo.svg>
+    <meta name="logo-dark" content=../imgs/logo.svg>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,700" rel="stylesheet" type="text/css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="imgs/fav.png" type="image/png">
+    <link rel="shortcut icon" href="../imgs/fav.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
-    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/carousel.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="./css/theme.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/carousel.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
 
 </head>
 
 <body class="home" id="home">
-    <div class="nav-container">
+     <!-- .................Start Nav............ -->
+     <div class="nav-container">
         <nav class="navbar navbar-default nav-sticky">
             <div class="container">
                 <div class="row">
                     <div class="navbar-header">
-                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
+                        <!-- menu icon resposive -->
+                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="./index-tr.html">
-                            <img src="./imgs/nav.svg" alt="CYBRA" draggable="false">
+                         <!-- menu icon resposive -->
+
+                        <!-- nav logo  img-->
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
                         </a>
-                        <!-- toggle button -->
+                          <!-- nav logo  img-->
+
+                        <!-- language button -->
                         <ul class="navbar-nav navbar-icons">
                             <button class="plz launguge" onclick="openLang()"><i
                                     class="icon3 fas fa-language"></i></button>
@@ -47,60 +54,68 @@
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <a href="index.html" style="font-family: samsung;">English</a>
-                                    <a href="index-ar.html" style="font-family: sky;">الـعـربـيـة</a>
-                                    <a href="#" style="font-family: samsung;" class="active" onclick="closeLang()">Türkçe</a>
+                                    <a href="../en/index.html" style="font-family: samsung;">English</a>
+                                    <a href="../ar/index.html" style="font-family: sky;">الـعـربـيـة</a>
+                                    <a href="#" style="font-family: samsung;" class="active"
+                                        onclick="closeLang()">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
-                        <!--  -->
+                         <!-- language button -->
+                        
+                        <!-- navbar responsive -->
 
                         <div id="myNav" class="overlay">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a onclick="closeNav()" href="#home" style="font-family: samsung;">Ana Sayfa</a>
-                                <a onclick="closeNav()" href="#testimonials" style="font-family: samsung;">Servislerimiz</a>
+                                <a onclick="closeNav()" href="#home" style="font-family: samsung;">Anasayfa </a>
+                                <a onclick="closeNav()" href="#testimonials" style="font-family: samsung;">Hizmetler</a>
                                 <a onclick="closeNav()" href="#steps" style="font-family: samsung;">Hakkımızda</a>
 
                                 <a href="./contact-tr.html" style="font-family: samsung;">Bize Ulaşın</a>
                             </div>
                         </div>
+                         <!-- navbar responsive -->
+
+                        <!-- navbar -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="./index.html#home" style="font-family: samsung;">Ana Sayfa</a></li>
+                            <li class="active"><a href="./index.html#home" style="font-family: samsung;">Anasayfa</a>
+                            <!-- services drop btn -->
                             <li class="dropdown">
-                                <a onclick="myFunction()" class="dropbtn">servisler <span
+                                <a onclick="myFunction()" class="dropbtn">Hizmetler<span
                                         class="drop fa fa-caret-down"></span></a>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <a href="./digital-transformation-tr.html" target="_blank">Dijital Dönüşüm</a>
+                                    <a href="./digital-transformation.html" target="_blank">Dijital Dönüşüm</a>
                                     <hr>
-                                    <a href="./it-tr.html" target="_blank">IT Destek</a>
+                                    <a href="./it.html" target="_blank">IT Destek</a>
                                     <hr>
-                                    <a href="./web-tr.html" target="_blank">Web Geliştirme</a>
+                                    <a href="./web.html" target="_blank">Web Geliştirme</a>
                                     <hr>
-                                    <a href="./gfx-tr.html" target="_blank">Digital Pazarlama </a>
+                                    <a href="./marketing.html" target="_blank">Digital Pazarlama </a>
                                     <hr>
-                                    <a href="./camera-tr.html" target="_blank">Kontrol Sistemleri</a>
+                                    <a href="./camera.html" target="_blank">Gözetim Sistemleri</a>
                                     <hr>
-                                    <a href="./training-tr.html" target="_blank">Teknik Eğitim</a>
+                                    <a href="./training.html" target="_blank">Eğitim</a>
                                 </div>
                             </li>
-                            <li><a href="#steps" style="font-family: samsung;" target="_blank">HAKKIMIZDA</a></li>
+                            <!-- services drop btn -->
+                            <li><a href="#steps" style="font-family: samsung;" target="_blank">Hakkımızda</a></li>
 
-                            <li><a href="./contact-tr.html" style="font-family: samsung;" target="_blank">Bize Ulaşın<i
+                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">Bize Ulaşın<i
                                         class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
                             </li>
                         </ul>
+                        <!-- navbar -->
                     </div>
                 </div>
             </div>
         </nav>
     </div>
+       <!-- .................End Nav............ -->
 
-
-
-
+    <!-- .................Start Main............ -->
     <div id="particles-js">
         <div class="welcome">
             <div class="overflow-hidden">
@@ -110,12 +125,12 @@
                             <div class="text-center valign">
                                 <div class="col-md-6">
                                     <h1 class="wow fadeInUp" data-aos="fade-up"><span class="autotype3"></span></h1>
-                                    <p data-aos="fade-up">"Şah Mat" demeden once...
+                                    <p data-aos="fade-up">Çok Geç Olmadan...
                                     </p>
                                 </div>
                                 <div class="col-md-6">
 
-                                    <img src="./imgs/main.svg" alt="#" data-aos="zoom-in-up" draggable="false">
+                                    <img src="../imgs/main.svg" alt="#" data-aos="zoom-in-up" draggable="false">
                                 </div>
                             </div>
                         </div>
@@ -124,86 +139,104 @@
             </div>
         </div>
     </div>
+  <!-- .................End Main............ -->
 
-
-
+    <!-- .................Start Services............ -->
     <section class="section testimonials" id="testimonials">
         <div class="container">
             <div class="row">
                 <div class="what-we" data-aos="fade-up">
+                    <!-- title for serv. -->
                     <div class="">
-                        <h1>Servisler</h1>
-                        <p>hepsini yapariz</p>
+                        <h1>Hizmetlerimiz</h1>
+                        <p>Her Şey.</p>
                     </div>
+                    <!-- title for serv. -->
                 </div>
                 <div class="row">
                     <div class="col-sm-12 wow ">
-
+                         <!-- above serv -->
                         <div class="row">
-                            <a href="./digital-transformation-tr.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
+                             <!-- serv -->
+                            <a href="./digital-transformation.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
                                 <div class="box">
-                                    <div class="icon"><img src="./imgs/digital.svg" alt="#" draggable="false"></div>
+                                    <div class="icon"><img src="../imgs/digital.svg" alt="#" draggable="false"></div>
                                     <div class="content">
                                         <h3>Dijital Dönüşüm</h3>
 
                                     </div>
                                 </div>
                             </a>
+                             <!-- serv -->
 
-                            <a href="./it-tr.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
+                              <!-- serv -->
+                            <a href="./it.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
                                 <div class="box">
-                                    <div class="icon"><img src="./imgs/it.svg" alt="#" draggable="false"></div>
+                                    <div class="icon"><img src="../imgs/it.svg" alt="#" draggable="false"></div>
                                     <div class="content">
                                         <h3>IT <br> Destek</h3>
 
                                     </div>
                                 </div>
                             </a>
+                             <!-- serv -->
 
-                            <a href="./web-tr.html" target="_blank" class="col-sm-4" data-aos="zoom-in-">
+                              <!-- serv -->
+                            <a href="./web.html" target="_blank" class="col-sm-4" data-aos="zoom-in-">
                                 <div class="box">
-                                    <div class="icon"><img src="./imgs/web.svg" alt="#" draggable="false"></div>
+                                    <div class="icon"><img src="../imgs/web.svg" alt="#" draggable="false"></div>
                                     <div class="content">
-                                        <h3>Web Geliştirmet</h3>
+                                        <h3>Web Geliştirme</h3>
 
                                     </div>
                                 </div>
                             </a>
+                             <!-- serv -->
 
                         </div>
+                          <!-- above serv -->
+
+                           <!-- below serv -->
 
                         <div class="row ">
-                            <a href="./gfx-tr.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
+                             <!-- serv -->
+                            <a href="./marketing.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
                                 <div class="box">
-                                    <div class="icon"><img src="./imgs/gfx.svg" alt="#" draggable="false"></div>
+                                    <div class="icon"><img src="../imgs/gfx.svg" alt="#" draggable="false"></div>
                                     <div class="content">
                                         <h3>Digital Pazarlama </h3>
 
                                     </div>
                                 </div>
                             </a>
-                            <a href="./camera-tr.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
+                             <!-- serv -->
+
+                              <!-- serv -->
+                            <a href="./camera.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
                                 <div class="box">
-                                    <div class="icon"><img src="./imgs/camera.svg" alt="#" draggable="false"></div>
+                                    <div class="icon"><img src="../imgs/camera.svg" alt="#" draggable="false"></div>
                                     <div class="content">
-                                        <h3>Kontrol Sistemleri</h3>
+                                        <h3>Gözetim Sistemleri</h3>
 
 
                                     </div>
                                 </div>
                             </a>
+                             <!-- serv -->
 
-                            <a href="training-tr.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
+                              <!-- serv -->
+                            <a href="training.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
                                 <div class="box">
-                                    <div class="icon"><img src="./imgs/training.svg" alt="#" draggable="false"></div>
+                                    <div class="icon"><img src="../imgs/training.svg" alt="#" draggable="false"></div>
                                     <div class="content">
-                                        <h3>Teknik Eğitim</h3>
+                                        <h3>Eğitim</h3>
 
                                     </div>
                                 </div>
                             </a>
+                             <!-- serv -->
                         </div>
-
+                         <!-- below serv -->
 
 
                     </div>
@@ -213,102 +246,109 @@
 
 
     </section>
+      <!-- .................End Services............ -->
+
+    <!-- .................Start About us............ -->
 
     <section class="section steps" id="steps" style="background: #e2e2e2;">
         <div class="container">
             <div class="row">
                 <div class="what-we" data-aos="fade-up">
+                    <!-- title for about -->
                     <div class="">
                         <h1>Hakkımızda</h1>
-                        <p>Onlar kurumsal diyorlar, biz takim diyoruz!</p>
+                        <p> <span class="black">Diğerleri </span><span class="gri">ŞİRKET</span><span class="black"> Der, </span> <span class="black">Biz</span> <span class="green">TAKIM</span><span class="black"> Deriz!</span> 
+                            <p style="font-family: Questrial;">Biz, iş verimi ve zamanında teslim kriterlerine önem veren, yazılımsal ve dijital çözümler sunan bir ekibiz. Bu 3 öncelikli standarttan ödün vermeden, yapmayı sevdiğimiz işi yapmaya devam ediyoruz: </p>
+                        </p>
                     </div>
+                    <!-- title for about -->
                 </div>
+                <!-- info about -->
                 <div class="step clearfix wow fadeInUp" data-aos="fade">
                     <div class="col-xs-2 col-xs-offset-2">
                         <div class="icon">
 
-                            <img src="./imgs/design.svg" alt="Meditation" draggable="false">
+                            <img src="../imgs/design.svg" alt="Meditation" draggable="false">
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="text">
-                            <h2>Tasarim ve Detaylar</h2>
-                            <p>Küçük şeylerle ilgileniyoruz, bu yüzden büyük şeyler kendini ilgileniyor.</p>
+                            <h2>Tasarım & Detay</h2>
+                            <p>Ayrıntılara önem veririz ki bütünlük kendiliğinden tamamlansın.</p>
                         </div>
                     </div>
                 </div>
-                <!-- /.step -->
+                <!-- info about -->
+
+                <!-- info about -->
                 <div class="step clearfix wow fadeInUp">
                     <div class="show">
                         <div class="col-xs-6 col-xs-offset-2">
                             <div class="text">
-                                <h2>Güvenlik ve Gizlilik</h2>
-                                <p>Biz diğerleri gibi değiliz. Biz onu sökmüyoruz.</p>
+                                <h2>Güvenlik & Gizlilik</h2>
+                                <p>Sistem güvenliği ve müşteri gizliliği işimizin yapı taşıdır.</p>
                             </div>
                         </div>
                         <div class="col-xs-2">
                             <div class="icon text-right">
 
-                                <img src="./imgs/security.svg" alt="SECURITY & PRIVACY" draggable="false">
+                                <img src="../imgs/security.svg" alt="SECURITY & PRIVACY" draggable="false">
                             </div>
                         </div>
                     </div>
                     <div class="hidden">
                         <div class="col-xs-2 col-xs-offset-2 ">
                             <div class="icon">
-                                <img src="./imgs/security.svg" alt="SECURITY & PRIVACY" draggable="false">
+                                <img src="../imgs/security.svg" alt="SECURITY & PRIVACY" draggable="false">
                             </div>
                         </div>
                         <div class="col-xs-6">
                             <div class="text">
-                                <h2>Güvenlik ve Gizlilik</h2>
-                                <p>Biz diğerleri gibi değiliz. Biz onu sökmüyoruz.</p>
+                                <h2>Güvenlik & Gizlilik</h2>
+                                <p>Sistem güvenliği ve müşteri gizliliği işimizin yapı taşıdır.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- /.step -->
+                <!-- info about -->
+
+                <!-- info about -->
                 <div class="step clearfix wow fadeInUp" data-aos="fade">
                     <div class="col-xs-2 col-xs-offset-2">
                         <div class="icon">
-                            <img src="./imgs/delivery.svg" alt="TIMING & DELIVERY" draggable="false">
+                            <img src="../imgs/delivery.svg" alt="TIMING & DELIVERY" draggable="false">
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="text">
-                            <h2>Zamanlama ve Teslim</h2>
-                            <p>Tam zamanında, çünkü zaman para demektir.</p>
+                            <h2>Zamanlama & Teslimat</h2>
+                            <p>Tam zamanında. Çünkü vakit nakittir.</p>
                         </div>
                     </div>
                 </div>
-                <!-- /.step -->
+                <!-- info about -->
+
+                  <!-- btn -->
+                  <div class="more">
+                    <a href="#">Yakından Tanı</a>
+                </div>
+                <!-- btn -->
 
             </div>
-            <!--/.row -->
         </div>
-        <!--/.container -->
     </section>
+  <!-- .................End About us............ -->
 
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
+    <!-- .................Start Footer............ -->
     <footer class="section footer">
         <div class="container">
             <div class="row">
                 <div class="logo col-lg-12">
                     <div class="container">
+                          <!-- Cybra Title -->
                         <div class="get">
-                            <svg class="newlog" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.31 30.55">
+                            <svg class="newlog" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 238.31 30.55">
                                 <title>Get In The Cyber Game</title>
                                 <path class="cls-1"
                                     d="M0,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45H42.24V26.59H6.45a2.54,2.54,0,0,1-2.53-2.52V6.45A2.54,2.54,0,0,1,6.45,3.92H42.24V0H6.45A6.45,6.45,0,0,0,0,6.45Z"
@@ -328,7 +368,8 @@
                             </svg>
                             <p class="imgparag">GET IN THE CYBER GAME</p>
                         </div>
-                        <!-- <hr class="footer-hr"> -->
+                        <!-- Cybra Title -->
+                        
                     </div>
                     <hr class="footer-hr">
 
@@ -346,11 +387,12 @@
                 </div>
             </div>
             <div class="row row2">
-
+                 <!-- Tech Quastion -->
                 <div class="col-md-6">
                     <div class="quote wow fadeInUp">
 
-                        <p>Teknik bir sorunuz mu var? Danışmanlık veya hizmetlere mi ihtiyacınız var? İletişim sayfamızı kullanın. <br> <br> <a href="./contact.html" class="btn btn-primary btn-white">Bize Ulaşın</a>
+                        <p>Teknik bir sorunuz mu var? Danışmanlık veya hizmet ihtiyacınız mı var? İletişim sayfamızdan bize ulaşabilirsiniz. <br> <br> <a href="./contact.html" class="btn btn-primary btn-white">Bize
+                                Ulaşın</a>
                         </p>
 
 
@@ -358,66 +400,79 @@
 
 
                 </div>
+                 <!-- Tech Quastion -->
                 <div class="col-md-2">
 
 
 
 
                 </div>
+                  <!-- footer quick links -->
                 <div class="col-md-4">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="footer-servic" href="#home" style="font-family: samsung;">Ana Sayfa</a></li>
+                        <li class="active"><a class="footer-servic" href="#home" style="font-family: samsung;">Anasayfa</a></li>
                         <li><a class="footer-servic" href="#steps" style="font-family: samsung;">Hakkımızda</a></li>
                         <li class="dropdown">
-                            <a onclick="myFunction2()" class="dropbtn footer-servic" style="font-family: samsung;">servisler <span class="drop fa fa-caret-down"></span></a>
+                            <a onclick="myFunction2()" class="dropbtn footer-servic"
+                                style="font-family: samsung;">Hizmetler<span class="drop fa fa-caret-down"></span></a>
                             <div id="myDropdown2" class="dropdown-content2">
-                                <a href="./digital-transformation-tr.html" target="_blank">Dijital Dönüşüm</a>
+                                <a href="./digital-transformation.html" target="_blank">Dijital Dönüşüm</a>
                                 <hr>
-                                <a href="./it-tr.html" target="_blank">IT Destek</a>
+                                <a href="./it.html" target="_blank">IT Destek</a>
                                 <hr>
-                                <a href="./web-tr.html" target="_blank">Web Geliştirmet</a>
+                                <a href="./web.html" target="_blank">Web Geliştirme</a>
                                 <hr>
-                                <a href="./gfx-tr.html" target="_blank">Digital Pazarlama </a>
+                                <a href="./marketing.html" target="_blank">Digital Pazarlama </a>
                                 <hr>
-                                <a href="./camera-tr.html" target="_blank">Kontrol Sistemleri</a>
+                                <a href="./camera.html" target="_blank">Gözetim Sistemleri</a>
                                 <hr>
-                                <a href="./training-tr.html" target="_blank">Teknik Eğitim</a>
+                                <a href="./training.html" target="_blank">Eğitim</a>
                             </div>
                         </li>
 
                     </ul>
                 </div>
+                  <!-- footer quick links -->
             </div>
             <div class="row row2">
-
+                 <!-- adress -->
                 <div class="col-md-6">
 
                     <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
                         <p style="
                         margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
-                            <br>BAŞAKŞEHİR / İSTANBUL / Türkiye </p>
+                            <br>BASAKSEHIR / ISTANBUL / TURKEY </p>
                     </div>
 
 
                 </div>
+                 <!-- adress -->
                 <div class="col-md-2">
 
                 </div>
+                 <!-- Social media -->
                 <div class="col-md-4">
                     <ul class="about-link">
-                        <li><a href="https://fb.com/cybraio" target="_blank"><span class=" fab fa-facebook-f"></span></a></li>
-                        <li><a href="https://instagram.com/cybraio" target="_blank"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="https://twitter.com/cybraio" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="https://twitter.com/cybraio" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                        <li><a href="https://fb.com/cybraio" target="_blank"><span
+                                    class=" fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://instagram.com/cybraio" target="_blank"><span
+                                    class="fab fa-instagram"></span></a></li>
+                        <li><a href="https://twitter.com/cybraio" target="_blank"><span
+                                    class="fab fa-twitter"></span></a></li>
+                        <li><a href="https://twitter.com/cybraio" target="_blank"><span
+                                    class="fab fa-linkedin"></span></a></li>
                     </ul>
                 </div>
+                 <!-- Social media -->
             </div>
 
         </div>
         <div class="container">
+              <!-- Copyright -->
             <div class="text-align">
                 <p> &copy; 2020 : : Cybra</p> <br>
             </div>
+              <!-- Copyright -->
         </div>
 
 
@@ -425,22 +480,24 @@
 
 
     </footer>
+     <!-- .................End Footer............ -->
 
+    <!--===============================================================================================-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-
-    <script type="text/javascript" src="./js/caroulsel.js.js"></script>
-    <script type="text/javascript" src="./js/particles.js"></script>
-    <script type="text/javascript" src="./js/app.js"></script>
-    <script src="./js/main.js" charset="utf-8" type="text/javascript"></script>
-    <script src="./js/drop.js" charset="utf-8" type="text/javascript"></script>
-    <script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
-
-
-    <!-- send compeleted -->
-
+    <!-- AOS animatin laibrary -->
+    <script> AOS.init();</script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="../js/caroulsel.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="../js/particles.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="../app.js"></script>
+    <!--===============================================================================================-->
+    <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
+    <!--===============================================================================================-->
+    <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
+    <!--===============================================================================================-->
+    <script src="../js/slick.js" type="text/javascript" charset="utf-8"></script>
 
     <!-- cleints js -->
     <script type="text/javascript">
@@ -467,25 +524,38 @@
             });
         });
     </script>
+    <!-- cleints js -->
+
+    <!-- overlay js -->
+    <script>
+        $('.overlay-content a').click(function() {
+            $(".overlay-content").collapse('hide');
+        });
+    </script>
+    <!-- overlay js -->
+
     <!-- nav JS -->
     <script>
-        function openNav() {
-            document.getElementById("myNav").style.height = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
-        }
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
     </script>
+    <!-- nav JS -->
+
+    <!-- language button -->
     <script>
-        function openLang() {
-            document.getElementById("myLang").style.height = "100%";
-        }
+    function openLang() {
+        document.getElementById("myLang").style.height = "100%";
+    }
 
-        function closeLang() {
-            document.getElementById("myLang").style.height = "0%";
-        }
+    function closeLang() {
+        document.getElementById("myLang").style.height = "0%";
+    }
     </script>
+    <!-- language button -->
 </body>
 
 </html>
