@@ -2,17 +2,15 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <title>Surveillence Systems</title>
+    <title>Contact Us</title>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-    <link rel="shortcut icon" href="../imgs/fav.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="../images/icons/favicon.ico" />
+    <link rel="shortcut icon" href="../imgs/fav.png" type="image/png">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/all.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/animate.css">
@@ -22,11 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/util.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="../css/website.css">
-    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/style.css">
-    <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/main.css">
     <!--===============================================================================================-->
 </head>
@@ -118,170 +112,82 @@
     </div>
     <!-- .................End Nav............ -->
 
-    <!-- .................Start offers............ -->
-    <div class="cleints">
-        <div class="row main up">
-            <!-- camera bg -->
-            <div class="cami col-lg-6">
-                <img src="../imgs/camera_bg.svg" alt="cami" draggable="false">
+    <!-- .................Start contct ............ -->
+    <div class="contact1">
+        <div class="container-contact1">
+            <!-- massege img -->
+            <div class="contact1-pic js-tilt" data-tilt="" style="/* will-change: transform; */transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
+                <img src="../imgs/msg.svg" alt="IMG" draggable="false">
             </div>
-            <!-- camera bg -->
+            <!-- massege img -->
 
-            <!-- Main Title -->
-            <div class="logo col-lg-6">
-                <div class="row">
-                    <div class="col-md-12 social">
-                        <h1>Surveillence Systems</h1>
-                        <p>Safe place leads to a more comfortable working area. Thus, we setup all kinds of surveillance systems a business may need.</p>
-                        <div class="price">
-                            <a href="#table">Explore</a>
-                        </div>
+            <!-- contact form -->
+            <form class="contact1-form validate-form">
 
-                    </div>
+                <!-- title -->
+                <span class="contact1-form-title">
+					Get in touch
+                </span>
+                <span class="contact1-form-title2">
+                    use the form here to send us your thoughts , or if you like it more you can give us a call or an email or even reach us through social media, we will answer as fast as possible.
+                </span>
+                <!-- title -->
+
+                <!-- name -->
+                <div class="wrap-input1 validate-input name" data-validate="Name is required">
+                    <input class="input1 name" id="username" type="text" name="name" placeholder="Name">
                 </div>
-            </div>
-            <!-- Main Title -->
+                <!-- name -->
+
+                <!-- organization name -->
+                <div class="wrap-input1 validate-input name2" data-validate="Org/Name is required">
+                    <input class="input1 name2" id="orgname" type="text" name="orgname" placeholder="Organization Name">
+                </div>
+                <!-- organization name -->
+
+                <!-- email -->
+                <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <input class="input1 email" id="email" type="text" name="email" placeholder="Email">
+                </div>
+                <!-- email -->
+
+                <!-- phone -->
+                <div class="wrap-input1 validate-input" data-validate="Valid phone is required">
+                    <input class="input1 phone" id="phone" name="phone" type="number" placeholder="phone">
+                </div>
+                <!-- phone -->
+
+                <!-- subject -->
+                <div class="wrap-input1 validate-input" data-validate="Subject is required">
+                    <input class="input1" id="subject" type="text" name="subject" placeholder="Subject">
+                </div>
+                <!-- subject -->
+
+                <!-- massege box -->
+                <div class="wrap-input1 validate-input" data-validate="Message is required">
+                    <textarea class="input1" id="message" name="message" placeholder="Message"></textarea>
+                </div>
+                <!-- massege box -->
+
+                <!-- supmit -->
+                <div class="container-contact1-form-btn">
+                    <button class="contact1-form-btn" onclick="validation();">
+						<span>
+							Send
+                            <span class="icon fa fa-arrow-right" draggable="false"></span>
+						</span>
+					</button>
+                </div>
+                <!-- supmit -->
+
+            </form>
+            <!-- contact form -->
         </div>
-
-        <!-- Offers Table -->
-        <article id="table">
-            <ul class="articale">
-                <li class="bg-purple active">
-                    <button class="plz">HD-CVI Camera</button>
-                </li>
-                <li class="bg-blue">
-                    <button class="plz">IP camera </button>
-                </li>
-
-
-            </ul>
-
-            <table>
-                <thead>
-
-
-                    <tr class="table-head">
-                        <th class="hide1"></th>
-                        <th class="bg-purple">HD-CVI Camera</th>
-                        <th class="bg-blue">IP camera</th>
-
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            </i>
-                            </a>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resolution</td>
-                        <td class="default">
-                            </i>Good resolution smooth <br> (Up to 1080p and 30FPS)</td>
-                        <td>
-                            </i>Better Resolution Smoother <br> (4k and 60FPS)</td>
-
-
-                    </tr>
-
-                    <tr>
-                        <td>
-                            </a>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zoom </td>
-                        <td class="default">
-                            </i>Physical and Digital Zoom</td>
-                        <td>
-                            </i>Better Physical and Digital Zoom
-                        </td>
-
-
-                    </tr>
-                    <tr>
-                        <td>
-                            </a>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Night vision</td>
-                        <td class="default"><i class="fas fa-check"></i></td>
-                        <td><i class="fas fa-check"></i></td>
-
-
-                    </tr>
-
-                    <tr>
-                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technical SEO Audit</td>
-                        <td class="default">
-                            </i>XVR</td>
-                        <td>
-                            </i>NVR</td>
-
-
-                    </tr>
-
-                    <tr>
-                        <td>
-                            </a>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Internet and Phone connection</td>
-                        <td class="default"><i class="fas fa-check"></i></td>
-                        <td>Better Connection and Integration with Phone and Internet
-                        </td>
-
-
-                    </tr>
-                    <tr>
-                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Voice </td>
-                        <td class="default"><i class="fas fa-check"></i></td>
-
-                        <td><i class="fas fa-check"></i></td>
-
-                    </tr>
-                    <tr>
-                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Face Recognition </td>
-                        <td class="default"><i class="fas fa-check"></i> (XVR side)</td>
-                        <td><i class="fas fa-check"></i></td>
-
-
-                    </tr>
-                    <tr>
-                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Masking </td>
-                        <td class="default"><i class="fas fa-times"></i></td>
-                        <td><i class="fas fa-check"></i></td>
-
-
-                    </tr>
-                    <tr>
-                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cost </td>
-                        <td class="default">$</td>
-                        <td>$$</td>
-
-
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td class="price default">
-                            <a href="contact.html">Get started</a>
-                        </td>
-                        <td class="price">
-                            <a href="contact.html">Get started</a>
-                        </td>
-
-
-                    </tr>
-                </tbody>
-            </table>
-
-        </article>
-        <!-- Offers Table -->
     </div>
-<!--     ///////       -->
-    <div class="container">
+    <!-- .................End contact............ -->
 
-        <div class="compare" id="2">
-
-            <div class="feature">
-                Privacy Masking
-            </div>
-            <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ea. Ducimus! sit amet consectetur adipisicing elit. Esse fugit eos in?</p>
-        </div>
-
-
-    </div>
-    <!-- .................End offers............ -->
-
- <!-- .................Start Footer............ -->
- <footer class="section footer">
+    <!-- .................Start Footer............ -->
+    <footer class="section footer">
     <div class="container">
         <div class="row">
             <div class="logo col-lg-12">
@@ -421,24 +327,23 @@
 
 
 
-</footer>
-<!-- .................End Footer............ -->
+    </footer>
+    <!-- .................End Footer............ -->
 
-
     <!--===============================================================================================-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
     <!--===============================================================================================-->
-    <script>AOS.init();</script>
+    <script src="../vendor/bootstrap/js/popper.js"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="../js/particles.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="../js/app.js"></script>
+    <script src="../vendor/select2/select2.min.js"></script>
     <!--===============================================================================================-->
-    <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
+    <script src="../vendor/tilt/tilt.jquery.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="../js/contact.js" charset="utf-8" type="text/javascript"></script>
     <!--===============================================================================================-->
     <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
-    <!--===============================================================================================-->
-    <script src="../js/website.js" charset="utf-8" type="text/javascript"></script>
 
     <!-- nav JS -->
     <script>
@@ -454,16 +359,23 @@
 
     <!-- language button -->
     <script>
-    function openLang() {
-        document.getElementById("myLang").style.height = "100%";
-    }
+        function openLang() {
+            document.getElementById("myLang").style.height = "100%";
+        }
 
-    function closeLang() {
-        document.getElementById("myLang").style.height = "0%";
-    }
+        function closeLang() {
+            document.getElementById("myLang").style.height = "0%";
+        }
     </script>
     <!-- language button -->
 
+    <!-- autofil -->
+    <script>
+        $(document).ready(function() {
+            $("#subject").val(localStorage.something);
+        });
+    </script>
+    <!-- autofil -->
 </body>
 
 </html>
