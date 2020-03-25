@@ -32,8 +32,8 @@
 </head>
 
 <body class="home " id="home">
-     <!-- .................Start Nav............ -->
-     <div class="nav-container">
+    <!-- .................Start Nav............ -->
+    <div class="nav-container">
         <nav class="navbar navbar-default nav-sticky">
             <div class="container">
                 <div class="row">
@@ -47,7 +47,7 @@
                         <!-- menu icon resposive -->
 
                         <!-- nav logo  img-->
-                        <a class="navbar-brand" href="./index.html">
+                        <a class="navbar-brand" href="../ar/index-ar.html">
                             <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
                         </a>
                         <!-- nav logo  img-->
@@ -61,25 +61,24 @@
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <a href="#" onclick="closeLang()" class="active" style="font-family: samsung;">English</a>
-                                    <a href="letstalk-ar.html" style="font-family: sky;">الـعـربـيـة</a>
-                                    <a href="letstalk-tr.html" style="font-family: samsung;">Türkçe</a>
+                                    <a href="../en/it.html" style="font-family: samsung;">English</a>
+                                    <a href="#" style="font-family: sky;" onclick="closeLang()" class="active">الـعـربـيـة</a>
+                                    <a href="../tr/it-tr.html" style="font-family: samsung;">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
                         <!-- language button -->
-                        
+
                         <!-- navbar responsive -->
                         <div id="myNav" class="overlay">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a href="#home" style="font-family: samsung;">Home</a>
-                                <a href="#steps" style="font-family: samsung;">Services</a>
-                                <a href="#testimonials" style="font-family: samsung;">About Us</a>
-
-                                <a href="./contact.html" style="font-family: samsung;">contact US</a>
+                                <a onclick="closeNav()" href="../ar/index-ar.html">الرئيسية</a>
+                                <a onclick="closeNav()" href="../ar/index-ar.html#testimonials">الخدمات</a>
+                                <a onclick="closeNav()" href="../ar/index-ar.html#steps">من نحن</a>
+                                <a href="../ar/contact-ar.html">تواصل معنا</a>
                             </div>
                         </div>
                         <!-- navbar responsive -->
@@ -125,7 +124,7 @@
             <div class="cami col-lg-6">
                 <img src="../imgs/it_support_bg.svg" alt="" draggable="false">
             </div>
-        <!-- It bg -->
+            <!-- It bg -->
 
             <!-- Main Title -->
             <div class="logo col-lg-6">
@@ -242,7 +241,7 @@
         <!-- Offers Table -->
 
     </div>
-<!--     ///////       -->
+    <!--     ///////       -->
     <div class="container">
         <div class="compare" id="2">
             <div class="feature">
@@ -254,7 +253,7 @@
     </div>
     <!-- .................End offers............ -->
 
-   <!-- .................Start Footer............ -->
+    <!-- .................Start Footer............ -->
     <footer class="section footer">
         <div class="container">
             <div class="row">
@@ -400,7 +399,9 @@
 
 
     <!-- AOS animation laibrary -->
-    <script> AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
     <!--===============================================================================================-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--===============================================================================================-->

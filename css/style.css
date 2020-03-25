@@ -1709,7 +1709,7 @@ input::-moz-focus-inner {
 .navbar .navbar-nav .dropdown-content a {
     color: #000;
     font-family: samsung, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     padding-left: 10px;
 }
 
@@ -1724,7 +1724,7 @@ input::-moz-focus-inner {
 }
 
 .navbar .navbar-nav .dropdown-content a:first-child {
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 @media(max-width: 1091px) {
