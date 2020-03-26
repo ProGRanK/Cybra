@@ -605,7 +605,7 @@ input::-moz-focus-inner {
 
 .steps .step p {
     color: #bdbdbd;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .steps .step:hover .icon span {
