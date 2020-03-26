@@ -117,6 +117,7 @@ article {
     margin: 0 auto;
     margin-top: 64px;
     border: none;
+    margin-bottom: 65px;
     position: relative;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
 }
@@ -132,6 +133,9 @@ article {
 .articale li {
     list-style: none;
     flex: 1;
+}
+table tr td:first-child {
+    padding-left: 20px;
 }
 
 .articale li:last-child {
