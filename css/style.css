@@ -285,6 +285,10 @@ input::-moz-focus-inner {
     margin-top: 23px
 }
 
+.navbar.sticky .navbar-toggle {
+    margin-top: 0px;
+}
+
 .navbar-toggle:focus {
     outline: 0
 }
@@ -467,6 +471,18 @@ input::-moz-focus-inner {
 @media (max-width:360px) {
     .navbar .navbar-brand>img {
         width: 150px
+    }
+}
+
+@media (max-width:993px) {
+    .navbar.sticky .navbar-brand>img {
+        margin-top: -10px;
+        transition: 0.2s;
+    }
+    .navbar.sticky .navbar-nav .launguge {
+        color: #000;
+        margin-top: -5px;
+        transition: 0.2s;
     }
 }
 

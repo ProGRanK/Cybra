@@ -270,6 +270,22 @@ td.default {
     border-bottom: 1px solid #ccc;
 }
 
+@media (max-width:993px) {
+    .compare p {
+        font-size: 15px;
+        font-weight: 300;
+        margin-bottom: 70px;
+        margin-right: 20px;
+        text-align: right;
+    }
+    .compare .feature {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+}
+
 @media(max-width:788px) {
     .colom1 {
         display: none;

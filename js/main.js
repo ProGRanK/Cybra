@@ -38621,7 +38621,7 @@ $(window).scroll(function(a) {
             }),
             $(".autotype2").length &&
             $(".autotype2").typed({
-                strings: ["كن", "جزءاً", "من", "اللعبة", "الافتراضية"],
+                strings: ["انضم", "للعبة", "الافتراضية"],
                 typeSpeed: 100,
                 loop: !0
             }),
