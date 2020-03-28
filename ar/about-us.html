@@ -1,48 +1,64 @@
-../
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="rtl">
 
 <head>
-    <title>من نحن</title>
+    <title>Cybra | Get In The Cyber Game</title>
     <meta name="logo-dark" content=../imgs/logo.svg>
+    <!--===============================================================================================-->
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,700" rel="stylesheet" type="text/css">
+    <!--===============================================================================================-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--===============================================================================================-->
     <link rel="shortcut icon" href="../imgs/fav.png" type="image/png">
+    <!--===============================================================================================-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/normalize.css">
+    <!--===============================================================================================-->
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <!--===============================================================================================-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--===============================================================================================-->
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <!--===============================================================================================-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+    <!--===============================================================================================-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/carousel.css" rel="stylesheet" type="text/css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/normalize.css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/all.css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/style.css" type="text/css">
-    <link rel="stylesheet" href="../css/style-ar.css" type="text/css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/about-us.css" type="text/css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/theme.css">
 
 </head>
 
 <body class="home" id="home">
     <!-- .................Start Nav............ -->
-    <div class="nav-container">
+    <div class="nav-container" style="background-color: #131315;">
         <nav class="navbar navbar-default nav-sticky">
             <div class="container">
                 <div class="row">
                     <div class="navbar-header">
                         <!-- menu icon resposive -->
-                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                         <!-- menu icon resposive -->
 
                         <!-- nav logo  img-->
-                        <a class="navbar-brand" href="../ar/index.html">
+                        <a class="navbar-brand" href="./index.html">
                             <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
                         </a>
                         <!-- nav logo  img-->
@@ -50,14 +66,15 @@
                         <!-- language button -->
                         <ul class="navbar-nav navbar-icons">
                             <button class="plz launguge" onclick="openLang()"><i
-                                class="icon3 fas fa-language"></i></button>
+                                    class="icon3 fas fa-language"></i></button>
                             <div id="myLang" class="lang">
                                 <div class="lang-content">
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <a href="../en/index.html" style="font-family: samsung;">English</a>
-                                    <a href="#" style="font-family: sky;" onclick="closeLang()" class="active">الـعـربـيـة</a>
+                                    <a href="./index.html" onclick="closeLang()" class="active"
+                                        style="font-family: samsung;">English</a>
+                                    <a href="../ar/index.html" style="font-family: sky;">الـعـربـيـة</a>
                                     <a href="../tr/index.html" style="font-family: samsung;">Türkçe</a>
                                 </div>
                             </div>
@@ -70,38 +87,40 @@
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a onclick="closeNav()" href="../ar/index.html">الرئيسية</a>
-                                <a onclick="closeNav()" href="#testimonials">الخدمات</a>
-                                <a onclick="closeNav()" href="#steps">من نحن</a>
-                                <a href="./ar/contact.html">تواصل معنا</a>
+                                <a href="#home" style="font-family: samsung;">Home</a>
+                                <a href="#services" style="font-family: samsung;">Services</a>
+                                <a href="#about" style="font-family: samsung;">About Us</a>
+                                <a href="./contact.html" style="font-family: samsung;">contact US</a>
                             </div>
                         </div>
                         <!-- navbar responsive -->
 
                         <!-- navbar -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="#home">الرئيسية</a></li>
+                            <li class="active"><a href="./index.html#home" style="font-family: samsung;">Home</a></li>
                             <!-- services drop btn -->
                             <li class="dropdown">
-                                <a onclick="myFunction()" class="dropbtn"><span
-                                    class="drop fa fa-caret-down"></span> الخدمات</a>
+                                <a onclick="myFunction()" class="dropbtn">Our Services <span
+                                        class="drop fa fa-caret-down"></span></a>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <a href="../ar/digital-transformation.html" target="_blank">التحويل الرقمي</a>
+                                    <a href="./digital-transformation.html" target="_blank">Digital Transformation</a>
                                     <hr>
-                                    <a href="../ar/it.html" target="_blank">الدعم الفني</a>
+                                    <a href="./it.html" target="_blank">IT Support</a>
                                     <hr>
-                                    <a href="../ar/web.html" target="_blank">تطوير المواقع</a>
+                                    <a href="./web.html" target="_blank">Web Development</a>
                                     <hr>
-                                    <a href="../ar/gfx.html" target="_blank">التسويق الالكتروني</a>
+                                    <a href="./marketing.html" target="_blank">Digital Marketing </a>
                                     <hr>
-                                    <a href="../ar/camera.html" target="_blank">أنظمة المراقبة</a>
+                                    <a href="./camera.html" target="_blank">Surveillence Systems</a>
                                     <hr>
-                                    <a href="../ar/training.html">التدريب التقني</a>
+                                    <a href="./training.html" target="_blank">Technical Training</a>
                                 </div>
                             </li>
                             <!-- services drop btn -->
-                            <li><a href="#steps">من نحن</a></li>
-                            <li class="contact"><a href="./contact.html" target="_blank"><i class="icon2 fa fa-arrow-left" draggable="false"></i> تواصل معنا</a>
+                            <li><a href="./index.html#about" style="font-family: samsung;" target="_blank">About Us</a>
+                            </li>
+                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">contact Us<i
+                                        class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
                             </li>
                         </ul>
                         <!-- navbar -->
@@ -112,172 +131,148 @@
     </div>
     <!-- .................End Nav............ -->
 
-
-    <section class="about-us">
+    <!-- .................Start About us............ -->
+    <section class="section about" id="steps" style="background: #e2e2e2;">
         <div class="container">
-            <div class="row">
-                <div class="why col-lg-12">
-                    <h1>Why Choosing us ?</h1>
-                    <p> We are a software and digital solutions team that provides a mixture of efficiency and fast delivery. Striving to do the work we love to do, keeping these three standards as our top priority:</p>
-                    <div class="row">
-                        <div class=" case col-md-6">
-                            <div class="row">
-                                <div class="icon col-xs-2">
-                                    <img src="./imgs/design.svg" alt="Meditation" draggable="false">
-                                </div>
-                                <div class="text col-xs-4">
-                                    <h2>Design & Details</h2>
-                                    <p>We take care of the small things, so the big things take care of themselves.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="case col-md-6">
-                            <div class="row">
-                                <div class="icon col-xs-2">
-                                    <img src="./imgs/design.svg" alt="Meditation" draggable="false">
-                                </div>
-                                <div class="text col-xs-4">
-                                    <h2>Design & Details</h2>
-                                    <p>We take care of the small things, so the big things take care of themselves.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="case col-md-12" style="display: block;">
-                            <div class="row">
-                                <div class="icon col-xs-2">
-                                    <img src="./imgs/design.svg" alt="Meditation" draggable="false">
-                                </div>
-                                <div class="text col-xs-4">
-                                    <h2>Design & Details</h2>
-                                    <p>We take care of the small things, so the big things take care of themselves.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+            <div class="title-about" style="text-align: center;">
+                <h1>About us</h1>
+                <p style="font-size: 20px;"> <span class="black">Others say </span><span class="gri">CORPORATE</span>
+                    <span class="black">, we say</span> <span class="green">TEAM!</span>
+                    <p style="font-family: Questrial;"> We are a software and digital solutions team that
+                        provides a mixture of efficiency and fast delivery. Striving to do the work we love to
+                        do, keeping these three standards as our top priority:</p>
+                </p>
             </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- <section class="section steps" id="steps" style="background: #e2e2e2;     padding-top: 60px;">
-        <div class="container">
-            <div class="row about">
-                <div class="what-we" data-aos="fade-up">
-                    <div class="">
-                        <h1>About us</h1>
-                        <p> <span class="black">Other say ,</span><span class="gri">CORPORATE</span> <span class="black">, We say </span> <span class="green">TEAM!</span><p style="font-family: Questrial;"> We are a software and
-                                digital solutions team that provides a mixture of efficiency and fast delivery. Striving
-                                to do the work we love to do, keeping these three standards as our top priority:</p>
-                        </p>
-                    </div>
-                </div>
-                <div class="step clearfix wow fadeInUp" data-aos="fade">
+            <div class="row">
+                <div class="info clearfix wow fadeInUp" data-wow-delay=".1s">
                     <div class="col-xs-2 col-xs-offset-2">
                         <div class="icon">
-
-                            <img src="./imgs/design.svg" alt="Meditation" draggable="false">
+                            <img style="margin-top: 20px;" src="../imgs/design.svg" alt="Design & Details">
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="text">
-                            <h2>Design & Details</h2>
-                            <p>We take care of the small things, so the big things take care of themselves.</p>
+                            <span>01</span>
+                            <div class="pp">
+                                <h2>Design & Details</h2>
+                                <p>We take care of the small things, so the big things take care of themselves.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-
-
-
-                
-                <div class="step clearfix wow fadeInUp">
+                </div><!-- /.step -->
+                <div class="info clearfix wow fadeInUp" data-wow-delay=".2s">
                     <div class="show">
                         <div class="col-xs-6 col-xs-offset-2">
                             <div class="text">
-                                <h2>Security & Privacy</h2>
-                                <p>We're not like others. We don't ripped off.</p>
+                                <span>02</span>
+                                <div class="pp">
+                                    <h2>Security & Privacy</h2>
+                                    <p>We're not like others. We don't ripp them off.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-xs-2">
                             <div class="icon text-right">
-
-                                <img src="./imgs/security.svg" alt="SECURITY & PRIVACY" draggable="false">
+                                <img src="../imgs/security.svg" alt="Security & Privacy">
                             </div>
                         </div>
                     </div>
                     <div class="hidden">
-                        <div class="col-xs-2 col-xs-offset-2 ">
+                        <div class="col-xs-2 col-xs-offset-2">
                             <div class="icon">
-                                <img src="./imgs/security.svg" alt="SECURITY & PRIVACY" draggable="false">
+                                <img src="../imgs/security.svg" alt="Security & Privacy">
                             </div>
                         </div>
                         <div class="col-xs-6">
                             <div class="text">
-                                <h2>Security & Privacy</h2>
-                                <p>We're not like others. We don't ripp it off.</p>
+                                <span>02</span>
+                                <div class="pp">
+                                    <h2>Security & Privacy</h2>
+                                    <p>We're not like others. We don't ripp them off..</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-
-
-                <div class="step clearfix wow fadeInUp" data-aos="fade">
+                </div><!-- /.step -->
+                <div class="info clearfix wow fadeInUp" data-wow-delay=".3s">
                     <div class="col-xs-2 col-xs-offset-2">
                         <div class="icon">
-                            <img src="./imgs/delivery.svg" alt="TIMING & DELIVERY" draggable="false">
+                            <img src="../imgs/time.svg" alt="Timing & Delivery">
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="text">
-                            <h2>Timing & Delivery</h2>
-                            <p>Just on time, because time is money.</p>
+                            <span>03</span>
+                            <div class="pp">
+                                <h2>Timing & Delivery</h2>
+                                <p>Just on time, because time is money.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="more">
-                    <a href="#">Get Closer</a>
-                </div>
-                
-
+                </div><!-- /.step -->
             </div>
+            <!--/.row -->
         </div>
-    </section> -->
+        <!--/.container -->
+    </section>
+    <!-- .................End About us............ -->
+
+    <!-- .................Start tecs we love............ -->
+    <section class="love">
+        <div class="container">
+            <div class="title col-md-12">
+                <h1>Technologies we love <i class="fas fa-heart"></i></h1>
+            </div>
+            <!-- tecs icons -->
+            <div class="tecs col-lg-12">
+                <ul>
+                    <li><i class="fab fa-node"></i></li>
+                    <li><i class="fab fa-react"></i></li>
+                    <li><i class="fab fa-aws"></i></li>
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-docker"></i></li>
+                    <li><i class="fab fa-wordpress"></i></li>
+                    <li><i class="fab fa-google"></i></li>
+                    <li><i class="fab fa-windows"></i></li>
+                    <li><i class="fab fa-ubuntu"></i></li>
+                    <li><i class="fab fa-apple"></i></li>
+                </ul>
+            </div>
+            <!-- tecs icons -->
+
+        </div>
+
+    </section>
+    <!-- .................End tecs we love............ -->
 
 
     <!-- .................Start Footer............ -->
-    <footer class=" footer">
+    <footer class="section footer">
         <div class="container">
             <div class="row">
                 <div class="logo col-lg-12">
                     <div class="container">
                         <!-- Cybra Title -->
                         <div class="get">
-                            <svg class="newlog" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 238.31 30.55">
-                            <title>Get In The Cyber Game</title>
-                            <path class="cls-1"
-                                d="M0,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45H42.24V26.59H6.45a2.54,2.54,0,0,1-2.53-2.52V6.45A2.54,2.54,0,0,1,6.45,3.92H42.24V0H6.45A6.45,6.45,0,0,0,0,6.45Z"
-                                transform="translate(0 0)" />
-                            <path class="cls-1"
-                                d="M87,13.3H55.13a2.55,2.55,0,0,1-2.53-2.5V0H48.68V10.8a6.47,6.47,0,0,0,6.45,6.45H87V24.1a2.52,2.52,0,0,1-2.52,2.52H48.68v3.93h35.8a6.47,6.47,0,0,0,6.45-6.45V0H87Z"
-                                transform="translate(0 0)" />
-                            <path class="cls-1"
-                                d="M182.74,0H153.39a6.45,6.45,0,0,0-6.45,6.45V30.52h3.92V17.22h27.56a2.48,2.48,0,0,1,1.78.74l4.32,4.32a2.5,2.5,0,0,1,.74,1.79v6.45h4V24.07a6.35,6.35,0,0,0-1.89-4.56l-2.6-2.6a6.46,6.46,0,0,0,4.49-6.11V6.45A6.46,6.46,0,0,0,182.77,0Zm2.5,10.8a2.54,2.54,0,0,1-2.52,2.53H150.86V6.45a2.53,2.53,0,0,1,2.53-2.53h29.35a2.53,2.53,0,0,1,2.5,2.53Z"
-                                transform="translate(0 0)" />
-                            <path class="cls-1"
-                                d="M231.86,0H202.51a6.47,6.47,0,0,0-6.45,6.45V30.52H200V17.22h34.41v13.3h3.92V6.45A6.45,6.45,0,0,0,231.86,0ZM200,13.3V6.45a2.54,2.54,0,0,1,2.53-2.53h29.35a2.53,2.53,0,0,1,2.53,2.53V13.3Z"
-                                transform="translate(0 0)" />
-                            <path class="cls-1"
-                                d="M140.06,6.45A6.45,6.45,0,0,0,133.61,0H104.24a6.45,6.45,0,0,0-6.45,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45h29.35A6.47,6.47,0,0,0,140,24.07V19.8a6.49,6.49,0,0,0-4.48-6.15l2.59-2.59A6.44,6.44,0,0,0,140.06,6.45ZM136.14,19.8v4.32a2.54,2.54,0,0,1-2.53,2.52H104.24a2.52,2.52,0,0,1-2.53-2.51h0v-6.9h31.88a2.53,2.53,0,0,1,2.55,2.51ZM135.4,8.29l-4.32,4.32a2.56,2.56,0,0,1-1.79.74H101.73V6.45a2.53,2.53,0,0,1,2.51-2.53h29.35a2.53,2.53,0,0,1,1.79,4.32Z"
-                                transform="translate(0 0)" />
-                        </svg>
+                            <svg class="newlog" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 238.31 30.55">
+                                <title>Get In The Cyber Game</title>
+                                <path class="cls-1"
+                                    d="M0,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45H42.24V26.59H6.45a2.54,2.54,0,0,1-2.53-2.52V6.45A2.54,2.54,0,0,1,6.45,3.92H42.24V0H6.45A6.45,6.45,0,0,0,0,6.45Z"
+                                    transform="translate(0 0)" />
+                                <path class="cls-1"
+                                    d="M87,13.3H55.13a2.55,2.55,0,0,1-2.53-2.5V0H48.68V10.8a6.47,6.47,0,0,0,6.45,6.45H87V24.1a2.52,2.52,0,0,1-2.52,2.52H48.68v3.93h35.8a6.47,6.47,0,0,0,6.45-6.45V0H87Z"
+                                    transform="translate(0 0)" />
+                                <path class="cls-1"
+                                    d="M182.74,0H153.39a6.45,6.45,0,0,0-6.45,6.45V30.52h3.92V17.22h27.56a2.48,2.48,0,0,1,1.78.74l4.32,4.32a2.5,2.5,0,0,1,.74,1.79v6.45h4V24.07a6.35,6.35,0,0,0-1.89-4.56l-2.6-2.6a6.46,6.46,0,0,0,4.49-6.11V6.45A6.46,6.46,0,0,0,182.77,0Zm2.5,10.8a2.54,2.54,0,0,1-2.52,2.53H150.86V6.45a2.53,2.53,0,0,1,2.53-2.53h29.35a2.53,2.53,0,0,1,2.5,2.53Z"
+                                    transform="translate(0 0)" />
+                                <path class="cls-1"
+                                    d="M231.86,0H202.51a6.47,6.47,0,0,0-6.45,6.45V30.52H200V17.22h34.41v13.3h3.92V6.45A6.45,6.45,0,0,0,231.86,0ZM200,13.3V6.45a2.54,2.54,0,0,1,2.53-2.53h29.35a2.53,2.53,0,0,1,2.53,2.53V13.3Z"
+                                    transform="translate(0 0)" />
+                                <path class="cls-1"
+                                    d="M140.06,6.45A6.45,6.45,0,0,0,133.61,0H104.24a6.45,6.45,0,0,0-6.45,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45h29.35A6.47,6.47,0,0,0,140,24.07V19.8a6.49,6.49,0,0,0-4.48-6.15l2.59-2.59A6.44,6.44,0,0,0,140.06,6.45ZM136.14,19.8v4.32a2.54,2.54,0,0,1-2.53,2.52H104.24a2.52,2.52,0,0,1-2.53-2.51h0v-6.9h31.88a2.53,2.53,0,0,1,2.55,2.51ZM135.4,8.29l-4.32,4.32a2.56,2.56,0,0,1-1.79.74H101.73V6.45a2.53,2.53,0,0,1,2.51-2.53h29.35a2.53,2.53,0,0,1,1.79,4.32Z"
+                                    transform="translate(0 0)" />
+                            </svg>
                             <p class="imgparag">GET IN THE CYBER GAME</p>
                         </div>
                         <!-- Cybra Title -->
@@ -292,7 +287,6 @@
 
 
                 </div>
-                <!--  -->
                 <div class="col-md-4">
 
 
@@ -301,79 +295,88 @@
             </div>
 
             <div class="row row2">
-                <!-- footer quick links -->
-                <div class="col-md-4">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="footer-servic" href="#home" style=" text-align: center;">الرئيسية</a></li>
-                        <li><a class="footer-servic" href="#steps" style=" text-align: center;">من نحن</a></li>
-                        <li class="dropdown">
-                            <a onclick="myFunction2()" class="dropbtn2 footer-servic" style=" text-align: center;"> <span class="drop fa fa-caret-down"></span> خدماتنا </a>
-                            <div id="myDropdown2" class="dropdown-content2">
-                                <a href="digital-transformation-ar.html" target="_blank" style="padding: 5px 10px 5px 0px;">التحويل الرقمي</a>
-                                <hr>
-                                <a href="it.html" target="_blank" style="padding: 5px 10px 5px 0px;">الدعم الفني</a>
-                                <hr>
-                                <a href="web.html" target="_blank" style="padding: 5px 10px 5px 0px;">تطوير الويب</a>
-                                <hr>
-                                <a href="marketing.html" target="_blank" style="padding: 5px 10px 5px 0px;">التسويق الرقمي والتصميم</a>
-                                <hr>
-                                <a href="camera.html" target="_blank" style="padding: 5px 10px 5px 0px;">كاميرات المراقبة</a>
-                                <hr>
-                                <a href="training.html" target="_blank" style="padding: 5px 10px 5px 0px;">التدريب التقني</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <!-- footer quick links -->
-
-                <!--  -->
-                <div class="col-md-2">
-                </div>
-                <!--  -->
-
                 <!-- Tech Quastion -->
                 <div class="col-md-6">
-                    <div class="quote wow fadeInUp" dir="rtl">
-                        <p>لديك سؤال تقني؟ هل تحتاج لاستشارة أو خدمة تقنية؟ استخدم صفحة التواصل<br> <br> <a href="./contact.html" class="btn btn-primary btn-white">تواصل معنا</a>
+                    <div class="quote wow fadeInUp">
+                        <p>Have a tech question? Need consulting or services? Use our contact page. <br> <br> <a
+                                href="./contact.html" class="btn btn-primary btn-white">Contact Us</a>
                         </p>
                     </div>
                 </div>
                 <!-- Tech Quastion -->
 
-
-
-            </div>
-
-            <div class="row row2">
-                <!-- Social media -->
-                <div class="col-md-4">
-                    <ul class="about-link">
-                        <li><a href="https://fb.com/cybraio" target="_blank"><span
-                                class=" fab fa-facebook-f"></span></a></li>
-                        <li><a href="https://instagram.com/cybraio" target="_blank"><span
-                                class="fab fa-instagram"></span></a></li>
-                        <li><a href="https://twitter.com/cybraio" target="_blank"><span
-                                class="fab fa-twitter"></span></a></li>
-                        <li><a href=" https://www.linkedin.com/company/cybraio" target="_blank"><span
-                                class="fab fa-linkedin"></span></a></li>
-                    </ul>
-                </div>
-                <!-- Social media -->
-
-
-
                 <!--  -->
                 <div class="col-md-2">
                 </div>
                 <!--  -->
+
+                <!-- footer quick links -->
+                <div class="col-md-4">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a class="footer-servic" href="./index.html#home"
+                                style="font-family: samsung; font-size: 17px; text-align: center;">Home</a></li>
+                        <li><a class="footer-servic" href="./index.html#about"
+                                style="font-family: samsung; font-size: 17px; text-align: center;">About Us</a></li>
+                        <li class="dropdown">
+                            <a onclick="myFunction2()" class="dropbtn footer-servic"
+                                style="text-transform: uppercase; font-size: 17px; text-align: center;">Services <span
+                                    class="drop fa fa-caret-down"></span></a>
+                            <div id="myDropdown2" class="dropdown-content">
+                                <a href="./digital-transformation.html" target="_blank"
+                                    style="padding: 10px 0 10px 10px;">Digital Transformation</a>
+                                <hr>
+                                <a href="./it.html" target="_blank" style="padding: 10px 0 10px 10px;">IT Support</a>
+                                <hr>
+                                <a href="./web.html" target="_blank" style="padding: 10px 0 10px 10px;">Web
+                                    Development</a>
+                                <hr>
+                                <a href="./marketing.html" target="_blank" style="padding: 10px 0 10px 10px;">Digital
+                                    Marketing </a>
+                                <hr>
+                                <a href="./camera.html" target="_blank" style="padding: 10px 0 10px 10px;">Surveillence
+                                    Systems</a>
+                                <hr>
+                                <a href="./training.html" target="_blank" style="padding: 10px 0 10px 10px;">Technical
+                                    Training</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- footer quick links -->
+            </div>
+
+            <div class="row row2">
+
                 <!-- adress -->
                 <div class="col-md-6">
                     <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
-                        <p style="margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
+                        <p style="
+                    margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
                             <br>BASAKSEHIR / ISTANBUL / Turkey </p>
                     </div>
                 </div>
                 <!-- adress -->
+
+                <!--  -->
+                <div class="col-md-2">
+
+                </div>
+                <!--  -->
+
+                <!-- Social media -->
+                <div class="col-md-4">
+                    <ul class="about-link">
+                        <li><a href="https://fb.com/cybraio" target="_blank"><span
+                                    class=" fab fa-facebook-f"></span></a></li>
+                        <li><a href="https://instagram.com/cybraio" target="_blank"><span
+                                    class="fab fa-instagram"></span></a></li>
+                        <li><a href="https://twitter.com/cybraio" target="_blank"><span
+                                    class="fab fa-twitter"></span></a></li>
+                        <li><a href=" https://www.linkedin.com/company/cybraio" target="_blank"><span
+                                    class="fab fa-linkedin"></span></a></li>
+                    </ul>
+                </div>
+                <!-- Social media -->
 
             </div>
 
@@ -396,72 +399,60 @@
 
     </footer>
     <!-- .................End Footer............ -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+
+
+
+    <!--===============================================================================================-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--===============================================================================================-->
     <script>
         AOS.init();
     </script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="../js/caroulsel.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="../js/particles.js"></script>
+    <!--===============================================================================================-->
+    <script type="text/javascript" src="../app.js"></script>
+    <!--===============================================================================================-->
+    <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
+    <!--===============================================================================================-->
+    <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
+    <!--===============================================================================================-->
+    <script src="../js/slick.js" type="text/javascript" charset="utf-8"></script>
 
-    <script type="text/javascript " src="./js/caroulsel.js.js "></script>
-    <script type="text/javascript " src="./js/particles.js "></script>
-    <script type="text/javascript " src="./js/app.js "></script>
-    <script src="./js/main.js " charset="utf-8 " type="text/javascript "></script>
-    <script src="./js/drop.js " charset="utf-8 " type="text/javascript "></script>
-    <script src="./js/slick.js " type="text/javascript " charset="utf-8 "></script>
 
-
-    <!-- send compeleted -->
-
-
-    <!-- cleints js -->
-    <script type="text/javascript ">
-        $(document).ready(function() {
-            $('.customer-logos').slick({
-                slidesToShow: 6,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 1000,
-                arrows: false,
-                dots: false,
-                pauseOnHover: false,
-                responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 4
-                    }
-                }, {
-                    breakpoint: 520,
-                    settings: {
-                        slidesToShow: 3
-                    }
-                }]
-            });
-        });
-    </script>
     <!-- nav JS -->
     <script>
         function openNav() {
-            document.getElementById("myNav ").style.height = "100% ";
+            document.getElementById("myNav").style.height = "100%";
         }
 
         function closeNav() {
-            document.getElementById("myNav ").style.height = "0% ";
+            document.getElementById("myNav").style.height = "0%";
         }
     </script>
+    <!-- nav JS -->
+
+    <!-- overlay -->
     <script>
-        $('.overlay-content a').click(function() {
-            $(".overlay-content ").collapse('hide');
+        $('.overlay-content a').click(function () {
+            $(".overlay-content").collapse('hide');
         });
     </script>
-
+    <!-- overlay -->
+    <!-- languga btn-->
     <script>
         function openLang() {
-            document.getElementById("myLang ").style.height = "100% ";
+            document.getElementById("myLang").style.height = "100%";
         }
 
         function closeLang() {
-            document.getElementById("myLang ").style.height = "0% ";
+            document.getElementById("myLang").style.height = "0%";
         }
     </script>
+    <!-- languga btn-->
+
 </body>
 
 </html>

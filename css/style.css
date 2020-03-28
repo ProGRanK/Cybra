@@ -146,7 +146,7 @@ h1 {
     font-size: 50px;
     font-weight: 600;
     margin-top: 50px;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 h3 {
@@ -2421,9 +2421,9 @@ a:focus {
 }
 .partners ul li a img {
     width: 250px;
-    filter: grayscale(100%);
     transition: ease-in .4s;
+    opacity: 1;
+    padding: 20px;
+  
 }
-.partners ul li a:hover img {
-    filter: grayscale(10%);
-}
+
