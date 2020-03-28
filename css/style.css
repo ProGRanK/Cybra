@@ -214,6 +214,7 @@ input::-moz-focus-inner {
 .nav {
     margin-bottom: 0;
     padding-left: 0;
+    z-index: 999;
     list-style: none;
 }
 
@@ -243,6 +244,8 @@ input::-moz-focus-inner {
 .navbar .navbar-nav {
     margin: 10px 0 0;
     text-transform: capitalize;
+    z-index: 999;
+
 }
 
 .navbar-brand {
@@ -598,9 +601,6 @@ input::-moz-focus-inner {
 .about .info .icon {
     position: relative;
 }
-.about .info .text {
-    z-index: 555555;
-}
 .about .info .text span {
     position: absolute;
     top: 0;
@@ -608,7 +608,7 @@ input::-moz-focus-inner {
     color: #bdbdbd;
     opacity: .4;
     font-weight: bolder;
-    font-size: 10em;
+    font-size: 8em;
     font-family: SFmono;
     -khtml-user-select: none;
     user-select: none;
@@ -641,13 +641,14 @@ input::-moz-focus-inner {
 }
 @media(max-width: 991px){
     .about .title-about {
-        margin-top: 200px;
+        margin-top: 150px;
     }
     .about .text span {
         display: none;
     }
     .about .info {
-        text-align: center
+        text-align: center;
+        margin-bottom: 150px;
     }
     .about .info .show {
         display: none!important
@@ -664,10 +665,17 @@ input::-moz-focus-inner {
         margin-left: 41.66667%
     }
     .about {
-        padding-top: 0
+        padding-top: 0;
+        text-align: center;
     }
 }
+@media(min-width: 991px){
+    .about .text .pp{
+        position: absolute;
+        z-index: 3;
+    }
 
+}
 @media (max-width:800px) {
     .about .info .icon span {
         font-size: 8em
@@ -2408,7 +2416,7 @@ a:focus {
 }
 .partners ul li{
     display: inline-block;
-    margin: 0 40px;
+    margin: 40px;
 
 }
 .partners ul li a img {
