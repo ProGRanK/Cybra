@@ -2,11 +2,12 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <title>Thnx for You!</title>
+    <title>أنظمة المراقبة</title>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <link rel="shortcut icon" href="../imgs/fav.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
-    <link rel="shortcut icon" href="../imgs/fav.png" type="image/png">
+    <link rel="icon" type="image/png" href="../images/icons/favicon.ico" />
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
     <!--===============================================================================================-->
@@ -23,15 +24,15 @@
     <link rel="stylesheet" type="text/css" href="../css/util.css">
     <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/style.css">
+    <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/style-ar.css" type="text/css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="../css/website-ar.css">
+    <!--===============================================================================================-->
 
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="../css/letstalk-ar.css">
-    <!--===============================================================================================-->
 </head>
 
 <body class="home " id="home">
-
     <!-- .................Start Nav............ -->
     <div class="nav-container">
         <nav class="navbar navbar-default nav-sticky">
@@ -47,7 +48,7 @@
                         <!-- menu icon resposive -->
 
                         <!-- nav logo  img-->
-                        <a class="navbar-brand" href="../ar/index-ar.html">
+                        <a class="navbar-brand" href="../ar/index.html">
                             <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
                         </a>
                         <!-- nav logo  img-->
@@ -61,9 +62,9 @@
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <a href="../en/it.html" style="font-family: samsung;">English</a>
+                                    <a href="../en/index.html" style="font-family: samsung;">English</a>
                                     <a href="#" style="font-family: sky;" onclick="closeLang()" class="active">الـعـربـيـة</a>
-                                    <a href="../tr/it-tr.html" style="font-family: samsung;">Türkçe</a>
+                                    <a href="../tr/index.html" style="font-family: samsung;">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
@@ -75,37 +76,39 @@
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a onclick="closeNav()" href="../ar/index-ar.html">الرئيسية</a>
-                                <a onclick="closeNav()" href="../ar/index-ar.html#testimonials">الخدمات</a>
-                                <a onclick="closeNav()" href="../ar/index-ar.html#steps">من نحن</a>
-                                <a href="../ar/contact-ar.html">تواصل معنا</a>
+                                <a onclick="closeNav()" href="../ar/index.html">الرئيسية</a>
+                                <a onclick="closeNav()" href="#testimonials">الخدمات</a>
+                                <a onclick="closeNav()" href="#steps">من نحن</a>
+                                <a href="./ar/contact.html">تواصل معنا</a>
                             </div>
                         </div>
                         <!-- navbar responsive -->
 
                         <!-- navbar -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="index-ar.html">الرئيسية</a></li>
+                            <li class="active"><a href="#home">الرئيسية</a></li>
                             <!-- services drop btn -->
                             <li class="dropdown">
-                                <a onclick="myFunction()" class="dropbtn"><span class="drop fa fa-caret-down"></span> الخدمات</a>
+                                <a onclick="myFunction()" class="dropbtn"><span
+                                    class="drop fa fa-caret-down"></span> الخدمات</a>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <a href="../ar/digital-transformation-ar.html" target="_blank">التحويل الرقمي</a>
+                                    <a href="../ar/digital-transformation.html" target="_blank">التحويل الرقمي</a>
                                     <hr>
-                                    <a href="../ar/it-ar.html" target="_blank">الدعم الفني</a>
+                                    <a href="../ar/it.html" target="_blank">الدعم الفني</a>
                                     <hr>
-                                    <a href="../ar/web-ar.html" target="_blank">تطوير الويب</a>
+                                    <a href="../ar/web.html" target="_blank">تطوير المواقع</a>
                                     <hr>
-                                    <a href="../ar/gfx-ar.html" target="_blank">التسويق الالكتروني</a>
+                                    <a href="../ar/gfx.html" target="_blank">التسويق الالكتروني</a>
                                     <hr>
-                                    <a href="../ar/camera-ar.html" target="_blank">أنظمة المراقبة</a>
+                                    <a href="../ar/camera.html" target="_blank">أنظمة المراقبة</a>
                                     <hr>
-                                    <a href="../ar/training-ar.html">التدريب التقني</a>
+                                    <a href="../ar/training.html">التدريب التقني</a>
                                 </div>
                             </li>
                             <!-- services drop btn -->
-                            <li><a href="index-ar.html#steps">من نحن</a></li>
-                            <li class="contact"><a href="./contact-ar.html" target="_blank"><i class="icon2 fa fa-arrow-left" draggable="false"></i> تواصل معنا </a> </li>
+                            <li><a href="#steps">من نحن</a></li>
+                            <li class="contact"><a href="./contact.html" target="_blank"><i class="icon2 fa fa-arrow-left" draggable="false"></i> تواصل معنا</a>
+                            </li>
                         </ul>
                         <!-- navbar -->
                     </div>
@@ -114,26 +117,169 @@
         </nav>
     </div>
     <!-- .................End Nav............ -->
+    <!-- .................Start offers............ -->
+    <div class="cleints" dir="rtl">
+        <div class="row main up">
+            <!-- camera bg -->
+            <div class="cami col-lg-6">
+                <img src="../imgs/camera_bg.svg" alt="cami" draggable="false">
+            </div>
+            <!-- camera bg -->
 
+            <!-- Main Title -->
+            <div class="logo col-lg-6">
+                <div class="row">
+                    <div class="col-md-12 social" dir="rtl">
+                        <h1>أنظمة المراقبة</h1>
+                        <p>لخلق مجال عمل مريح وآمن، نقوم بتركيب جميع أنواع أنظمة المراقبة التي قد يحتاجها أي عمل.</p>
+                        <div class="price">
+                            <a href="#table">أكتشف</a>
+                        </div>
 
-    <!-- .................Start Thnx Massege............ -->
-    <div class="contact1">
-        <div class="container">
-            <div class="container-contact1">
-                <div class="contact1-pic" data-tilt="">
-                    <i class="fas fa-check-circle"></i>
-                </div>
-                <div class="thanks">
-                    <h2>Thanks For choosing Us .</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit .</p>
+                    </div>
                 </div>
             </div>
+            <!-- Main Title -->
         </div>
+          <!-- Main title responsive -->
+
+          <div class="down">
+
+
+            <h1>أنظمة المراقبة</h1>
+            <p>لخلق مجال عمل مريح وآمن، نقوم بتركيب جميع أنواع أنظمة المراقبة التي قد يحتاجها أي عمل.</p>
+
+        </div>
+        <!-- Main title responsive -->
+
+        <!-- Offers Table -->
+        <article id="table" dir="rtl">
+            <ul class="articale" dir="rtl">
+                <li class="bg-purple active">
+                    <button class="plz">HD-CVI Camera</button>
+                </li>
+                <li class="bg-blue">
+                    <button class="plz">IP camera </button>
+                </li>
+
+
+            </ul>
+
+            <table>
+                <thead>
+
+
+                    <tr class="table-head">
+                        <th class="hide1"></th>
+                        <th class="bg-purple">كاميرات HD-CVI</th>
+                        <th class="bg-blue">كاميرات IP</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            </i>
+                            </a>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الدقة</td>
+                        <td class="default">
+                            </i>دقة جيدة <br> ( حتى 1080 بكسل و 30 إطارًا في الثانية )</td>
+                        <td>
+                            </i>دقة أفضل <br> ( حتى 4k بكسل و 60 إطارًا في الثانية )</td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            </a>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;تقريب </td>
+                        <td class="default">
+                            </i>تقريب بصري ورقمي</td>
+                        <td>
+                            </i>تقريب بصري ورقمي أكثر تطوراً
+                        </td>
+
+
+                    </tr>
+                    <tr>
+                        <td>
+                            </a>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الرؤية الليلية</td>
+                        <td class="default"><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;المراجعة الفنية</td>
+                        <td class="default">
+                            </i>XVR</td>
+                        <td>
+                            </i>NVR</td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            </a>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;الاتصال بالإنترنت والهاتف</td>
+                        <td class="default"><i class="fas fa-check"></i></td>
+                        <td>اتصال أكثر توافقاً مع الهاتف والإنترنت
+                        </td>
+
+
+                    </tr>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;صوت </td>
+                        <td class="default"><i class="fas fa-check"></i></td>
+
+                        <td><i class="fas fa-check"></i></td>
+
+                    </tr>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;تمييز الوجوه </td>
+                        <td class="default"><i class="fas fa-check"></i> ( عبر XVR )</td>
+                        <td><i class="fas fa-check"></i></td>
+
+
+                    </tr>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;إخفاء الأشياء للخصوصية </td>
+                        <td class="default"><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+
+
+                    </tr>
+                    <tr>
+                        <td>&#160;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;السعر </td>
+                        <td class="default">$</td>
+                        <td>$$</td>
+
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="price default">
+                            <a href="contact-ar.html">إبدأ الآن</a>
+                        </td>
+                        <td class="price">
+                            <a href="contact-ar.html">إبدأ الآن</a>
+                        </td>
+
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </article>
+        <!-- Offers Table -->
     </div>
-    <!-- .................End Thnx Massege............ -->
+    <!--     ///////       -->
+  
+    <!-- .................End offers............ -->
 
     <!-- .................Start Footer............ -->
-    <footer class="section footer">
+    <footer class=" footer">
         <div class="container">
             <div class="row">
                 <div class="logo col-lg-12">
@@ -181,62 +327,50 @@
             </div>
 
             <div class="row row2">
-                <!-- Tech Quastion -->
-                <div class="col-md-6">
-                    <div class="quote wow fadeInUp">
-                        <p>. لديك سؤال تقني؟ هل تحتاج لاستشارة أو خدمة تقنية؟ استخدم صفحة التواصل الخاصة بنا<br> <br> <a href="./contact-ar.html" class="btn btn-primary btn-white">تواصل معنا</a>
-                        </p>
-                    </div>
-                </div>
-                <!-- Tech Quastion -->
-
-                <!--  -->
-                <div class="col-md-2">
-                </div>
-                <!--  -->
-
                 <!-- footer quick links -->
                 <div class="col-md-4">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="footer-servic" href="../ar/index.html#home" style=" text-align: center;">الرئيسية</a></li>
-                        <li><a class="footer-servic" href="../ar/index.html#steps" style=" text-align: center;">من نحن</a></li>
+                        <li class="active"><a class="footer-servic" href="#home" style=" text-align: center;">الرئيسية</a></li>
+                        <li><a class="footer-servic" href="#steps" style=" text-align: center;">من نحن</a></li>
                         <li class="dropdown">
-                            <a onclick="myFunction2()" class="dropbtn footer-servic" style=" text-align: center;"> <span class="drop fa fa-caret-down"></span> خدماتنا </a>
+                            <a onclick="myFunction2()" class="dropbtn2 footer-servic" style=" text-align: center;"> <span class="drop fa fa-caret-down"></span> خدماتنا </a>
                             <div id="myDropdown2" class="dropdown-content2">
                                 <a href="digital-transformation-ar.html" target="_blank" style="padding: 5px 10px 5px 0px;">التحويل الرقمي</a>
                                 <hr>
-                                <a href="it-ar.html" target="_blank" style="padding: 5px 10px 5px 0px;">الدعم الفني</a>
+                                <a href="it.html" target="_blank" style="padding: 5px 10px 5px 0px;">الدعم الفني</a>
                                 <hr>
-                                <a href="web-ar.html" target="_blank" style="padding: 5px 10px 5px 0px;">تطوير الويب</a>
+                                <a href="web.html" target="_blank" style="padding: 5px 10px 5px 0px;">تطوير الويب</a>
                                 <hr>
-                                <a href="marketing-ar.html" target="_blank" style="padding: 5px 10px 5px 0px;">التسويق الرقمي والتصميم</a>
+                                <a href="marketing.html" target="_blank" style="padding: 5px 10px 5px 0px;">التسويق الرقمي والتصميم</a>
                                 <hr>
-                                <a href="camera-ar.html" target="_blank" style="padding: 5px 10px 5px 0px;">كاميرات المراقبة</a>
+                                <a href="camera.html" target="_blank" style="padding: 5px 10px 5px 0px;">كاميرات المراقبة</a>
                                 <hr>
-                                <a href="training-ar.html" target="_blank" style="padding: 5px 10px 5px 0px;">التدريب التقني</a>
+                                <a href="training.html" target="_blank" style="padding: 5px 10px 5px 0px;">التدريب التقني</a>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <!-- footer quick links -->
-            </div>
-
-            <div class="row row2">
-
-                <!-- adress -->
-                <div class="col-md-6">
-                    <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
-                        <p style="margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
-                            <br>BASAKSEHIR / ISTANBUL / Turkey </p>
-                    </div>
-                </div>
-                <!-- adress -->
 
                 <!--  -->
                 <div class="col-md-2">
                 </div>
                 <!--  -->
 
+                <!-- Tech Quastion -->
+                <div class="col-md-6">
+                    <div class="quote wow fadeInUp" dir="rtl">
+                        <p>لديك سؤال تقني؟ هل تحتاج لاستشارة أو خدمة تقنية؟ استخدم صفحة التواصل<br> <br> <a href="./contact.html" class="btn btn-primary btn-white">تواصل معنا</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Tech Quastion -->
+
+
+
+            </div>
+
+            <div class="row row2">
                 <!-- Social media -->
                 <div class="col-md-4">
                     <ul class="about-link">
@@ -251,6 +385,21 @@
                     </ul>
                 </div>
                 <!-- Social media -->
+
+
+
+                <!--  -->
+                <div class="col-md-2">
+                </div>
+                <!--  -->
+                <!-- adress -->
+                <div class="col-md-6">
+                    <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
+                        <p style="margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
+                            <br>BASAKSEHIR / ISTANBUL / Turkey </p>
+                    </div>
+                </div>
+                <!-- adress -->
 
             </div>
 
@@ -274,38 +423,23 @@
     </footer>
     <!-- .................End Footer............ -->
 
+
     <!--===============================================================================================-->
-    <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--===============================================================================================-->
-    <script src="../vendor/bootstrap/js/popper.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!--===============================================================================================-->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/particles.js"></script>
     <!--===============================================================================================-->
-    <script src="../vendor/select2/select2.min.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
     <!--===============================================================================================-->
-    <script src="../vendor/tilt/tilt.jquery.min.js"></script>
+    <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
     <!--===============================================================================================-->
     <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
-
-
-    <!--  -->
-    <script>
-        $('.js-tilt').tilt({
-            scale: 1.1
-        })
-    </script>
-
-    <!--  -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-23581568-13');
-    </script>
+    <!--===============================================================================================-->
+    <script src="../js/website.js" charset="utf-8" type="text/javascript"></script>
 
     <!-- nav JS -->
     <script>

@@ -44,12 +44,13 @@
 <body class="home" id="home">
     <!-- .................Start Nav............ -->
     <div class="nav-container" style="background-color: #131315;">
-        <nav class="navbar navbar-default nav-sticky" >
+        <nav class="navbar navbar-default nav-sticky">
             <div class="container">
                 <div class="row">
                     <div class="navbar-header">
                         <!-- menu icon resposive -->
-                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
+                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -71,14 +72,15 @@
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <a href="#" onclick="closeLang()" class="active" style="font-family: samsung;">English</a>
-                                    <a href="letstalk-ar.html" style="font-family: sky;">الـعـربـيـة</a>
-                                    <a href="letstalk-tr.html" style="font-family: samsung;">Türkçe</a>
+                                    <a href="./index.html" onclick="closeLang()" class="active"
+                                        style="font-family: samsung;">English</a>
+                                    <a href="../ar/index.html" style="font-family: sky;">الـعـربـيـة</a>
+                                    <a href="../tr/index.html" style="font-family: samsung;">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
                         <!-- language button -->
-                        
+
                         <!-- navbar responsive -->
                         <div id="myNav" class="overlay">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
@@ -86,9 +88,8 @@
                             </a>
                             <div class="overlay-content">
                                 <a href="#home" style="font-family: samsung;">Home</a>
-                                <a href="#steps" style="font-family: samsung;">Services</a>
-                                <a href="#testimonials" style="font-family: samsung;">About Us</a>
-
+                                <a href="#services" style="font-family: samsung;">Services</a>
+                                <a href="#about" style="font-family: samsung;">About Us</a>
                                 <a href="./contact.html" style="font-family: samsung;">contact US</a>
                             </div>
                         </div>
@@ -116,8 +117,10 @@
                                 </div>
                             </li>
                             <!-- services drop btn -->
-                            <li><a href="./index.html#steps" style="font-family: samsung;" target="_blank">About Us</a></li>
-                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">contact Us<i class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
+                            <li><a href="./index.html#about" style="font-family: samsung;" target="_blank">About Us</a>
+                            </li>
+                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">contact Us<i
+                                        class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
                             </li>
                         </ul>
                         <!-- navbar -->
@@ -128,153 +131,112 @@
     </div>
     <!-- .................End Nav............ -->
 
-    <!-- <section class="about-us">
-    <div class="container">
-        <div class="row">
-        <div class="why col-lg-12">
-            <h1>Why Choosing us ?</h1>
-            <p> We are a software and
-                digital solutions team that provides a mixture of efficiency and fast delivery. Striving
-                to do the work we love to do, keeping these three standards as our top priority:</p>
-               <div class="row">
-                <div class=" case col-md-6">
-                    <div class="row">
-                        <div class="icon col-xs-2">
-                            <img src="./imgs/design.svg" alt="Meditation" draggable="false">
-                        </div>
-                    <div class="text col-xs-4">
-                            <h2>Design & Details</h2>
-                            <p>We take care of the small things, so the big things take care of themselves.</p>
-                    </div>
-                    </div>
-            </div>
-            <div class="case col-md-6">
-                <div class="row">
-                    <div class="icon col-xs-2">
-                        <img src="../imgs/design.svg" alt="Meditation" draggable="false">
-                    </div>
-                <div class="text col-xs-4">
-                        <h2>Design & Details</h2>
-                        <p>We take care of the small things, so the big things take care of themselves.</p>
-                </div>
-                </div>
-            </div>
-               </div>
-
-               <div class="row">
-                <div class="case col-md-12" style="display: block;">
-                    <div class="row">
-                        <div class="icon col-xs-2">
-                            <img src="../imgs/design.svg" alt="Meditation" draggable="false">
-                        </div>
-                    <div class="text col-xs-4">
-                            <h2>Design & Details</h2>
-                            <p>We take care of the small things, so the big things take care of themselves.</p>
-                    </div>
-                    </div>
-                </div>
-               </div>
-                
-        </div>
-    </div>
-    </div>
-</section> -->
-
-
-
     <!-- .................Start About us............ -->
-    <section class="section steps" id="steps" style="background: #e2e2e2;     padding-top: 60px;">
+    <section class="section about" id="steps" style="background: #e2e2e2;">
         <div class="container">
-            <div class="row about">
-                <div class="what-we" data-aos="fade-up">
-                    <!-- title for about -->
-                    <div class="">
-                        <h1>About us</h1>
-                        <p> <span class="black">Others say </span><span class="gri">CORPORATE</span> <span
+            <div class="title-about" style="text-align: center;">
+                <h1>About us</h1>
+                        <p style="font-size: 20px;"> <span class="black">Others say </span><span class="gri">CORPORATE</span> <span
                                 class="black">, we say</span> <span class="green">TEAM!</span>
                             <p style="font-family: Questrial;"> We are a software and digital solutions team that
                                 provides a mixture of efficiency and fast delivery. Striving to do the work we love to
                                 do, keeping these three standards as our top priority:</p>
                         </p>
-                    </div>
-                    <!-- title for about -->
-                </div>
-                <!-- info about -->
-                <div class="step clearfix wow fadeInUp" data-aos="fade">
+            </div>
+            <div class="row">
+                <div class="info clearfix wow fadeInUp" data-wow-delay=".1s">
                     <div class="col-xs-2 col-xs-offset-2">
                         <div class="icon">
-                            <img src="../imgs/design.svg" alt="Meditation" draggable="false">
+                            <img style="margin-top: 20px;" src="../imgs/design.svg"
+                                alt="Design & Details">
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="text">
+                            <span>01</span>
                             <h2>Design & Details</h2>
                             <p>We take care of the small things, so the big things take care of themselves.</p>
                         </div>
                     </div>
-                </div>
-                <!-- info about -->
-
-                <!-- info about  -->
-                <div class="step clearfix wow fadeInUp">
+                </div><!-- /.step -->
+                <div class="info clearfix wow fadeInUp" data-wow-delay=".2s">
                     <div class="show">
                         <div class="col-xs-6 col-xs-offset-2">
                             <div class="text">
+                                <span>02</span>
                                 <h2>Security & Privacy</h2>
                                 <p>We're not like others. We don't ripp them off.</p>
                             </div>
                         </div>
                         <div class="col-xs-2">
                             <div class="icon text-right">
-                                <img src="../imgs/security.svg" alt="SECURITY & PRIVACY" draggable="false">
+                                <img src="../imgs/security.svg"
+                                    alt="Security & Privacy">
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- info about -->
-
-                <!-- info about -->
-                <div class="step clearfix wow fadeInUp" data-aos="fade">
+                    <div class="hidden">
+                        <div class="col-xs-2 col-xs-offset-2">
+                            <div class="icon">
+                                <img src="../imgs/security.svg"
+                                    alt="Security & Privacy">
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="text">
+                                <span>02</span>
+                                <h2>Security & Privacy</h2>
+                                <p>We're not like others. We don't ripp them off..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.step -->
+                <div class="info clearfix wow fadeInUp" data-wow-delay=".3s">
                     <div class="col-xs-2 col-xs-offset-2">
                         <div class="icon">
-                            <img src="../imgs/delivery.svg" alt="TIMING & DELIVERY" draggable="false">
+                            <img src="../imgs/time.svg"
+                                alt="Timing & Delivery">
                         </div>
                     </div>
                     <div class="col-xs-6">
                         <div class="text">
+                            <span>03</span>
                             <h2>Timing & Delivery</h2>
                             <p>Just on time, because time is money.</p>
                         </div>
                     </div>
-                </div>
-                <!-- info about -->
+                </div><!-- /.step -->
             </div>
+            <!--/.row -->
         </div>
+        <!--/.container -->
     </section>
     <!-- .................End About us............ -->
 
     <!-- .................Start tecs we love............ -->
     <section class="love">
-       <div class="container">
-        <div class="title col-md-12">
-            <h1>Technologies we love <i class="fas fa-heart"></i></h1>
-        </div>
+        <div class="container">
+            <div class="title col-md-12">
+                <h1>Technologies we love <i class="fas fa-heart"></i></h1>
+            </div>
+            <!-- tecs icons -->
+            <div class="tecs col-lg-12">
+                <ul>
+                    <li><i class="fab fa-node"></i></li>
+                    <li><i class="fab fa-react"></i></li>
+                    <li><i class="fab fa-aws"></i></li>
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-docker"></i></li>
+                    <li><i class="fab fa-wordpress"></i></li>
+                    <li><i class="fab fa-google"></i></li>
+                    <li><i class="fab fa-windows"></i></li>
+                    <li><i class="fab fa-ubuntu"></i></li>
+                    <li><i class="fab fa-apple"></i></li>
+                </ul>
+            </div>
+            <!-- tecs icons -->
 
-        <div class="tecs col-lg-12">
-            <ul>
-                <li><i class="fab fa-node"></i></li>
-                <li><i class="fab fa-react"></i></li>
-                <li><i class="fab fa-aws"></i></li>
-                <li><i class="fab fa-html5"></i></li>
-                <li><i class="fab fa-docker"></i></li>
-                <li><i class="fab fa-wordpress"></i></li>
-                <li><i class="fab fa-google"></i></li>
-                <li><i class="fab fa-windows"></i></li>
-                <li><i class="fab fa-ubuntu"></i></li>
-                <li><i class="fab fa-apple"></i></li>
-            </ul>
         </div>
-       </div>
 
     </section>
     <!-- .................End tecs we love............ -->
@@ -349,7 +311,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a class="footer-servic" href="./index.html#home"
                                 style="font-family: samsung; font-size: 17px; text-align: center;">Home</a></li>
-                        <li><a class="footer-servic" href="./index.html#steps"
+                        <li><a class="footer-servic" href="./index.html#about"
                                 style="font-family: samsung; font-size: 17px; text-align: center;">About Us</a></li>
                         <li class="dropdown">
                             <a onclick="myFunction2()" class="dropbtn footer-servic"
@@ -443,11 +405,11 @@
         AOS.init();
     </script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="../js/caroulsel.js.js"></script>
+    <script type="text/javascript" src="../js/caroulsel.js"></script>
     <!--===============================================================================================-->
     <script type="text/javascript" src="../js/particles.js"></script>
     <!--===============================================================================================-->
-    <script type="text/javascript" src="./app.js"></script>
+    <script type="text/javascript" src="../app.js"></script>
     <!--===============================================================================================-->
     <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
     <!--===============================================================================================-->

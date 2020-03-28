@@ -1,9 +1,8 @@
 .navbar {
     background-color: #131315;
 }
-
 .love{
-    height: 50%;
+    /* height: 50%; */
     display: block;
     text-align: center;
 }
@@ -34,4 +33,14 @@
 }
 .tecs ul li i:hover{
     color: #131315;
+}
+
+
+@media(max-width: 551px){
+    .tecs ul li i{
+        font-size: 65px;
+        margin: 25px;
+        color: #bdbdbd;
+        transition: .3s;
+    }
 }
