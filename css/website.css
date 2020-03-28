@@ -275,6 +275,7 @@ td.default {
 .compare {
     margin-bottom: 10px;
 }
+@media(max-w)
 
 .compare p {
     font-size: 14px;
@@ -633,6 +634,9 @@ h1 {
 @media(max-width:676px) {
     .cleints img {
         height: 350px;
+    }
+    .compare {
+        text-align: center;
     }
 }
 
