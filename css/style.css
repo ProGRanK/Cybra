@@ -861,7 +861,7 @@ input::-moz-focus-inner {
     margin-right: 10px;
     font-size: 22px;
     color: #d6c6b2;
-    transition: all .3s;
+    transition: all 0.3s;
 }
 
 
@@ -1659,6 +1659,14 @@ input::-moz-focus-inner {
     cursor: pointer;
 }
 
+.dropbtn2 {
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
 .navbar.sticky .dropbtn {
     color: #131111;
 }
@@ -2216,7 +2224,6 @@ input::-moz-focus-inner {
 }
 
 .footer .quote>h2 {
-    color: #ffcc29;
     font-size: 28px;
     line-height: 1.4;
     margin-top: 0;
@@ -2348,14 +2355,10 @@ a:focus {
 }
 
 .fa-instagram:hover {
-    display: inline-block;
-    text-align: center;
     background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
     background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.5s;
-    background-color: #fff;
 }
 
 .fa-twitter:hover {
