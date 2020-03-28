@@ -529,3 +529,41 @@ body {
 
 
 /* Footer */
+
+@media(max-width: 991px){
+    .about .title-about {
+        margin-top: 150px;
+    }
+    .about .text span {
+        display: none;
+    }
+    .about .info {
+        text-align: center;
+        margin-bottom: 150px;
+    }
+    .about .info .show {
+        display: none!important
+    }
+    .about .info .hidden {
+        display: block!important
+    }
+    .about .info .col-xs-6 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px
+    }
+    .about .info .col-xs-2 {
+        margin-left: 41.66667%
+    }
+    .about {
+        padding-top: 0;
+        text-align: center;
+    }
+}
+@media(min-width: 991px){
+    .about .text .pp{
+        position: absolute;
+        z-index: 3;
+    }
+
+}
