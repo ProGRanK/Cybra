@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #131315;
+}
+
+.love{
+    height: 50%;
+    display: block;
+    text-align: center;
+}
+.love h1{
+    text-transform: capitalize;
+}
+.love h1 i{
+    color: #dc3545;
+    margin-left: 15px;
+}
+.love .tecs{
+    margin: 30px 10px;
+}
+.love .tecs ul{
+    list-style-type: none;
+    text-align: center;
+}
+.love .tecs ul li{
+    display: inline;
+    margin: 0 20px;
+    text-align: center;
+}
+.tecs ul li i{
+    font-size: 80px;
+    margin: 25px;
+    color: #bdbdbd;
+    transition: .3s;
+}
+.tecs ul li i:hover{
+    color: #131315;
+}
