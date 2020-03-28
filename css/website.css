@@ -268,20 +268,15 @@ td.default {
 
 .cleints img {
     height: 500px;
-    margin-top: 9px;
+    margin-top: 50px;
     margin-left: 73px;
+    margin-bottom: 50px;
 }
 
 .compare {
     margin-bottom: 10px;
 }
-@media(max-w)
 
-.compare p {
-    font-size: 14px;
-    font-weight: 300;
-    margin-bottom: 50px;
-}
 
 .compare p a {
     background-color: #090909;
@@ -807,4 +802,8 @@ h1 {
         display: none;
         /* opacity: .3; */
     }
+}
+
+.footer {
+  margin-top: 50px;
 }

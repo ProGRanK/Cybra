@@ -2426,4 +2426,78 @@ a:focus {
     padding: 20px;
   
 }
+<<<<<<< HEAD
 
+=======
+.partners ul li a:hover img {
+    filter: grayscale(10%);
+    opacity: 1;
+    
+}
+
+   .box3 {
+   
+    position: relative;
+    overflow: hidden;
+}
+.box3 span {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.box3 span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    animation: lefttoRight 5s linear infinite;
+}
+@keyframes lefttoRight {
+    0% {left: -100%;}
+    100% {left: 100%;}
+}
+.box3 span:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: -100%;
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+    animation: toptoBottom 5s 2.5s linear infinite;
+}
+@keyframes toptoBottom {
+    0% {top: -100%;}
+    100% {top: 100%;}
+}
+.box3 span:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    animation: righttoLeft 5s linear infinite;
+}
+@keyframes righttoLeft {
+    0% {right: -100%;}
+    100% {right: 100%;}
+}
+.box3 span:nth-child(4) {
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+    animation: bottomtoTop 5s 2.5s linear infinite;
+}
+@keyframes bottomtoTop {
+    0% {bottom: -100%;}
+    100% {bottom: 100%;}
+}
+  
+  
+  
+>>>>>>> 7eae1537771e7b567b73ab76b8397eaf0b5fa8de
