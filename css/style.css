@@ -11,6 +11,7 @@ body {
 .section {
     display: block;
     position: relative;
+    padding-top: 35px;
 }
 
 .green {
@@ -530,7 +531,7 @@ input::-moz-focus-inner {
        
         top: -4px;
         right: 60px;
-        margin-top: 25px
+        margin-top: 18px
     }
     .navbar .navbar-icons li {
         margin-right: 15px
