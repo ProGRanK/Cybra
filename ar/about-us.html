@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <title>Cybra | Get In The Cyber Game</title>
@@ -42,106 +42,103 @@
 </head>
 
 <body class="home" id="home">
-    <!-- .................Start Nav............ -->
-    <div class="nav-container" style="background-color: #131315;">
-        <nav class="navbar navbar-default nav-sticky">
-            <div class="container">
-                <div class="row">
-                    <div class="navbar-header">
-                        <!-- menu icon resposive -->
-                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <!-- menu icon resposive -->
-
-                        <!-- nav logo  img-->
-                        <a class="navbar-brand" href="./index.html">
-                            <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
-                        </a>
-                        <!-- nav logo  img-->
-
-                        <!-- language button -->
-                        <ul class="navbar-nav navbar-icons">
-                            <button class="plz launguge" onclick="openLang()"><i
-                                    class="icon3 fas fa-language"></i></button>
-                            <div id="myLang" class="lang">
-                                <div class="lang-content">
-                                    <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
-                                        <span class="fas fa-times"></span>
-                                    </a>
-                                    <a href="./index.html" onclick="closeLang()" class="active"
-                                        style="font-family: samsung;">English</a>
-                                    <a href="../ar/index.html" style="font-family: sky;">الـعـربـيـة</a>
-                                    <a href="../tr/index.html" style="font-family: samsung;">Türkçe</a>
-                                </div>
-                            </div>
-                        </ul>
-                        <!-- language button -->
-
-                        <!-- navbar responsive -->
-                        <div id="myNav" class="overlay">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-                                <span class="fas fa-times"></span>
+        <!-- .................Start Nav............ -->
+        <div class="nav-container">
+            <nav class="navbar navbar-default nav-sticky">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar-header">
+                            <!-- menu icon resposive -->
+                            <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- menu icon resposive -->
+    
+                            <!-- nav logo  img-->
+                            <a class="navbar-brand" href="../ar/index.html">
+                                <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
                             </a>
-                            <div class="overlay-content">
-                                <a href="#home" style="font-family: samsung;">Home</a>
-                                <a href="#services" style="font-family: samsung;">Services</a>
-                                <a href="#about" style="font-family: samsung;">About Us</a>
-                                <a href="./contact.html" style="font-family: samsung;">contact US</a>
-                            </div>
-                        </div>
-                        <!-- navbar responsive -->
-
-                        <!-- navbar -->
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="./index.html#home" style="font-family: samsung;">Home</a></li>
-                            <!-- services drop btn -->
-                            <li class="dropdown">
-                                <a onclick="myFunction()" class="dropbtn">Our Services <span
-                                        class="drop fa fa-caret-down"></span></a>
-                                <div id="myDropdown" class="dropdown-content">
-                                    <a href="./digital-transformation.html" target="_blank">Digital Transformation</a>
-                                    <hr>
-                                    <a href="./it.html" target="_blank">IT Support</a>
-                                    <hr>
-                                    <a href="./web.html" target="_blank">Web Development</a>
-                                    <hr>
-                                    <a href="./marketing.html" target="_blank">Digital Marketing </a>
-                                    <hr>
-                                    <a href="./camera.html" target="_blank">Surveillence Systems</a>
-                                    <hr>
-                                    <a href="./training.html" target="_blank">Technical Training</a>
+                            <!-- nav logo  img-->
+    
+                            <!-- language button -->
+                            <ul class="navbar-nav navbar-icons">
+                                <button class="plz launguge" onclick="openLang()"><i
+                                        class="icon3 fas fa-language"></i></button>
+                                <div id="myLang" class="lang">
+                                    <div class="lang-content">
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
+                                            <span class="fas fa-times"></span>
+                                        </a>
+                                        <a href="../en/index.html" style="font-family: samsung;">English</a>
+                                        <a href="#" style="font-family: sky;" onclick="closeLang()"
+                                            class="active">الـعـربـيـة</a>
+                                        <a href="../tr/index.html" style="font-family: samsung;">Türkçe</a>
+                                    </div>
                                 </div>
-                            </li>
-                            <!-- services drop btn -->
-                            <li><a href="./index.html#about" style="font-family: samsung;" target="_blank">About Us</a>
-                            </li>
-                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">contact Us<i
-                                        class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
-                            </li>
-                        </ul>
-                        <!-- navbar -->
+                            </ul>
+                            <!-- language button -->
+    
+                            <!-- navbar responsive -->
+                            <div id="myNav" class="overlay">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                    <span class="fas fa-times"></span>
+                                </a>
+                                <div class="overlay-content">
+                                    <a onclick="closeNav()" href="./ar/index.html">الرئيسية</a>
+                                    <a onclick="closeNav()" href="./ar/index.html#services">الخدمات</a>
+                                    <a onclick="closeNav()" href="./ar/index.html#about">من نحن</a>
+                                    <a href="./ar/contact.html">تواصل معنا</a>
+                                </div>
+                            </div>
+                            <!-- navbar responsive -->
+    
+                            <!-- navbar -->
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="ar/index.html#home">الرئيسية</a></li>
+                                <!-- services drop btn -->
+                                <li class="dropdown">
+                                    <a onclick="myFunction()" class="dropbtn"><span class="drop fa fa-caret-down"></span>
+                                        الخدمات</a>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <a href="../ar/digital-transformation.html" target="_blank">التحويل الرقمي</a>
+                                        <hr>
+                                        <a href="../ar/it.html" target="_blank">الدعم الفني</a>
+                                        <hr>
+                                        <a href="../ar/web.html" target="_blank">تطوير المواقع</a>
+                                        <hr>
+                                        <a href="../ar/gfx.html" target="_blank">التسويق الالكتروني</a>
+                                        <hr>
+                                        <a href="../ar/camera.html" target="_blank">أنظمة المراقبة</a>
+                                        <hr>
+                                        <a href="../ar/training.html">التدريب التقني</a>
+                                    </div>
+                                </li>
+                                <!-- services drop btn -->
+                                <li><a href="index.html#about">من نحن</a></li>
+                                <li class="contact"><a href="./contact.html" target="_blank"><i
+                                            class="icon2 fa fa-arrow-left" draggable="false"></i> تواصل معنا</a>
+                                </li>
+                            </ul>
+                            <!-- navbar -->
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </div>
-    <!-- .................End Nav............ -->
+            </nav>
+        </div>
+        <!-- .................End Nav............ -->
 
-    <!-- .................Start About us............ -->
-    <section class="section about" id="steps" style="background: #e2e2e2;">
+     <!-- .................Start About us............ -->
+     <section class="section about" id="steps" style="background: #e2e2e2;">
         <div class="container">
-            <div class="title-about" style="text-align: center;">
-                <h1>About us</h1>
-                <p style="font-size: 20px;"> <span class="black">Others say </span><span class="gri">CORPORATE</span>
-                    <span class="black">, we say</span> <span class="green">TEAM!</span>
-                    <p style="font-family: Questrial;"> We are a software and digital solutions team that
-                        provides a mixture of efficiency and fast delivery. Striving to do the work we love to
-                        do, keeping these three standards as our top priority:</p>
-                </p>
+            <div class="title-about" style="text-align: center; margin-bottom: 100px;">
+                <h1>من نحن</h1>
+                <p> <span class="black">يقولون </span><span class="gri">"شركة"</span> <span class="black"> ونقول</span>
+                    <span class="green">"فريق"</span>
+                    <p>نحن فريق برمجة وحلول رقمية يوفر مزيجاً من الكفاءة والاتقان . نسعى جاهدين للقيام بالعمل الذي نحبه،
+                        مع الحفاظ على هذه المعايير الثلاثة على رأس أولوياتنا:</p>
             </div>
             <div class="row">
                 <div class="info clearfix wow fadeInUp" data-wow-delay=".1s">
@@ -154,8 +151,8 @@
                         <div class="text">
                             <span>01</span>
                             <div class="pp">
-                                <h2>Design & Details</h2>
-                                <p>We take care of the small things, so the big things take care of themselves.</p>
+                                <h2>التّصميم والتّفاصيل</h2>
+                                <p>نهتم بها جداً، فهذه طريقتنا في العمل.</p>
                             </div>
                         </div>
                     </div>
@@ -166,8 +163,8 @@
                             <div class="text">
                                 <span>02</span>
                                 <div class="pp">
-                                    <h2>Security & Privacy</h2>
-                                    <p>We're not like others. We don't ripp them off.</p>
+                                    <h2>الأمان والخصوصية</h2>
+                                    <p>معلوماتك ملكية خاصة. مهمتنا أن تبقى كذلك.</p>
                                 </div>
                             </div>
                         </div>
@@ -187,8 +184,8 @@
                             <div class="text">
                                 <span>02</span>
                                 <div class="pp">
-                                    <h2>Security & Privacy</h2>
-                                    <p>We're not like others. We don't ripp them off..</p>
+                                    <h2>الأمان والخصوصية</h2>
+                                    <p>معلوماتك ملكية خاصة. مهمتنا أن تبقى كذلك.</p>
                                 </div>
                             </div>
                         </div>
@@ -204,12 +201,17 @@
                         <div class="text">
                             <span>03</span>
                             <div class="pp">
-                                <h2>Timing & Delivery</h2>
-                                <p>Just on time, because time is money.</p>
+                                <h2>التوقيت والاستلام </h2>
+                                <p>.على الوقت , لأنه ثمين لنا ولك</p>
                             </div>
                         </div>
                     </div>
                 </div><!-- /.step -->
+                <!-- btn -->
+                <div class="more">
+                    <a href="./about-us.html">اقترب أكثر</a>
+                </div>
+                <!-- btn -->
             </div>
             <!--/.row -->
         </div>
@@ -221,7 +223,7 @@
     <section class="love">
         <div class="container">
             <div class="title col-md-12">
-                <h1>Technologies we love <i class="fas fa-heart"></i></h1>
+                <h1><i class="fas fa-heart"></i> التقنيات التي نحبها</h1>
             </div>
             <!-- tecs icons -->
             <div class="tecs col-lg-12">
@@ -247,7 +249,7 @@
 
 
     <!-- .................Start Footer............ -->
-    <footer class="section footer">
+    <footer class=" footer">
         <div class="container">
             <div class="row">
                 <div class="logo col-lg-12">
@@ -287,6 +289,7 @@
 
 
                 </div>
+                <!--  -->
                 <div class="col-md-4">
 
 
@@ -295,74 +298,57 @@
             </div>
 
             <div class="row row2">
-                <!-- Tech Quastion -->
-                <div class="col-md-6">
-                    <div class="quote wow fadeInUp">
-                        <p>Have a tech question? Need consulting or services? Use our contact page. <br> <br> <a
-                                href="./contact.html" class="btn btn-primary btn-white">Contact Us</a>
-                        </p>
-                    </div>
-                </div>
-                <!-- Tech Quastion -->
-
-                <!--  -->
-                <div class="col-md-2">
-                </div>
-                <!--  -->
-
                 <!-- footer quick links -->
                 <div class="col-md-4">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="footer-servic" href="./index.html#home"
-                                style="font-family: samsung; font-size: 17px; text-align: center;">Home</a></li>
-                        <li><a class="footer-servic" href="./index.html#about"
-                                style="font-family: samsung; font-size: 17px; text-align: center;">About Us</a></li>
+                        <li class="active"><a class="footer-servic" href="#home"
+                                style=" text-align: center;">الرئيسية</a></li>
+                        <li><a class="footer-servic" href="#steps" style=" text-align: center;">من نحن</a></li>
                         <li class="dropdown">
-                            <a onclick="myFunction2()" class="dropbtn footer-servic"
-                                style="text-transform: uppercase; font-size: 17px; text-align: center;">Services <span
-                                    class="drop fa fa-caret-down"></span></a>
-                            <div id="myDropdown2" class="dropdown-content">
-                                <a href="./digital-transformation.html" target="_blank"
-                                    style="padding: 10px 0 10px 10px;">Digital Transformation</a>
+                            <a onclick="myFunction2()" class="dropbtn2 footer-servic" style=" text-align: center;">
+                                <span class="drop fa fa-caret-down"></span> خدماتنا </a>
+                            <div id="myDropdown2" class="dropdown-content2">
+                                <a href="digital-transformation-ar.html" target="_blank"
+                                    style="padding: 5px 10px 5px 0px;">التحويل الرقمي</a>
                                 <hr>
-                                <a href="./it.html" target="_blank" style="padding: 10px 0 10px 10px;">IT Support</a>
+                                <a href="it.html" target="_blank" style="padding: 5px 10px 5px 0px;">الدعم الفني</a>
                                 <hr>
-                                <a href="./web.html" target="_blank" style="padding: 10px 0 10px 10px;">Web
-                                    Development</a>
+                                <a href="web.html" target="_blank" style="padding: 5px 10px 5px 0px;">تطوير الويب</a>
                                 <hr>
-                                <a href="./marketing.html" target="_blank" style="padding: 10px 0 10px 10px;">Digital
-                                    Marketing </a>
+                                <a href="marketing.html" target="_blank" style="padding: 5px 10px 5px 0px;">التسويق
+                                    الرقمي والتصميم</a>
                                 <hr>
-                                <a href="./camera.html" target="_blank" style="padding: 10px 0 10px 10px;">Surveillence
-                                    Systems</a>
+                                <a href="camera.html" target="_blank" style="padding: 5px 10px 5px 0px;">كاميرات
+                                    المراقبة</a>
                                 <hr>
-                                <a href="./training.html" target="_blank" style="padding: 10px 0 10px 10px;">Technical
-                                    Training</a>
+                                <a href="training.html" target="_blank" style="padding: 5px 10px 5px 0px;">التدريب
+                                    التقني</a>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <!-- footer quick links -->
-            </div>
-
-            <div class="row row2">
-
-                <!-- adress -->
-                <div class="col-md-6">
-                    <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
-                        <p style="
-                    margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
-                            <br>BASAKSEHIR / ISTANBUL / Turkey </p>
-                    </div>
-                </div>
-                <!-- adress -->
 
                 <!--  -->
                 <div class="col-md-2">
-
                 </div>
                 <!--  -->
 
+                <!-- Tech Quastion -->
+                <div class="col-md-6">
+                    <div class="quote wow fadeInUp" dir="rtl">
+                        <p>لديك سؤال تقني؟ هل تحتاج لاستشارة أو خدمة تقنية؟ استخدم صفحة التواصل<br> <br> <a
+                                href="./contact.html" class="btn btn-primary btn-white">تواصل معنا</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Tech Quastion -->
+
+
+
+            </div>
+
+            <div class="row row2">
                 <!-- Social media -->
                 <div class="col-md-4">
                     <ul class="about-link">
@@ -377,6 +363,21 @@
                     </ul>
                 </div>
                 <!-- Social media -->
+
+
+
+                <!--  -->
+                <div class="col-md-2">
+                </div>
+                <!--  -->
+                <!-- adress -->
+                <div class="col-md-6">
+                    <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
+                        <p style="margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
+                            <br>BASAKSEHIR / ISTANBUL / Turkey </p>
+                    </div>
+                </div>
+                <!-- adress -->
 
             </div>
 
