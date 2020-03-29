@@ -527,7 +527,7 @@ input::-moz-focus-inner {
         position: relative
     }
     .navbar .navbar-icons {
-        position: absolute;
+       
         top: -4px;
         right: 60px;
         margin-top: 25px
