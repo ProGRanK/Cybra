@@ -206,6 +206,7 @@ body {
     .navbar .navbar-icons {
         top: 0px;
         margin: 20px 15px;
+        float: right;
     }
     .navbar.sticky .navbar-icons {
         margin: -3px 15px;
