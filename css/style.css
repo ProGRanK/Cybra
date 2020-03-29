@@ -11,6 +11,7 @@ body {
 .section {
     display: block;
     position: relative;
+    padding-top: 35px;
 }
 
 .green {
