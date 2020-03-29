@@ -11,6 +11,7 @@ body {
 .section {
     display: block;
     position: relative;
+    margin: 60px 0;
 }
 
 .green {
