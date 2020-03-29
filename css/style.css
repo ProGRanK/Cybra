@@ -9,7 +9,6 @@ body {
 }
 
 .section {
-    padding: 75px 0;
     display: block;
     position: relative;
 }
@@ -245,7 +244,6 @@ input::-moz-focus-inner {
     margin: 10px 0 0;
     text-transform: capitalize;
     z-index: 999;
-
 }
 
 .navbar-brand {
@@ -601,6 +599,7 @@ input::-moz-focus-inner {
 .about .info .icon {
     position: relative;
 }
+
 .about .info .text span {
     position: absolute;
     top: 0;
@@ -639,7 +638,8 @@ input::-moz-focus-inner {
     color: #bdbdbd;
     font-size: 16px;
 }
-@media(max-width: 991px){
+
+@media(max-width: 991px) {
     .about .title-about {
         margin-top: 150px;
     }
@@ -669,13 +669,14 @@ input::-moz-focus-inner {
         text-align: center;
     }
 }
-@media(min-width: 991px){
-    .about .text .pp{
+
+@media(min-width: 991px) {
+    .about .text .pp {
         position: absolute;
         z-index: 3;
     }
-
 }
+
 @media (max-width:800px) {
     .about .info .icon span {
         font-size: 8em
@@ -2402,49 +2403,51 @@ a:focus {
     color: #131515;
 }
 
+
 /* partners */
-.partners{
+
+.partners {
     text-align: center;
     margin: 20px 0 100px 0;
 }
-.partners h1{
+
+.partners h1 {
     text-transform: capitalize;
 }
-.partners ul{
+
+.partners ul {
     list-style-type: none;
     margin-top: 30px;
 }
-.partners ul li{
+
+.partners ul li {
     display: inline-block;
     margin: 40px;
-
 }
+
 .partners ul li a img {
     width: 250px;
     transition: ease-in .4s;
     opacity: 1;
     padding: 20px;
-  
 }
-<<<<<<< HEAD
 
-=======
 .partners ul li a:hover img {
     filter: grayscale(10%);
     opacity: 1;
-    
 }
 
-   .box3 {
-   
+.box3 {
     position: relative;
     overflow: hidden;
 }
+
 .box3 span {
     position: relative;
     width: 100%;
     height: 100%;
 }
+
 .box3 span:nth-child(1) {
     position: absolute;
     top: 0;
@@ -2454,10 +2457,16 @@ a:focus {
     background-color: #ccc;
     animation: lefttoRight 5s linear infinite;
 }
+
 @keyframes lefttoRight {
-    0% {left: -100%;}
-    100% {left: 100%;}
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
 }
+
 .box3 span:nth-child(2) {
     position: absolute;
     right: 0;
@@ -2467,10 +2476,16 @@ a:focus {
     background-color: #ccc;
     animation: toptoBottom 5s 2.5s linear infinite;
 }
+
 @keyframes toptoBottom {
-    0% {top: -100%;}
-    100% {top: 100%;}
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 100%;
+    }
 }
+
 .box3 span:nth-child(3) {
     position: absolute;
     bottom: 0;
@@ -2480,10 +2495,16 @@ a:focus {
     background-color: #ccc;
     animation: righttoLeft 5s linear infinite;
 }
+
 @keyframes righttoLeft {
-    0% {right: -100%;}
-    100% {right: 100%;}
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 100%;
+    }
 }
+
 .box3 span:nth-child(4) {
     position: absolute;
     left: 0;
@@ -2493,11 +2514,31 @@ a:focus {
     background-color: #ccc;
     animation: bottomtoTop 5s 2.5s linear infinite;
 }
+
 @keyframes bottomtoTop {
-    0% {bottom: -100%;}
-    100% {bottom: 100%;}
+    0% {
+        bottom: -100%;
+    }
+    100% {
+        bottom: 100%;
+    }
 }
-  
-  
-  
->>>>>>> 7eae1537771e7b567b73ab76b8397eaf0b5fa8de
+
+.box3 span:nth-child(5) {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    animation: lefttoRight 5s linear infinite;
+}
+
+@keyframes lefttoRight {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
