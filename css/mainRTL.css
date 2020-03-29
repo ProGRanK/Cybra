@@ -154,6 +154,7 @@ html {
     .navbar .navbar-icons {
         top: 0px;
         margin: 20px 15px;
+        float: right;
     }
 }
 
