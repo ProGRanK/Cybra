@@ -37,10 +37,10 @@
             check = false;
         }
 
-        if ($(phone).val().trim().match() == '') {
-            showValidate(phone);
-            check = false;
-        }
+        // if ($(phone).val().trim().match() == '') {
+        //     showValidate(phone);
+        //     check = false;
+        // }
 
         if ($(message).val().trim() == '') {
             showValidate(message);
