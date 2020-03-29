@@ -205,7 +205,7 @@ body {
 @media (max-width: 993px) {
     .navbar .navbar-icons {
         top: 0px;
-        margin: 21px 15px;
+        margin: 20px 15px;
     }
     .navbar.sticky .navbar-icons {
         margin: -3px 15px;
@@ -530,7 +530,7 @@ body {
 
 /* Footer */
 
-@media(max-width: 991px){
+@media(max-width: 991px) {
     .about .title-about {
         margin-top: 150px;
     }
@@ -560,10 +560,10 @@ body {
         text-align: center;
     }
 }
-@media(min-width: 991px){
-    .about .text .pp{
+
+@media(min-width: 991px) {
+    .about .text .pp {
         position: absolute;
         z-index: 3;
     }
-
 }

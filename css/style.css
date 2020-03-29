@@ -530,7 +530,7 @@ input::-moz-focus-inner {
         position: absolute;
         top: -4px;
         right: 60px;
-        margin-top: 23px
+        margin-top: 25px
     }
     .navbar .navbar-icons li {
         margin-right: 15px
@@ -1277,7 +1277,6 @@ input::-moz-focus-inner {
     .hero img {
         width: 311px;
         height: 297px;
-        margin-top: 87px;
     }
     .about .info .icon .who-img {
         width: 163px;
@@ -1940,7 +1939,6 @@ input::-moz-focus-inner {
 
 .hero p {
     font-size: 22px;
-    margin-top: 100px;
     font-weight: 800;
     color: white;
 }
@@ -2418,6 +2416,7 @@ a:focus {
 .partners ul {
     list-style-type: none;
     margin-top: 30px;
+    padding-inline-start: 0px;
 }
 
 .partners ul li {
