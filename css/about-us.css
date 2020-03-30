@@ -1,43 +1,51 @@
 .navbar {
     background-color: #131315;
 }
-.love{
+
+.love {
     /* height: 50%; */
     display: block;
     text-align: center;
 }
-.love h1{
+
+.love h1 {
     text-transform: capitalize;
 }
-.love h1 i{
+
+.love h1 i {
     color: #dc3545;
     margin-left: 15px;
 }
-.love .tecs{
+
+.love .tecs {
     margin: 30px 10px;
 }
-.love .tecs ul{
+
+.love .tecs ul {
     list-style-type: none;
     text-align: center;
+    padding-inline-start: 0px;
 }
-.love .tecs ul li{
+
+.love .tecs ul li {
     display: inline;
     margin: 0 20px;
     text-align: center;
 }
-.tecs ul li i{
+
+.tecs ul li i {
     font-size: 80px;
     margin: 25px;
     color: #bdbdbd;
     transition: .3s;
 }
-.tecs ul li i:hover{
+
+.tecs ul li i:hover {
     color: #131315;
 }
 
-
-@media(max-width: 551px){
-    .tecs ul li i{
+@media(max-width: 551px) {
+    .tecs ul li i {
         font-size: 65px;
         margin: 25px;
         color: #bdbdbd;
