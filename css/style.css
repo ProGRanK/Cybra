@@ -149,6 +149,10 @@ h1 {
     text-transform: capitalize;
 }
 
+ul {
+    padding-inline-start: 0px;
+}
+
 h3 {
     color: #131515;
     font-size: 26px;
@@ -785,6 +789,11 @@ input::-moz-focus-inner {
 
 /* Footer */
 
+.logo {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .footer {
     background-color: #131515;
     background-repeat: no-repeat;
@@ -1079,7 +1088,8 @@ input::-moz-focus-inner {
 }
 
 .footer .get {
-    margin-right: 80px;
+    margin-right: 0px;
+    align-items: center;
 }
 
 .footer .logo svg {
@@ -1109,7 +1119,7 @@ input::-moz-focus-inner {
     padding-top: 30px;
 }
 
-@media(max-width: 848px) {
+@media(max-width: 850px) {
     .footer .logo {
         height: 400px;
         background-size: 200px;
@@ -1120,17 +1130,25 @@ input::-moz-focus-inner {
     .footer .get {
         text-align: center;
         margin-top: 75px;
+        margin-right: 0;
+        width: 100%;
     }
     .footer .get svg {
         text-align: center;
+        width: 45%;
+    }
+    .footer .imgparag {
+        font-size: px;
+        color: #bdbdbd;
+        font-family: CYBER;
     }
 }
 
 @media(max-width: 776px) {
     .footer .get {
         text-align: center;
-        margin-top: 75px;
-        margin-right: 20px;
+        /* margin-top: 75px; */
+        margin-right: 0px;
     }
 }
 
@@ -1138,7 +1156,7 @@ input::-moz-focus-inner {
     .footer .get {
         text-align: center;
         /* width: 350px; */
-        margin-top: 75px;
+        /* margin-top: 75px; */
         /* margin-right: 0;*/
     }
 }
@@ -1203,6 +1221,10 @@ input::-moz-focus-inner {
     h1 {
         font-size: 39px;
     }
+    .about .info .icon img {
+        width: 140px;
+        margin-left: -39px;
+    }
 }
 
 .about .info .icon .who-img {
@@ -1233,19 +1255,6 @@ input::-moz-focus-inner {
         inline-size: 300px;
         font-family: samsung;
         color: #bdbdbd;
-    }
-}
-
-@media(max-width:456px) {
-    .newlog {
-        width: 250px;
-    }
-    .footer .imgparag {
-        font-size: 21px;
-    }
-    .about .info .icon img {
-        width: 140px;
-        margin-left: -39px;
     }
 }
 
@@ -2228,6 +2237,7 @@ input::-moz-focus-inner {
 
 .footer .logo img {
     margin: 0 auto;
+    text-align: center;
 }
 
 .footer .social li {
@@ -2380,8 +2390,10 @@ a:focus {
 
 @media (max-width: 365px) {
     .footer .get {
+        margin: 0 auto;
         text-align: center;
-        width: 272px;
+        /* width: 280px; */
+        /* margin-right: 0px; */
     }
 }
 
