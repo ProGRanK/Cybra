@@ -3,7 +3,7 @@ function randomNum()
     "use strict";
     return Math.floor(Math.random() * 9)+1;
 }
-    var loop1,loop2,loop3,time=30, i=0, number, selector3 = document.querySelector('.thirdDigit'), selector2 = document.querySelector('.secondDigit'),
+    var loop1,loop2,loop3,time=60, i=0, number, selector3 = document.querySelector('.thirdDigit'), selector2 = document.querySelector('.secondDigit'),
         selector1 = document.querySelector('.firstDigit');
     loop3 = setInterval(function()
     {
