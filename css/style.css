@@ -528,7 +528,6 @@ input::-moz-focus-inner {
         position: relative
     }
     .navbar .navbar-icons {
-       
         top: -4px;
         right: 60px;
         margin-top: 18px
@@ -1366,6 +1365,24 @@ input::-moz-focus-inner {
     margin-top: 300px;
     padding: 90px;
     font-weight: normal;
+}
+
+@media (max-height:1300px) {
+    .lang-content {
+        margin-top: 150px;
+        padding: 90px;
+        font-weight: normal;
+        padding: 90px;
+    }
+}
+
+@media (max-height:315px) {
+    .lang-content {
+        margin-top: 150px;
+        padding: 90px;
+        font-weight: normal;
+        padding: 90px;
+    }
 }
 
 .lang a {
@@ -2365,8 +2382,6 @@ a:focus {
     .footer .get {
         text-align: center;
         width: 272px;
-        margin-top: 100px;
-        /* margin-right: 0; */
     }
 }
 

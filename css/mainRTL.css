@@ -309,6 +309,12 @@ html {
     margin-right: -40px;
 }
 
+@media (max-width:771px) {
+    .footer .get {
+        margin-right: 5px;
+    }
+}
+
 .footer .social li {
     float: right
 }
