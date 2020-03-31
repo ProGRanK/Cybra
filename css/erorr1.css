@@ -405,4 +405,22 @@
       opacity: 1;
     }
   }
+  .shadow
+  {
+      font-size: 80px; 
+      font-family: samsung;
+  }
+ 
+  .digit
+  {
+     
+      font-weight: bold;
+      font-family: samsung;
+  }
   
+ 
+  .clip
+  {
+      display: inline-block;
+     
+  }

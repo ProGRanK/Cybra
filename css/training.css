@@ -1,10 +1,6 @@
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background: #131515;
-    background: -webkit-linear-gradient(top, #131515, #131515);
-    background: -o-linear-gradient(left, #131515, #131515);
-    background: -moz-linear-gradient(left, #131515, #131515);
-    background: linear-gradient(left, #131515, #131515);
+
     color: #ddd;
     padding: 0;
     margin: 0;
@@ -162,4 +158,35 @@ th:nth-child(8) {
     left: 0;
     color: #ff443b;
     border-top: 0.5px solid #ff443b;
+}
+
+.training{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(- 50% , - 50%);
+}
+.training h1{
+ font-size: 70px;
+ color: #222;
+}
+.training p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #222;
+   }
+   .training h1 img{
+    display: inline;
+    width: 140px;
+    padding: 10px;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
 }

@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: samsung;
+    src: url("../fonts/SamsungSharpSans-Bold.ttf");
+}
+.e404{
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(- 50% , - 50%);
+}
+.e404 h1{
+ font-size: 70px;
+}
+.e404 p{
+    font-size: 30px;
+    margin-bottom: 30px;
+   }
+.e404 h1 img{
+    display: inline;
+    width: 140px;
+    padding: 10px;
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+
+
+*
+{
+  font-family: 'PT Sans Caption', sans-serif, 'arial', 'Times New Roman';
+}
+/* Error Page */
+    .shadow
+    {
+        font-size: 80px;  /*Contrall*/
+        font-family: samsung;
+    }
+   
+    .digit
+    {
+        width: 150px;   /*Contrall*/
+        height: 150px;  /*Contrall*/
+        line-height: 150px; /*Contrall*/
+        font-size: 120px;
+        font-weight: bold;
+        font-family: samsung;
+    }
+    
+   
+    .clip
+    {
+        display: inline-block;
+       
+    }
+
+
+/* Error Page */
+@media(max-width: 767px)
+{
+    /* Error Page */
+            .error .clip .shadow
+            {
+                height: 100px;  /*Contrall*/
+            }
+            .error .clip:nth-of-type(2) .shadow
+            {
+                width: 80px;   /*Contrall play with javascript*/ 
+            }
+            .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow
+            {
+                width: 100px; /*Contrall*/
+            }
+            .error .digit
+            {
+                width: 80px;   /*Contrall*/
+                height: 80px;  /*Contrall*/
+                line-height: 80px; /*Contrall*/
+                font-size: 52px;
+            }
+            .error h2   /*Contrall*/
+            {
+                font-size: 24px;
+            }
+            .error .msg /*Contrall*/
+            {
+                top: -110px;
+                left: 15%;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 18px;
+            }
+            .error span.triangle    /*Contrall*/
+            {
+                top: 70%;
+                right: -3%;
+                border-left: 10px solid #535353;
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+            }
+.error .container-error-404
+  {
+    height: 150px;
+  }
+        /* Error Page */
+}
+
+/*--------------------------------------------Framework --------------------------------*/
+
