@@ -73,11 +73,11 @@
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a onclick="closeNav()" href="#home" style="font-family: samsung;">Anasayfa </a>
-                                <a onclick="closeNav()" href="#testimonials" style="font-family: samsung;">Hizmetler</a>
-                                <a onclick="closeNav()" href="#steps" style="font-family: samsung;">Hakkımızda</a>
+                                 <a onclick="closeNav()" href="./index.html#home" style="font-family: samsung;">Anasayfa </a>
+                                   <a onclick="closeNav()" href="./index.html#services" style="font-family: samsung;">Hizmetler</a>
+                                <a onclick="closeNav()" href="./index.html#about" style="font-family: samsung;">Hakkımızda</a>
 
-                                <a href="./contact-tr.html" style="font-family: samsung;">Bize Ulaşın</a>
+                                <a href="./contact.html" style="font-family: samsung;">Bize Ulaşın</a>
                             </div>
                         </div>
                         <!-- navbar responsive -->
@@ -104,7 +104,7 @@
                                     </div>
                                 </li>
                                 <!-- services drop btn -->
-                                <li><a href="#steps" style="font-family: samsung;" target="_blank">Hakkımızda</a></li>
+                                <li><a href="index.html#about" style="font-family: samsung;" target="_blank">Hakkımızda</a></li>
 
                                 <li><a href="./contact.html" style="font-family: samsung;" target="_blank">Bize Ulaşın<i
                                         class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
@@ -129,7 +129,7 @@
             <!-- massege img -->
 
             <!-- contact form -->
-            <form class="contact1-form validate-form">
+            <form class="contact1-form validate-form" action="https://formspree.io/mdodqnww" method="POST">
 
                 <!-- title -->
                 <span class="contact1-form-title">
@@ -142,37 +142,37 @@
 
                 <!-- name -->
                 <div class="wrap-input1 validate-input name" data-validate="Name is required">
-                    <input class="input1 name" id="username" type="text" name="name" placeholder="Ad-Soyad">
+                    <input class="input1 name" id="username" type="text" name="name" placeholder="Ad-Soyad" required>
                 </div>
                 <!-- name -->
 
                 <!-- organization name -->
                 <div class="wrap-input1 validate-input name2" data-validate="Org/Name is required">
-                    <input class="input1 name2" id="orgname" type="text" name="orgname" placeholder="İşletme Adı">
+                    <input class="input1 name2" id="orgname" type="text" name="orgname" placeholder="İşletme Adı" required>
                 </div>
                 <!-- organization name -->
 
                 <!-- email -->
                 <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                    <input class="input1 email" id="email" type="text" name="email" placeholder="Email">
+                    <input class="input1 email" id="email" type="text" name="_replyto" placeholder="Email" required>
                 </div>
                 <!-- email -->
 
                 <!-- phone -->
                 <div class="wrap-input1 validate-input" data-validate="Valid phone is required">
-                    <input class="input1 phone" id="phone" name="phone" type="number" placeholder="Telefon">
+                    <input class="input1 phone" id="phone" name="phone" type="tel" placeholder="Telefon" required>
                 </div>
                 <!-- phone -->
 
                 <!-- subject -->
                 <div class="wrap-input1 validate-input" data-validate="Subject is required">
-                    <input class="input1" id="subject" type="text" name="subject" placeholder="Konu">
+                    <input class="input1" id="subject" type="text" name="subject" placeholder="Konu" required>
                 </div>
                 <!-- subject -->
 
                 <!-- massege box -->
                 <div class="wrap-input1 validate-input" data-validate="Message is required">
-                    <textarea class="input1" id="message" name="message" placeholder="Mesaj"></textarea>
+                    <textarea class="input1" id="message" name="message" placeholder="Mesaj" required></textarea>
                 </div>
                 <!-- massege box -->
 

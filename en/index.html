@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <title>Cybra | Get In The Cyber Game</title>
+    <title>Cybra - Get In The Cyber Game (EN)</title>
     <meta name="logo-dark" content=../imgs/logo.svg>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,700" rel="stylesheet" type="text/css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -24,7 +24,7 @@
 </head>
 
 <body class="home" id="home">
-
+    <!-- test -->
     <!-- .................Start Nav............ -->
     <div class="nav-container">
         <nav class="navbar navbar-default nav-sticky">
@@ -70,9 +70,9 @@
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a href="#home" style="font-family: samsung;">Home</a>
-                                <a href="#services" style="font-family: samsung;">Services</a>
-                                <a href="#info" style="font-family: samsung;">About Us</a>
+                                <a onclick="closeNav()" href="#home" style="font-family: samsung;">Home</a>
+                                <a onclick="closeNav()" href="#services" style="font-family: samsung;">Services</a>
+                                <a onclick="closeNav()" href="#about" style="font-family: samsung;">About Us</a>
 
                                 <a href="./contact.html" style="font-family: samsung;">contact US</a>
                             </div>
@@ -101,7 +101,7 @@
                                 </div>
                             </li>
                             <!-- services drop btn -->
-                            <li><a href="./index.html#about" style="font-family: samsung;" target="_blank">About Us</a>
+                            <li><a href="#about" style="font-family: samsung;" >About Us</a>
                             </li>
                             <li><a href="./contact.html" style="font-family: samsung;" target="_blank">contact Us<i
                                         class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
@@ -141,7 +141,7 @@
     <!-- .................End Main............ -->
 
     <!-- .................Start Services............ -->
-    <section class="section services" id="testimonials">
+    <section class="section services" id="services">
         <div class="container">
             <div class="row">
                 <div class="what-we" data-aos="fade-up">
@@ -159,7 +159,7 @@
                             <!-- serv -->
                             <a href="./digital-transformation.html" target="_blank" class="col-sm-4" data-aos="zoom-in">
                                 <div class="box">
-                                    <div class="icon"><img src="../imgs/digital.svg" alt="#" draggable="false"></div>
+                                    <div class="icon"><img src="../imgs/digital.svg" alt="#" draggable="false" aria-selected="false"></div>
                                     <div class="content">
                                         <h3>Digital Transformation</h3>
 
@@ -183,7 +183,7 @@
                             <!-- serv -->
                             <a href="./web.html" target="_blank" class="col-sm-4" data-aos="zoom-in-">
                                 <div class="box">
-                                    <div class="icon"><img src="../imgs/web.svg" alt="#" draggable="false"></div>
+                                    <div class="icon"><img src="../imgs/web.svg" alt="#" draggable="false" draggable="false"></div>
                                     <div class="content">
                                         <h3>Web Development</h3>
 
@@ -226,7 +226,6 @@
                                     <div class="icon"><img src="../imgs/training.svg" alt="#" draggable="false"></div>
                                     <div class="content">
                                         <h3>Technical Training</h3>
-
                                     </div>
                                 </div>
                             </a>
@@ -243,7 +242,7 @@
     <!-- .................End Services............ -->
 
     <!-- .................Start About us............ -->
-    <section class="section about" id="steps" style="background: #e2e2e2;">
+    <section class="section about" id="about" style="background: #e2e2e2;">
         <div class="container">
             <div class="title-about" style="text-align: center;">
                 <h1>About us</h1>
@@ -258,7 +257,7 @@
                 <div class="info clearfix wow fadeInUp" data-wow-delay=".1s">
                     <div class="col-xs-2 col-xs-offset-2">
                         <div class="icon">
-                            <img style="margin-top: 20px;" src="../imgs/design.svg" alt="Design & Details">
+                            <img style="margin-top: 20px;" src="../imgs/design.svg" alt="Design & Details" draggable="false" aria-selected="false">
                         </div>
                     </div>
                     <div class="col-xs-6">
@@ -284,14 +283,14 @@
                         </div>
                         <div class="col-xs-2">
                             <div class="icon text-right">
-                                <img src="../imgs/security.svg" alt="Security & Privacy">
+                                <img src="../imgs/security.svg" alt="Security & Privacy" draggable="false" aria-selected="false">
                             </div>
                         </div>
                     </div>
                     <div class="hidden">
                         <div class="col-xs-2 col-xs-offset-2">
                             <div class="icon">
-                                <img src="../imgs/security.svg" alt="Security & Privacy">
+                                <img draggable="false"src="../imgs/security.svg" alt="Security & Privacy">
                             </div>
                         </div>
                         <div class="col-xs-6">
@@ -308,7 +307,7 @@
                 <div class="info clearfix wow fadeInUp" data-wow-delay=".3s">
                     <div class="col-xs-2 col-xs-offset-2">
                         <div class="icon">
-                            <img src="../imgs/time.svg" alt="Timing & Delivery">
+                            <img draggable="false"src="../imgs/time.svg" alt="Timing & Delivery">
                         </div>
                     </div>
                     <div class="col-xs-6">
@@ -339,8 +338,8 @@
             <h1 style="text-align: center;">Our Partners</h1>
             <ul>
                 <li> <div class="box3">
-                    <a href="https://www.vardot.com/en-us" class="box3 ">
-                        <img src="../imgs/vardot.png" alt="">
+                    <a href="https://www.vardot.com/en-us" class="box3 " target="_blank">
+                        <img src="../imgs/vardot.png" alt=""  draggable="false" aria-selected="false">
                     </a>
                     <span></span>
                     <span></span>
@@ -349,8 +348,8 @@
                   </div></li>
 
                 <li><div class="box3">
-                    <a href="#" class="box3 ">
-                    <img src="../imgs/platinum.png" alt="">
+                    <a class="box3 ">
+                    <img src="../imgs/platinum.png" alt=""  draggable="false" aria-selected="false">
                 </a>
                 <span></span>
                 <span></span>
@@ -364,7 +363,7 @@
     <!-- .................End Partners............ -->
 
     <!-- .................Start Footer............ -->
-    <footer class="section footer">
+    <footer class="section footer" style="margin-bottom: 0;">
         <div class="container">
             <div class="row">
                 <div class="logo col-lg-12">
@@ -432,7 +431,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a class="footer-servic" href="#home"
                                 style="font-family: samsung; font-size: 17px; text-align: center;">Home</a></li>
-                        <li><a class="footer-servic" href="#steps"
+                        <li><a class="footer-servic" href="#about"
                                 style="font-family: samsung; font-size: 17px; text-align: center;">About Us</a></li>
                         <li class="dropdown">
                             <a onclick="myFunction2()" class="dropbtn footer-servic"

@@ -154,6 +154,7 @@ html {
     .navbar .navbar-icons {
         top: 0px;
         margin: 20px 15px;
+        float: right;
     }
 }
 
@@ -306,6 +307,12 @@ html {
 
 .footer .get {
     margin-right: -40px;
+}
+
+@media (max-width:771px) {
+    .footer .get {
+        margin-right: 5px;
+    }
 }
 
 .footer .social li {

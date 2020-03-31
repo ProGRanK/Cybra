@@ -55,9 +55,9 @@
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <a href="../en/index.html" style="font-family: samsung;">English</a>
+                                    <a href="../en/contavt.html" style="font-family: samsung;">English</a>
                                     <a href="#" style="font-family: sky;" onclick="closeLang()" class="active">الـعـربـيـة</a>
-                                    <a href="../tr/index.html" style="font-family: samsung;">Türkçe</a>
+                                    <a href="../tr/contavt.html" style="font-family: samsung;">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
@@ -69,38 +69,38 @@
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a onclick="closeNav()" href="/ar/index.html">الرئيسية</a>
-                                <a onclick="closeNav()" href="/ar/index.html#testimonials">الخدمات</a>
-                                <a onclick="closeNav()" href="/ar/index.html#steps">من نحن</a>
-                                <a href="/ar/contact.html">تواصل معنا</a>
+                                <a onclick="closeNav()" href="./index.html">الرئيسية</a>
+                                <a onclick="closeNav()" href="./index.html#services">الخدمات</a>
+                                <a onclick="closeNav()" href="./index.html#about">من نحن</a>
+                                <a href="./contact.html">تواصل معنا</a>
                             </div>
                         </div>
                         <!-- navbar responsive -->
 
                         <!-- navbar -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="/ar/index.html">الرئيسية</a></li>
+                            <li class="active"><a href="index.html">الرئيسية</a></li>
                             <!-- services drop btn -->
                             <li class="dropdown">
                                 <a onclick="myFunction()" class="dropbtn"> الخدمات <span
                                 class="drop fa fa-caret-down"></span></a>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <a href="/ar/digital-transformation.html" target="_blank">التحويل الرقمي</a>
+                                    <a href="digital-transformation.html" target="_blank">التحويل الرقمي</a>
                                     <hr>
-                                    <a href="/ar/it.html" target="_blank">الدعم الفني</a>
+                                    <a href="it.html" target="_blank">الدعم الفني</a>
                                     <hr>
-                                    <a href="/ar/web.html" target="_blank">تطوير المواقع</a>
+                                    <a href="web.html" target="_blank">تطوير المواقع</a>
                                     <hr>
-                                    <a href="/ar/marketing.html" target="_blank">التسويق الالكتروني</a>
+                                    <a href="marketing.html" target="_blank">التسويق الالكتروني</a>
                                     <hr>
-                                    <a href="/ar/camera.html" target="_blank">أنظمة المراقبة</a>
+                                    <a href="camera.html" target="_blank">أنظمة المراقبة</a>
                                     <hr>
-                                    <a href="/ar/training.html">التدريب التقني</a>
+                                    <a href="training.html">التدريب التقني</a>
                                 </div>
                             </li>
                             <!-- services drop btn -->
-                            <li><a href="/ar/index.html#steps">من نحن</a></li>
-                            <li class="contact"><a href="/ar/contact.html" target="_blank"> تواصل معنا <i class="icon2 fa fa-arrow-left" draggable="false"></i></a>
+                            <li><a href="index.html#about">من نحن</a></li>
+                            <li class="contact"><a href="contact.html" target="_blank"> تواصل معنا <i class="icon2 fa fa-arrow-left" draggable="false"></i></a>
                             </li>
                         </ul>
                         <!-- navbar -->
@@ -121,7 +121,7 @@
             <!-- massege img -->
 
             <!-- contact form -->
-            <form class="contact1-form validate-form">
+            <form class="contact1-form validate-form" action="https://formspree.io/mdodqnww" method="POST">
 
                 <!-- title -->
                 <form class="contact1-form validate-form">
@@ -135,39 +135,39 @@
 
                     <!-- name -->
                     <div class="wrap-input1 validate-input name" data-validate="يجب كتابه الاسم">
-                        <input class="input1 name" id="username" type="text" name="name" placeholder="الاسم">
+                        <input class="input1 name" id="username" type="text" name="name" placeholder="الاسم" required>
                     </div>
                     <!-- name -->
 
                     <!-- organization name -->
 
                     <div class="wrap-input1 validate-input name2" data-validate="اسم المؤسسة مطلوب">
-                        <input class="input1 name2" id="orgname" type="text" name="orgname" placeholder="اسم الشركة / المنظمة">
+                        <input class="input1 name2" id="orgname" type="text" name="orgname" placeholder="اسم الشركة / المنظمة" required>
                     </div>
 
                     <!-- organization name -->
 
                     <!-- email -->
                     <div class="wrap-input1 validate-input" data-validate="ايميل صالح بـ: ex@abc.xyz">
-                        <input class="input1 email" id="email" type="text" name="email" placeholder="البريد الالكتروني">
+                        <input class="input1 email" id="email" type="text" name="_replyto" placeholder="البريد الالكتروني" required>
                     </div>
                     <!-- email -->
 
                     <!-- phone -->
                     <div class="wrap-input1 validate-input" data-validate="يتطلب رقم الهاتف" dir="ltr">
-                        <input class="input1 phone" id="phone" name="phone" type="tel" placeholder="رقم الهاتف" pattern="+[0-9]{1}[0-9]{3}[0-9]{3}[0-9]{4}">
+                        <input class="input1 phone" id="phone" name="phone" type="tel" placeholder="رقم الهاتف" pattern="+[0-9]{1}[0-9]{3}[0-9]{3}[0-9]{4}" required>
                     </div>
                     <!-- phone -->
 
                     <!-- subject -->
                     <div class="wrap-input1 validate-input" data-validate="يتطلب كتابة موضوع">
-                        <input class="input1" id="subject" type="text" name="subject" placeholder="الموضوع">
+                        <input class="input1" id="subject" type="text" name="subject" placeholder="الموضوع" required>
                     </div>
                     <!-- subject -->
 
                     <!-- massege box -->
                     <div class="wrap-input1 validate-input" data-validate="اكتب رسالتك هنا">
-                        <textarea class="input1" id="message" name="message" placeholder="الرسالة"></textarea>
+                        <textarea class="input1" id="message" name="message" placeholder="الرسالة" required></textarea>
                     </div>
                     <!-- massege box -->
 
@@ -243,7 +243,7 @@
                         <li class="dropdown">
                             <a onclick="myFunction2()" class="dropbtn2 footer-servic" style=" text-align: center;"> خدماتنا  <span class="drop fa fa-caret-down"></span> </a>
                             <div id="myDropdown2" class="dropdown-content2">
-                                <a href="digital-transformation-ar.html" target="_blank" style="padding: 5px 10px 5px 0px;">التحويل الرقمي</a>
+                                <a href="digital-transformation.html" target="_blank" style="padding: 5px 10px 5px 0px;">التحويل الرقمي</a>
                                 <hr>
                                 <a href="it.html" target="_blank" style="padding: 5px 10px 5px 0px;">الدعم الفني</a>
                                 <hr>

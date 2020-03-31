@@ -206,6 +206,19 @@ body {
     .navbar .navbar-icons {
         top: 0px;
         margin: 20px 15px;
+        float: right;
+    }
+    .navbar.sticky .navbar-icons {
+        margin: -3px 15px;
+        transition: 0.2s;
+    }
+}
+
+@media (max-width: 315px) {
+    .navbar .navbar-icons {
+        top: 0px;
+        margin: 20px 15px;
+        float: right;
     }
     .navbar.sticky .navbar-icons {
         margin: -3px 15px;

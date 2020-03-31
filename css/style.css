@@ -11,6 +11,7 @@ body {
 .section {
     display: block;
     position: relative;
+    padding-top: 35px;
 }
 
 .green {
@@ -527,10 +528,9 @@ input::-moz-focus-inner {
         position: relative
     }
     .navbar .navbar-icons {
-        position: absolute;
         top: -4px;
         right: 60px;
-        margin-top: 25px
+        margin-top: 18px
     }
     .navbar .navbar-icons li {
         margin-right: 15px
@@ -563,7 +563,8 @@ input::-moz-focus-inner {
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed
+    background-attachment: fixed;
+    margin: 60px 0;
 }
 
 .about .info {
@@ -1367,6 +1368,15 @@ input::-moz-focus-inner {
 }
 
 @media (max-height:1300px) {
+    .lang-content {
+        margin-top: 150px;
+        padding: 90px;
+        font-weight: normal;
+        padding: 90px;
+    }
+}
+
+@media (max-height:315px) {
     .lang-content {
         margin-top: 150px;
         padding: 90px;
@@ -2372,8 +2382,6 @@ a:focus {
     .footer .get {
         text-align: center;
         width: 272px;
-        margin-top: 100px;
-        /* margin-right: 0; */
     }
 }
 
