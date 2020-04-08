@@ -19,6 +19,7 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" href="../css/style-tr.css">
     <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/website.css">
     <link rel="stylesheet" href="../css/training.css">
 </head>
 
@@ -31,19 +32,18 @@
                 <div class="row">
                     <div class="navbar-header">
                         <!-- menu icon resposive -->
-                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
+                        <button type="button" class="plz navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="openNav()">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                         <!-- menu icon resposive -->
+                        <!-- menu icon resposive -->
 
                         <!-- nav logo  img-->
                         <a class="navbar-brand" href="./index.html">
                             <img src="../imgs/nav.svg" alt="CYBRA" draggable="false" aria-selected="false">
                         </a>
-                          <!-- nav logo  img-->
+                        <!-- nav logo  img-->
 
                         <!-- language button -->
                         <ul class="navbar-nav navbar-icons">
@@ -57,13 +57,12 @@
                                     </a>
                                     <a href="../en/training.html" style="font-family: samsung;">English</a>
                                     <a href="../ar/training.html" style="font-family: sky;">الـعـربـيـة</a>
-                                    <a href="#" style="font-family: samsung;" class="active"
-                                        onclick="closeLang()">Türkçe</a>
+                                    <a href="#" style="font-family: samsung;" class="active" onclick="closeLang()">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
-                         <!-- language button -->
-                        
+                        <!-- language button -->
+
                         <!-- navbar responsive -->
 
                         <div id="myNav" class="overlay">
@@ -71,40 +70,40 @@
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                 <a onclick="closeNav()" href="./index.html#home" style="font-family: samsung;">Anasayfa </a>
-                                   <a onclick="closeNav()" href="./index.html#services" style="font-family: samsung;">Hizmetler</a>
+                                <a onclick="closeNav()" href="./index.html#home" style="font-family: samsung;">Anasayfa </a>
+                                <a onclick="closeNav()" href="./index.html#services" style="font-family: samsung;">Hizmetler</a>
                                 <a onclick="closeNav()" href="./index.html#about" style="font-family: samsung;">Hakkımızda</a>
 
                                 <a href="./contact.html" style="font-family: samsung;">Bize Ulaşın</a>
                             </div>
                         </div>
-                         <!-- navbar responsive -->
+                        <!-- navbar responsive -->
 
                         <!-- navbar -->
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active"><a href="./index.html#home" style="font-family: samsung;">Anasayfa</a>
-                            <!-- services drop btn -->
-                            <li class="dropdown">
-                                <a onclick="myFunction()" class="dropbtn">Hizmetler<span
+                                <!-- services drop btn -->
+                                <li class="dropdown">
+                                    <a onclick="myFunction()" class="dropbtn">Hizmetler<span
                                         class="drop fa fa-caret-down"></span></a>
-                                <div id="myDropdown" class="dropdown-content">
-                                    <a href="./digital-transformation.html" target="_blank">Dijital Dönüşüm</a>
-                                    <hr>
-                                    <a href="./it.html" target="_blank">IT Destek</a>
-                                    <hr>
-                                    <a href="./web.html" target="_blank">Web Geliştirme</a>
-                                    <hr>
-                                    <a href="./marketing.html" target="_blank">Digital Pazarlama </a>
-                                    <hr>
-                                    <a href="./camera.html" target="_blank">Gözetim Sistemleri</a>
-                                    <hr>
-                                    <a href="./training.html" target="_blank">Eğitim</a>
-                                </div>
-                            </li>
-                            <!-- services drop btn -->
-                            <li><a href="index.html#about" style="font-family: samsung;" target="_blank">Hakkımızda</a></li>
+                                    <div id="myDropdown" class="dropdown-content">
+                                        <a href="./digital-transformation.html" target="_blank">Dijital Dönüşüm</a>
+                                        <hr>
+                                        <a href="./it.html" target="_blank">IT Destek</a>
+                                        <hr>
+                                        <a href="./web.html" target="_blank">Web Geliştirme</a>
+                                        <hr>
+                                        <a href="./marketing.html" target="_blank">Digital Pazarlama </a>
+                                        <hr>
+                                        <a href="./camera.html" target="_blank">Gözetim Sistemleri</a>
+                                        <hr>
+                                        <a href="./training.html" target="_blank">Eğitim</a>
+                                    </div>
+                                </li>
+                                <!-- services drop btn -->
+                                <li><a href="index.html#about" style="font-family: samsung;" target="_blank">Hakkımızda</a></li>
 
-                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">Bize Ulaşın<i
+                                <li><a href="./contact.html" style="font-family: samsung;" target="_blank">Bize Ulaşın<i
                                         class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
                             </li>
                         </ul>
@@ -118,194 +117,76 @@
     <!-- .................End Nav............ -->
 
     <!-- .................End Massege............ -->
-    <div class="coming" style="margin: 100px 0;">
-        <div class="container">
-            <h1>Çok yakında</h1>
-            <p style="text-align: center;">Bizi bekle , Geleceğiz gitme...</p>
+    <!-- PRELOADER -->
+    <div id="prelaoder">
+        <div class="spinner">
+            <div><img src="../imgs/logo2.svg" alt=""></div>
         </div>
     </div>
+    <!-- /PRELOADER -->
+    <section>
+        <canvas id='codeCanvas'></canvas>
+        <div class="coming_content">
+            <h1> <span>Coming</span> Soon</h1>
+            <div class="separator_container">
+                <div class="separator line_separator">
+                    <span class="training">
+                        <img src="../imgs/logo2.svg" alt="">      
+                    </span>
+                </div>
+            </div>
+            <h3>I like cooding. Oh, and Eating too.</h3>
+            <div class="price">
+
+                <a href="./index.html">Go Home</a>
+            </div>
+        </div>
+    </section>
     <!-- .................End Massege............ -->
 
 
 
     <!-- .................Start Footer............ -->
-   
-    <footer class="section footer">
-        <div class="container">
-            <div class="row">
-                <div class="logo col-lg-12">
-                    <div class="container">
-                          <!-- Cybra Title -->
-                        <div class="get">
-                            <svg class="newlog" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 238.31 30.55">
-                                <title>Get In The Cyber Game</title>
-                                <path class="cls-1"
-                                    d="M0,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45H42.24V26.59H6.45a2.54,2.54,0,0,1-2.53-2.52V6.45A2.54,2.54,0,0,1,6.45,3.92H42.24V0H6.45A6.45,6.45,0,0,0,0,6.45Z"
-                                    transform="translate(0 0)" />
-                                <path class="cls-1"
-                                    d="M87,13.3H55.13a2.55,2.55,0,0,1-2.53-2.5V0H48.68V10.8a6.47,6.47,0,0,0,6.45,6.45H87V24.1a2.52,2.52,0,0,1-2.52,2.52H48.68v3.93h35.8a6.47,6.47,0,0,0,6.45-6.45V0H87Z"
-                                    transform="translate(0 0)" />
-                                <path class="cls-1"
-                                    d="M182.74,0H153.39a6.45,6.45,0,0,0-6.45,6.45V30.52h3.92V17.22h27.56a2.48,2.48,0,0,1,1.78.74l4.32,4.32a2.5,2.5,0,0,1,.74,1.79v6.45h4V24.07a6.35,6.35,0,0,0-1.89-4.56l-2.6-2.6a6.46,6.46,0,0,0,4.49-6.11V6.45A6.46,6.46,0,0,0,182.77,0Zm2.5,10.8a2.54,2.54,0,0,1-2.52,2.53H150.86V6.45a2.53,2.53,0,0,1,2.53-2.53h29.35a2.53,2.53,0,0,1,2.5,2.53Z"
-                                    transform="translate(0 0)" />
-                                <path class="cls-1"
-                                    d="M231.86,0H202.51a6.47,6.47,0,0,0-6.45,6.45V30.52H200V17.22h34.41v13.3h3.92V6.45A6.45,6.45,0,0,0,231.86,0ZM200,13.3V6.45a2.54,2.54,0,0,1,2.53-2.53h29.35a2.53,2.53,0,0,1,2.53,2.53V13.3Z"
-                                    transform="translate(0 0)" />
-                                <path class="cls-1"
-                                    d="M140.06,6.45A6.45,6.45,0,0,0,133.61,0H104.24a6.45,6.45,0,0,0-6.45,6.45V24.07a6.47,6.47,0,0,0,6.45,6.45h29.35A6.47,6.47,0,0,0,140,24.07V19.8a6.49,6.49,0,0,0-4.48-6.15l2.59-2.59A6.44,6.44,0,0,0,140.06,6.45ZM136.14,19.8v4.32a2.54,2.54,0,0,1-2.53,2.52H104.24a2.52,2.52,0,0,1-2.53-2.51h0v-6.9h31.88a2.53,2.53,0,0,1,2.55,2.51ZM135.4,8.29l-4.32,4.32a2.56,2.56,0,0,1-1.79.74H101.73V6.45a2.53,2.53,0,0,1,2.51-2.53h29.35a2.53,2.53,0,0,1,1.79,4.32Z"
-                                    transform="translate(0 0)" />
-                            </svg>
-                            <p class="imgparag">GET IN THE CYBER GAME</p>
-                        </div>
-                        <!-- Cybra Title -->
-                        
-                    </div>
-                    <hr class="footer-hr">
-
-                </div>
-
-                <div class="col-md-2">
 
 
-
-
-                </div>
-                <div class="col-md-4">
-
-
-                </div>
-            </div>
-            <div class="row row2">
-                 <!-- Tech Quastion -->
-                <div class="col-md-6">
-                    <div class="quote wow fadeInUp">
-
-                        <p>Teknik bir sorunuz mu var? Danışmanlık veya hizmet ihtiyacınız mı var? İletişim sayfamızdan bize ulaşabilirsiniz. <br> <br> <a href="./contact.html" class="btn btn-primary btn-white">Bize
-                                Ulaşın</a>
-                        </p>
-
-
-                    </div>
-
-
-                </div>
-                 <!-- Tech Quastion -->
-                <div class="col-md-2">
-
-
-
-
-                </div>
-                  <!-- footer quick links -->
-                <div class="col-md-4">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="footer-servic" href="index.html#home" style="font-family: samsung;">Anasayfa</a></li>
-                        <li><a class="footer-servic" href="index.html#about" style="font-family: samsung;">Hakkımızda</a></li>
-                        <li class="dropdown">
-                            <a onclick="myFunction2()" class="dropbtn2 footer-servic"
-                                style="font-family: samsung;">Hizmetler<span class="drop fa fa-caret-down"></span></a>
-                            <div id="myDropdown2" class="dropdown-content2">
-                                <a href="./digital-transformation.html" target="_blank">Dijital Dönüşüm</a>
-                                <hr>
-                                <a href="./it.html" target="_blank">IT Destek</a>
-                                <hr>
-                                <a href="./web.html" target="_blank">Web Geliştirme</a>
-                                <hr>
-                                <a href="./marketing.html" target="_blank">Digital Pazarlama </a>
-                                <hr>
-                                <a href="./camera.html" target="_blank">Gözetim Sistemleri</a>
-                                <hr>
-                                <a href="./training.html" target="_blank">Eğitim</a>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-                  <!-- footer quick links -->
-            </div>
-            <div class="row row2">
-                 <!-- adress -->
-                <div class="col-md-6">
-
-                    <div class="copy-right wow fadeInUp" data-wow-delay=".3s">
-                        <p style="
-                        margin-bottom: 6px;">KAYABASI MAH. GAZI YASARGIL <br> CAD. MAVERA PARK 2 SITESI T1-34
-                            <br>BASAKSEHIR / ISTANBUL / TURKEY </p>
-                    </div>
-
-
-                </div>
-                 <!-- adress -->
-                <div class="col-md-2">
-
-                </div>
-                 <!-- Social media -->
-                <div class="col-md-4">
-                    <ul class="about-link">
-                        <li><a href="https://fb.com/cybraio" target="_blank"><span
-                                    class=" fab fa-facebook-f"></span></a></li>
-                        <li><a href="https://instagram.com/cybraio" target="_blank"><span
-                                    class="fab fa-instagram"></span></a></li>
-                        <li><a href="https://twitter.com/cybraio" target="_blank"><span
-                                    class="fab fa-twitter"></span></a></li>
-                        <li><a href="https://twitter.com/cybraio" target="_blank"><span
-                                    class="fab fa-linkedin"></span></a></li>
-                    </ul>
-                </div>
-                 <!-- Social media -->
-            </div>
-
-        </div>
-        <div class="container">
-              <!-- Copyright -->
-            <div class="text-align">
-                <p> &copy; 2020 : : Cybra</p> <br>
-            </div>
-              <!-- Copyright -->
-        </div>
-
-
-
-
-
-    </footer>
     <!-- .................End Footer............ -->
 
     <!--===============================================================================================-->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--===============================================================================================-->
-        <script>AOS.init();</script>
+    <script>
+        AOS.init();
+    </script>
     <!--===============================================================================================-->
-        <script type="text/javascript" src="../js/particles.js"></script>
+    <script type="text/javascript" src="../js/particles.js"></script>
     <!--===============================================================================================-->
-        <script type="text/javascript" src="../js/app.js"></script>
+    <script type="text/javascript" src="../js/app.js"></script>
     <!--===============================================================================================-->
-        <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
+    <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
     <!--===============================================================================================-->
-        <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
+    <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
     <!--===============================================================================================-->
-        <script src="../js/training.js" charset="utf-8" type="text/javascript"></script>
+    <script src="../js/training.js" charset="utf-8" type="text/javascript"></script>
 
 
 
 
 
 
-        <!-- nav JS -->
-        <script>
-            function openNav() {
-                document.getElementById("myNav").style.height = "100%";
-            }
+    <!-- nav JS -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
 
-            function closeNav() {
-                document.getElementById("myNav").style.height = "0%";
-            }
-        </script>
-        <!-- nav JS -->
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <!-- nav JS -->
 
-        <!-- language button -->
-        <script>
+    <!-- language button -->
+    <script>
         function openLang() {
             document.getElementById("myLang").style.height = "100%";
         }
@@ -313,8 +194,8 @@
         function closeLang() {
             document.getElementById("myLang").style.height = "0%";
         }
-        </script>
-        <!-- language button -->
+    </script>
+    <!-- language button -->
 
 </body>
 

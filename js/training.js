@@ -1,33 +1,55 @@
-function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('currentTime').innerHTML =
-        h + ":" + m + ":" + s;
-    console.log(s);
-    var t = setTimeout(startTime, 500);
+$(window).load(function() {
 
-    var now = new Date();
-    var startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8);
+    setTimeout(function() {
+        $('.spinner').fadeOut("slow");
 
-    var endOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19);
+        setTimeout(function() {
+            $('#prelaoder').fadeOut("slow");
 
-    var ratio =
-        (now - startOfDay) /
-        (endOfDay - startOfDay);
+            setTimeout(function() {
+                $('.content-block').addClass('animated fadeInDown').fadeIn("slow");
+                $('#footer').fadeIn('slow');
 
-    document.getElementsByClassName('now')[0].style.top = "calc((130vh) *" + ratio + " )";
+            }, 900);
+        }, 700);
+    }, 700);
 
-    console.log(ratio);
+});
 
+var canvas = document.getElementById('codeCanvas');
+var ctx = canvas.getContext('2d');
+var particles = [];
+var particleCount = 280;
+
+for (var i = 0; i < particleCount; i++) {
+    particles.push(new particle());
 }
 
-function checkTime(i) {
-    if (i < 10) { i = "0" + i }; // add zero in front of numbers < 10
-    return i;
+function particle() {
+    this.x = Math.random() * canvas.width;
+    this.y = canvas.height + Math.random() * 300;
+    this.speed = 1 + Math.random();
+    this.radius = Math.random() * 3;
+    this.opacity = (Math.random() * 100) / 1000;
 }
 
-startTime();
+function loop() {
+    requestAnimationFrame(loop);
+    draw();
+}
+
+function draw() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.globalCompositeOperation = 'lighter';
+    for (var i = 0; i < particles.length; i++) {
+        var p = particles[i];
+        ctx.beginPath();
+        ctx.fillStyle = 'rgba(255,255,255,' + p.opacity + ')';
+        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2, false);
+        ctx.fill();
+        p.y -= p.speed;
+        if (p.y <= -10)
+            particles[i] = new particle();
+    }
+}
+loop();
