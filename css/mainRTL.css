@@ -306,7 +306,7 @@ html {
 }
 
 .footer .get {
-    margin-right: -40px;
+    margin-right: 0px;
 }
 
 @media (max-width:771px) {

@@ -17,7 +17,7 @@
   }
   @font-face {
     font-family: samsung;
-    src: url("fonts/SamsungSharpSans-Bold.ttf");
+    src: url("../fonts/SamsungSharpSans-Bold.ttf");
 }
 
   body {

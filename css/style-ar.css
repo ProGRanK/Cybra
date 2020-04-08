@@ -543,6 +543,10 @@ body {
 
 /* Footer */
 
+.footer .get {
+    margin-right: 0px;
+}
+
 @media(max-width: 991px) {
     .about .title-about {
         margin-top: 150px;
