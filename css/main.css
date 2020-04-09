@@ -30,6 +30,11 @@
     src: url('../fonts/PNU-Bold.ttf');
 }
 
+@font-face {
+    font-family: Bungee-Regular;
+    src: url('../fonts/Bungee-Regular.otf');
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -292,6 +297,11 @@ iframe {
     line-height: 1.5;
     text-align: center;
     padding-bottom: 20px;
+}
+
+.contact1-form-title.tr {
+    font-family: Bungee-Regular;
+    font-size: 30px;
 }
 
 .contact1-form-title2 {
