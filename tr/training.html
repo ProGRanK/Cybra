@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <title>Yakında...</title>
+    <title>Coming Soon...</title>
     <meta name="logo-dark" content=../imgs/nav.log>
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,300,700" rel="stylesheet" type="text/css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,8 +16,6 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" href="../css/style-tr.css">
     <link rel="stylesheet" href="../css/theme.css">
     <link rel="stylesheet" href="../css/website.css">
     <link rel="stylesheet" href="../css/training.css">
@@ -41,7 +39,7 @@
 
                         <!-- nav logo  img-->
                         <a class="navbar-brand" href="./index.html">
-                            <img src="../imgs/nav.svg" alt="CYBRA" draggable="false" aria-selected="false">
+                            <img src="../imgs/nav.svg" alt="CYBRA" draggable="false">
                         </a>
                         <!-- nav logo  img-->
 
@@ -50,61 +48,57 @@
                             <button class="plz launguge" onclick="openLang()"><i
                                     class="icon3 fas fa-language"></i></button>
                             <div id="myLang" class="lang">
-
                                 <div class="lang-content">
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeLang()">
                                         <span class="fas fa-times"></span>
                                     </a>
-                                    <a href="../en/training.html" style="font-family: samsung;">English</a>
+                                    <a href="#" onclick="closeLang()" class="active" style="font-family: samsung;">English</a>
                                     <a href="../ar/training.html" style="font-family: sky;">الـعـربـيـة</a>
-                                    <a href="#" style="font-family: samsung;" class="active" onclick="closeLang()">Türkçe</a>
+                                    <a href="../tr/training.html" style="font-family: samsung;">Türkçe</a>
                                 </div>
                             </div>
                         </ul>
                         <!-- language button -->
 
                         <!-- navbar responsive -->
-
                         <div id="myNav" class="overlay">
                             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                                 <span class="fas fa-times"></span>
                             </a>
                             <div class="overlay-content">
-                                <a onclick="closeNav()" href="./index.html#home" style="font-family: samsung;">Anasayfa </a>
-                                <a onclick="closeNav()" href="./index.html#services" style="font-family: samsung;">Hizmetler</a>
-                                <a onclick="closeNav()" href="./index.html#about" style="font-family: samsung;">Hakkımızda</a>
+                                <a href="index.html#home" style="font-family: samsung;">Home</a>
+                                <a href="index.html#services" style="font-family: samsung;">Services</a>
+                                <a href="index.html#about" style="font-family: samsung;">About Us</a>
 
-                                <a href="./contact.html" style="font-family: samsung;">Bize Ulaşın</a>
+                                <a href="./contact.html" style="font-family: samsung;">contact US</a>
                             </div>
                         </div>
                         <!-- navbar responsive -->
 
                         <!-- navbar -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="./index.html#home" style="font-family: samsung;">Anasayfa</a>
-                                <!-- services drop btn -->
-                                <li class="dropdown">
-                                    <a onclick="myFunction()" class="dropbtn">Hizmetler<span
+                            <li class="active"><a href="./index.html#home" style="font-family: samsung;">Home</a></li>
+                            <!-- services drop btn -->
+                            <li class="dropdown">
+                                <a onclick="myFunction()" class="dropbtn">Our Services <span
                                         class="drop fa fa-caret-down"></span></a>
-                                    <div id="myDropdown" class="dropdown-content">
-                                        <a href="./digital-transformation.html" target="_blank">Dijital Dönüşüm</a>
-                                        <hr>
-                                        <a href="./it.html" target="_blank">IT Destek</a>
-                                        <hr>
-                                        <a href="./web.html" target="_blank">Web Geliştirme</a>
-                                        <hr>
-                                        <a href="./marketing.html" target="_blank">Digital Pazarlama </a>
-                                        <hr>
-                                        <a href="./camera.html" target="_blank">Gözetim Sistemleri</a>
-                                        <hr>
-                                        <a href="./training.html" target="_blank">Eğitim</a>
-                                    </div>
-                                </li>
-                                <!-- services drop btn -->
-                                <li><a href="index.html#about" style="font-family: samsung;" target="_blank">Hakkımızda</a></li>
-
-                                <li><a href="./contact.html" style="font-family: samsung;" target="_blank">Bize Ulaşın<i
-                                        class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="./digital-transformation.html" target="_blank">Digital Transformation</a>
+                                    <hr>
+                                    <a href="./it.html" target="_blank">IT Support</a>
+                                    <hr>
+                                    <a href="./web.html" target="_blank">Web Development</a>
+                                    <hr>
+                                    <a href="./marketing.html" target="_blank">Digital Marketing </a>
+                                    <hr>
+                                    <a href="./camera.html" target="_blank">Surveillence Systems</a>
+                                    <hr>
+                                    <a href="./training.html" target="_blank">Technical Training</a>
+                                </div>
+                            </li>
+                            <!-- services drop btn -->
+                            <li><a href="./index.html#about" style="font-family: samsung;" target="_blank">About Us</a></li>
+                            <li><a href="./contact.html" style="font-family: samsung;" target="_blank">contact Us<i class="icon2 fa fa-arrow-right" draggable="false"></i></a></li>
                             </li>
                         </ul>
                         <!-- navbar -->
@@ -113,89 +107,80 @@
             </div>
         </nav>
     </div>
-
     <!-- .................End Nav............ -->
-
+    <div class="area" >
+        <ul class="circles">
+                <li><i class="fas fa-wrench"></i></li>
+                <li><i class="fas fa-screwdriver"></i></li>
+                <li><i class="fas fa-hammer"></i></li>
+                <li><i class="fas fa-drafting-compass"></i></li>
+                <li><i class="fas fa-pencil-alt"></i></li>
+                <li><i class="fas fa-hammer"></i></li>
+                <li><i class="fas fa-screwdriver"></i></li>
+                <li><i class="fas fa-wrench"></i></li>
+                <li><i class="fas fa-hammer"></i></li>
+                <li><i class="fas fa-drafting-compass"></i></li>
+        </ul>
+</div >
     <!-- .................End Massege............ -->
-    <!-- PRELOADER -->
-    <div id="prelaoder">
-        <div class="spinner">
-            <div><img src="../imgs/logo2.svg" alt=""></div>
-        </div>
-    </div>
-    <!-- /PRELOADER -->
-    <section>
-        <canvas id='codeCanvas'></canvas>
-        <div class="coming_content">
-            <h1> <span>Coming</span> Soon</h1>
-            <div class="separator_container">
-                <div class="separator line_separator">
-                    <span class="training">
-                        <img src="../imgs/logo2.svg" alt="">      
-                    </span>
-                </div>
-            </div>
-            <h3>I like cooding. Oh, and Eating too.</h3>
-            <div class="price">
-
-                <a href="./index.html">Go Home</a>
+    <div class="coming" style="margin: 100px 0;">
+        <div class="container">
+            <div class="training" data-aos="zoom-in">
+                <i class="fas fa-tools"></i>
+                <h1>Yakında</h1>
+                <p style="text-align: center;">Biziz bekle, gelecegiz</p>
             </div>
         </div>
-    </section>
-    <!-- .................End Massege............ -->
+         <!-- .................End Massege............ -->
 
 
 
-    <!-- .................Start Footer............ -->
 
-
-    <!-- .................End Footer............ -->
-
-    <!--===============================================================================================-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!--===============================================================================================-->
-    <script>
-        AOS.init();
-    </script>
-    <!--===============================================================================================-->
-    <script type="text/javascript" src="../js/particles.js"></script>
-    <!--===============================================================================================-->
-    <script type="text/javascript" src="../js/app.js"></script>
-    <!--===============================================================================================-->
-    <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
-    <!--===============================================================================================-->
-    <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
-    <!--===============================================================================================-->
-    <script src="../js/training.js" charset="utf-8" type="text/javascript"></script>
+            <!--===============================================================================================-->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <!--===============================================================================================-->
+            <script>
+                AOS.init();
+            </script>
+            <!--===============================================================================================-->
+            <script type="text/javascript" src="../js/particles.js"></script>
+            <!--===============================================================================================-->
+            <script type="text/javascript" src="../js/app.js"></script>
+            <!--===============================================================================================-->
+            <script src="../js/main.js" charset="utf-8" type="text/javascript"></script>
+            <!--===============================================================================================-->
+            <script src="../js/drop.js" charset="utf-8" type="text/javascript"></script>
+            <!--===============================================================================================-->
+            <script src="../js/training.js" charset="utf-8" type="text/javascript"></script>
 
 
 
 
 
 
-    <!-- nav JS -->
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.height = "100%";
-        }
+            <!-- nav JS -->
+            <script>
+                function openNav() {
+                    document.getElementById("myNav").style.height = "100%";
+                }
 
-        function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
-        }
-    </script>
-    <!-- nav JS -->
+                function closeNav() {
+                    document.getElementById("myNav").style.height = "0%";
+                }
+            </script>
+            <!-- nav JS -->
 
-    <!-- language button -->
-    <script>
-        function openLang() {
-            document.getElementById("myLang").style.height = "100%";
-        }
+            <!-- language button -->
+            <script>
+                function openLang() {
+                    document.getElementById("myLang").style.height = "100%";
+                }
 
-        function closeLang() {
-            document.getElementById("myLang").style.height = "0%";
-        }
-    </script>
-    <!-- language button -->
+                function closeLang() {
+                    document.getElementById("myLang").style.height = "0%";
+                }
+            </script>
+            <!-- language button -->
 
 </body>
 
