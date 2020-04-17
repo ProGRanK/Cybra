@@ -126,8 +126,8 @@ article {
     display: flex;
     top: 0px;
     z-index: 10;
-    padding-bottom: 14px;
-    background: #000;
+    border: 2px solid #131111;
+    border-radius: 20px;
 }
 
 .articale li {
@@ -147,14 +147,22 @@ table tr td:first-child {
     border-right: 0;
     border-top: 0;
     padding-top: 0px;
-    padding-left: 10px;
     font-size: 14px;
     font-weight: bold;
     color: #999
 }
 
+.articale li.active  {
+    color: #fff;
+    width: 100%;
+    background: #131111;
+    padding: 5px 0;
+    margin: 0px -2px;
+    border-radius: 20px;
+}
 .articale li.active button {
     color: #fff;
+   
 }
 
 table {
@@ -182,7 +190,7 @@ th {
 
 td+td,
 th+th {
-    text-align: center;
+    text-align: left;
     display: none;
 }
 
@@ -193,11 +201,13 @@ td.default {
 .bg-purple {
     border: none;
     color: #fff;
+    padding: 5px 0;
 }
 
 .bg-blue {
     border: none;
     color: #fff;
+    padding: 5px 0;
 }
 
 .sep {
@@ -335,9 +345,8 @@ td a {
     background-color: #090909;
     color: #fff;
     border: 1px solid #090909;
-    padding: 3px 15px 3px 15px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    padding: 3px 60px;
+   
     font-size: 17px;
     font-weight: 600;
     font-family: samsung;
