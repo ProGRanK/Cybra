@@ -27,6 +27,27 @@ body {
 }
 
 
+/* Helal  */
+
+.navbar-icons .helal {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+@media(max-width:991px) {
+    .navbar-icons .helal {
+        font-size: 22px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+.navbar-icons button {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
 /* FOnts */
 
 @font-face {
@@ -1308,7 +1329,16 @@ input::-moz-focus-inner {
 
 /* Launguge */
 
+
+/* Helal */
+
+@media (max-width:991px) {}
+
+
+/* Helal */
+
 .navbar-nav .launguge {
+    margin-top: 2px;
     text-transform: uppercase;
     background-color: transparent;
     outline: none;
@@ -1477,9 +1507,9 @@ input::-moz-focus-inner {
     .navbar .nav.navbar-nav {
         display: none;
     }
-    .navbar-nav.navbar-icons {
+    /* .navbar-nav.navbar-icons {
         margin-right: 15px;
-    }
+    } */
     .overlay {
         height: 0;
         width: 100%;
