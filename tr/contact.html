@@ -131,7 +131,7 @@
             <!-- massege img -->
 
             <!-- contact form -->
-            <form class="contact1-form validate-form" action="https://formspree.io/mdodqnww" method="POST">
+            <form class="contact1-form validate-form" >
 
                 <!-- title -->
                 <span class="contact1-form-title tr">
@@ -182,7 +182,7 @@
 
                 <!-- supmit -->
                 <div class="container-contact1-form-btn">
-                    <button class="contact1-form-btn" onclick="validation();">
+                    <button value="submit" class="contact1-form-btn" onclick="validation();">
                         <span>
                             Gönder
                             <span class="icon fa fa-arrow-right" draggable="false"></span>
@@ -347,6 +347,7 @@
 
     <!--===============================================================================================-->
     <script src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--===============================================================================================-->
     <script src="../vendor/bootstrap/js/popper.js"></script>
     <!--===============================================================================================-->
@@ -389,6 +390,46 @@
         $(document).ready(function() {
             $("#subject").val(localStorage.something);
         });
+    </script>
+    <script>
+              $("form").on("submit", e => {
+        e.preventDefault();
+        const username = $("#username")
+          .val()
+          .trim();
+          const orgname = $("#orgname")
+          .val()
+          .trim();
+        const email = $("#email")
+          .val()
+          .trim();
+          const phone = $("#phone")
+          .val()
+          .trim();
+        const subject = $("#subject")
+          .val()
+          .trim();
+        const text = $("#message")
+          .val()
+          .trim();
+
+        const data = {
+          orgname,
+          username,
+          email,
+          phone,
+          subject,
+          text
+        };
+
+        $.post("/email", data)
+          .then(() => {
+            window.location.href = "/email/sent";
+          })
+          .catch(() => {
+            window.location.href = "/error";
+          });
+      });
     </script>
     <!-- autofil -->
 </body>
