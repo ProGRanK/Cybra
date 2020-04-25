@@ -20,10 +20,16 @@
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
 </head>
 
 <body class="home" id="home">
+    <div id="popup" title="popup ramadan" style="display:none">
+        <h3>ramadan</h3>
+    </div>
     <!-- test -->
     <!-- .................Start Nav............ -->
     <div class="nav-container">
@@ -45,6 +51,14 @@
                         </a>
                         <!-- nav logo  img-->
 
+
+                        <!-- helal button -->
+                        <ul class="navbar-nav navbar-icons helal2">
+                            <a href="../ramadan.html"><button class="plz launguge helal"><i class="fas fa-moon"></i></button></a>
+                        </ul>
+                        <!-- helal button -->
+
+
                         <!-- language button -->
                         <ul class="navbar-nav navbar-icons">
                             <button class="plz launguge" onclick="openLang()"><i
@@ -61,6 +75,7 @@
                             </div>
                         </ul>
                         <!-- language button -->
+
 
                         <!-- navbar responsive -->
                         <div id="myNav" class="overlay">
