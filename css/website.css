@@ -112,13 +112,10 @@ p {
 }
 
 article {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 64px;
+    margin-top: 70px;
     border: none;
-    margin-bottom: 65px;
-    position: relative;
+    margin-bottom: 70px;
+    /* position: relative; */
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
 }
 
@@ -170,26 +167,28 @@ table {
     table-layout: fixed;
     width: 100%;
 }
-
+thead{
+    text-align: center;
+}
 th {
-    display: none;
+    background-color: #131111;
+    border-radius: 30px;
+    font-family: Questrial;
 }
 
 td,
 th {
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    /* border: 1px solid rgba(0, 0, 0, 0.05); */
     padding: 5px;
     empty-cells: show;
 }
 
-td,
-th {
+td {
     text-align: left;
     font-family: Questrial;
 }
 
-td+td,
-th+th {
+td{
     text-align: left;
     display: none;
 }
