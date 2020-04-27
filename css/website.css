@@ -167,32 +167,37 @@ table {
     table-layout: fixed;
     width: 100%;
 }
-thead{
+/* thead{
     text-align: center;
-}
-th {
+} */
+/* th {
     background-color: #131111;
     border-radius: 30px;
     font-family: Questrial;
-}
+} */
 
 td,
 th {
-    /* border: 1px solid rgba(0, 0, 0, 0.05); */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding: 5px;
     empty-cells: show;
 }
 
-td {
+td+td  {
     text-align: left;
     font-family: Questrial;
 }
 
-td{
+td+th{
     text-align: left;
     display: none;
 }
-
+th {
+    text-align: center;
+}
+td:first-child {
+    font-weight: bold;
+}
 td.default {
     display: table-cell;
 }
@@ -238,19 +243,8 @@ td.default {
 td.default {
     display: table-cell;
 }
-
-@media (min-width: 640px) {
-    .articale {
-        display: none;
-    }
-    td,
-    th {
-        display: table-cell !important;
-    }
-    td+td,
-    th+th {
-        width: auto;
-    }
+.articale {
+    display: none;
 }
 
 .table-head {
@@ -339,13 +333,15 @@ td a {
 .fa-times {
     color: #666666;
 }
-
+.price {
+    text-align: center;
+    border: none;
+}
 .price a {
     background-color: #090909;
     color: #fff;
     border: 1px solid #090909;
-    padding: 3px 60px;
-   
+    padding: 3px 40px;
     font-size: 17px;
     font-weight: 600;
     font-family: samsung;
@@ -361,10 +357,13 @@ td a {
 
 th {
     font-size: 23px;
+    padding: 30px 0;
+    font-family: Questrial;
 }
 
 td {
     font-size: 16px;
+    padding: 15px 40px;
 }
 
 .no-border td {
@@ -379,6 +378,7 @@ td {
     padding: 12px 48px;
     font-weight: 700;
 }
+
 
 
 /* DIRTY Responsive pricing table CSS */
@@ -800,5 +800,44 @@ h1 {
     .main .cami {
         display: none;
         /* opacity: .3; */
+    }
+}
+/* @media (min-width: 640px) {
+    .articale {
+        display: none;
+    }
+    td,
+    th {
+        display: table-cell !important;
+    }
+    td+td,
+    th+th {
+        width: auto;
+    }
+    th {
+        font-size: 18px;
+    }
+    .price a {
+        padding: 5px 15px;
+    }
+} */
+
+@media (max-width: 641px) {
+    .articale {
+        display: none;
+    }
+    td,
+    th {
+        display: table-cell !important;
+    }
+    td+td,
+    th+th {
+        width: auto;
+    }
+    th {
+        font-size: 18px;
+    }
+    .price a {
+        padding: 5px 15px;
     }
 }
