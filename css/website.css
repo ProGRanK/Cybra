@@ -117,8 +117,8 @@ article {
     margin-bottom: 70px;
     /* position: relative; */
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
-}
 
+}
 .articale {
     display: flex;
     top: 0px;
@@ -165,7 +165,7 @@ table tr td:first-child {
 table {
     border-collapse: collapse;
     table-layout: fixed;
-    width: 100%;
+    /* width: 100%; */
 }
 /* thead{
     text-align: center;
@@ -347,7 +347,7 @@ td a {
     font-family: samsung;
     text-transform: capitalize;
     display: inline-block;
-    border-radius: 64px;
+    /* border-radius: 64px; */
 }
 
 .price a:hover {
@@ -363,7 +363,7 @@ th {
 
 td {
     font-size: 16px;
-    padding: 15px 40px;
+    padding: 15px 40px 15px 60px ;
 }
 
 .no-border td {
@@ -840,4 +840,29 @@ h1 {
     .price a {
         padding: 5px 15px;
     }
+}
+
+ @media (max-width: 991px){
+    #table{
+        overflow-x: scroll;
+    }
+    /* width */
+#table::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  #table::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  #table::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  #table::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 }
