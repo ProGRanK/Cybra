@@ -868,4 +868,7 @@ h1 {
   #table::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+  table {
+      width: auto;
+  }
 }
