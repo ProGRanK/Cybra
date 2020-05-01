@@ -165,7 +165,10 @@ table tr td:first-child {
 table {
     border-collapse: collapse;
     table-layout: fixed;
-    /* width: 100%; */
+    width: 100%;
+}
+thead {
+    background-color: #131111;
 }
 /* thead{
     text-align: center;
@@ -864,5 +867,8 @@ h1 {
   /* Handle on hover */
   #table::-webkit-scrollbar-thumb:hover {
     background: #555; 
+  }
+  table {
+      width: auto; 
   }
 }
