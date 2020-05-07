@@ -6,6 +6,12 @@
     src: url('../fonts/sky-bold.ttf');
 }
 
+@font-face {
+    font-family: Bungee-Regular;
+    src: url('../fonts/Bungee-Regular.otf');
+}
+
+
 
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
@@ -248,6 +254,51 @@ html {
 
 /* End */
 
+
+/* phone number section */
+
+.phonenumber {
+    text-align: left;
+    margin-bottom:25px;
+    display: block;
+    color: #21b24b;
+    text-align: center;
+    direction: ltr;
+}
+
+
+
+.phonenumber a { 
+    font-size: 20px;
+    padding-bottom:20px;
+    font-family: Bungee-Regular;
+    color: #21b24b;
+}
+
+.phonenumber i {
+    margin-right:10px;
+    font-size: 25px;
+    animation: pzv-phone-animation 1.2s ease-in-out infinite;
+    -webkit-animation: pzv-phone-animation 1.2s ease-in-out infinite;
+}
+
+
+@keyframes pzv-phone-animation {
+    0%, 50%, 100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    10%, 30% {
+        -webkit-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+    }
+    20%, 40% {
+        -webkit-transform: rotate(25deg);
+        transform: rotate(25deg);
+    }
+}
+
+/* Ende Phone number section */
 
 /* footer */
 
@@ -623,7 +674,7 @@ iframe {
     color: #333333;
     line-height: 1.7;
     text-align: center;
-    padding-bottom: 44px;
+    padding-bottom: 25px;
 }
 
 input.input1 {
